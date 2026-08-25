@@ -1,6 +1,8 @@
 # Large source PDFs and regenerable caches — not committed.
-# Rebuild: python download_all.py && python download_rds.py   (fetch PDFs)
-#          python extract_text.py && python parse_fac.py && python parse_rds.py
+# Rebuild from repo root:
+#   python scripts/download_all.py && python scripts/download_rds.py   (fetch PDFs)
+#   python scripts/extract_text.py                                     (PDFs → text_cache.json)
+#   python scripts/parse_fac.py && python scripts/parse_rds.py         (build the DB)
 pdfs/
 rds/
 text_cache.json

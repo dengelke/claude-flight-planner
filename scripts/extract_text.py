@@ -1,5 +1,5 @@
 import pdfplumber, pathlib, json
-ctx = pathlib.Path(__file__).parent
+ctx = pathlib.Path(__file__).resolve().parent.parent / "data"
 pdfs = sorted((ctx/"pdfs").glob("FAC_*.pdf"))
 cache = {}
 for i,p in enumerate(pdfs,1):

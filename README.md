@@ -6,37 +6,43 @@ Airservices Australia ERSA (En Route Supplement Australia).
 Source index: `https://www.airservicesaustralia.com/aip/aip.asp?pg=40&vdate=09JUL2026&ver=2`
 PDF pattern:  `https://www.airservicesaustralia.com/aip/pending/ersa/FAC_<CODE>_09JUL2026.pdf`
 
-## Files
+## Layout
 
-Committed: the scripts and the parsed database (`*_database.*`). **Not committed**
-(gitignored, ~43 MB / regenerable): `pdfs/`, `rds/`, `text_cache.json`,
-`rds_text_cache.json`, `index.html` — rebuild them with the pipeline below.
+```
+scripts/   pipeline + query CLI (committed)
+data/      the parsed database + input code lists (committed);
+           source PDFs & caches live here too but are gitignored
+```
 
-| File | What it is |
+Committed: everything in `scripts/`, plus the parsed database and code lists in
+`data/`. **Not committed** (gitignored in `data/`, ~43 MB / regenerable): `pdfs/`,
+`rds/`, `text_cache.json`, `rds_text_cache.json`, `index.html`.
+
+| Path | What it is |
 |------|-----------|
-| `pdfs/` | All 749 source FAC PDFs (~25 MB, gitignored — `download_all.py`) |
-| `rds/` | All 350 source RDS (Runway Distance Supplement) PDFs (~18 MB, gitignored — `download_rds.py`) |
-| `fac_database.sqlite` | SQLite DB — tables `airports`, `runways` (FAC surfaces), `rds` (declared distances), `frequencies` (radio) |
-| `fac_database.csv` | Flat one-row-per-airport table (open in Excel/Sheets) |
-| `fac_database.json` | Full nested records incl. per-runway detail + raw handling text |
-| `rds_database.csv` / `.json` | One row per runway END: declared distances, width, slope |
-| `query.py` | CLI helper (fuel filters, radius search, `runways`, record dump, raw SQL) |
-| `download_all.py` / `download_rds.py` | Re-download the FAC / RDS PDFs |
-| `extract_text.py` | Cache FAC PDF text → `text_cache.json` |
-| `parse_fac.py` | Parse cached FAC text → the FAC database files |
-| `parse_rds.py` | Parse RDS PDFs → `rds` table + `rds_database.*` (caches to `rds_text_cache.json`) |
+| `scripts/query.py` | CLI helper (fuel/pay filters, radius search, `runways`, `freq`, `controlled`, record dump, raw SQL) |
+| `scripts/download_all.py` / `download_rds.py` | Download the FAC / RDS PDFs → `data/pdfs/`, `data/rds/` |
+| `scripts/extract_text.py` | Cache FAC PDF text → `data/text_cache.json` |
+| `scripts/parse_fac.py` | Parse cached FAC text → the FAC database files |
+| `scripts/parse_rds.py` | Parse RDS PDFs → `rds` table + `rds_database.*` (caches to `data/rds_text_cache.json`) |
+| `data/fac_database.sqlite` | SQLite DB — tables `airports`, `runways` (FAC surfaces), `rds` (declared distances), `frequencies` (radio) |
+| `data/fac_database.csv` | Flat one-row-per-airport table (open in Excel/Sheets) |
+| `data/fac_database.json` | Full nested records incl. per-runway detail + raw handling text |
+| `data/rds_database.csv` / `.json` | One row per runway END: declared distances, width, slope |
+| `data/codes.txt` / `rds_codes.txt` | ICAO code lists driving the downloaders |
+| `data/pdfs/` `data/rds/` | Source FAC / RDS PDFs (~43 MB, gitignored) |
 
-Reproduce from scratch (run from this `data/` dir; a Python venv with `pdfplumber`
-+ `requests` is expected — repo uses `../.venv`):
+Reproduce from scratch (run from the repo root; a Python venv with `pdfplumber`
++ `requests` is expected — repo uses `.venv`):
 
 ```bash
-python download_all.py && python download_rds.py   # fetch the ~43 MB of PDFs
-python extract_text.py                             # PDFs → text_cache.json
-python parse_fac.py && python parse_rds.py         # → the *_database.* files
+python scripts/download_all.py && python scripts/download_rds.py   # fetch the ~43 MB of PDFs
+python scripts/extract_text.py                                     # PDFs → data/text_cache.json
+python scripts/parse_fac.py && python scripts/parse_rds.py         # → data/*_database.*
 ```
 
 Regenerate just the DB from cached text (PDFs already fetched):
-`python parse_fac.py && python parse_rds.py`
+`python scripts/parse_fac.py && python scripts/parse_rds.py`
 (run `parse_fac.py` first — `parse_rds.py` merges the `rds` table into the DB it builds).
 
 ## `airports` columns
@@ -139,14 +145,14 @@ any fuel 337 of 749.
 ## Example queries
 
 ```bash
-.venv/bin/python query.py fuel avgas mogas          # AVGAS and MOGAS (MOGAS incl. AVPULP)
-.venv/bin/python query.py fuel mogas                # all MOGAS/AVPULP airports
-.venv/bin/python query.py near -38.27 145.18 60     # within 60 km of Tyabb
-.venv/bin/python query.py show YTYA                  # full record
-.venv/bin/python query.py pay carnet credit          # accepts carnet AND credit card
-.venv/bin/python query.py freq YMMB                  # frequencies + controlled status
-.venv/bin/python query.py controlled                 # all towered aerodromes
-.venv/bin/python query.py runways YSCB               # surfaces + declared distances
+.venv/bin/python scripts/query.py fuel avgas mogas          # AVGAS and MOGAS (MOGAS incl. AVPULP)
+.venv/bin/python scripts/query.py fuel mogas                # all MOGAS/AVPULP airports
+.venv/bin/python scripts/query.py near -38.27 145.18 60     # within 60 km of Tyabb
+.venv/bin/python scripts/query.py show YTYA                  # full record
+.venv/bin/python scripts/query.py pay carnet credit          # accepts carnet AND credit card
+.venv/bin/python scripts/query.py freq YMMB                  # frequencies + controlled status
+.venv/bin/python scripts/query.py controlled                 # all towered aerodromes
+.venv/bin/python scripts/query.py runways YSCB               # surfaces + declared distances
 ```
 
 ```sql

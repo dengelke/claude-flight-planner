@@ -14,7 +14,7 @@ Examples:
 """
 import sys, sqlite3, json, math, pathlib
 
-DB = pathlib.Path(__file__).parent / "fac_database.sqlite"
+DB = pathlib.Path(__file__).resolve().parent.parent / "data" / "fac_database.sqlite"
 con = sqlite3.connect(DB); con.row_factory = sqlite3.Row
 
 def main(argv):

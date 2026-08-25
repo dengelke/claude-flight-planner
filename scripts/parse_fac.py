@@ -1,6 +1,6 @@
 import json, re, pathlib, csv, sqlite3, pdfplumber
 
-CTX = pathlib.Path(__file__).parent
+CTX = pathlib.Path(__file__).resolve().parent.parent / "data"
 cache = json.loads((CTX/"text_cache.json").read_text())
 
 CORE_RE = re.compile(r'(\d{5,6}(?:\.\d+)?)([NS])(\d{6,7}(?:\.\d+)?)([EW])')

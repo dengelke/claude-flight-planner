@@ -9,7 +9,7 @@ Surface type is NOT in the RDS -- it comes from the FAC (runways table).
 """
 import pdfplumber, pathlib, re, json, csv, sqlite3, sys
 
-CTX = pathlib.Path(__file__).parent
+CTX = pathlib.Path(__file__).resolve().parent.parent / "data"
 RDS_DIR = CTX/"rds"
 CACHE = CTX/"rds_text_cache.json"
 
