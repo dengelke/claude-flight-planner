@@ -1,1 +1,7 @@
 .venv/
+
+# Aircraft reference documents — copyrighted, do not publish
+POH/
+
+# Workspace scratch data (ERSA source PDFs, databases, parsing pipeline)
+.context/
