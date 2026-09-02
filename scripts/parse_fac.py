@@ -252,6 +252,29 @@ def parse(code, text):
 
 records=[parse(c,t) for c,t in sorted(cache.items())]
 
+# ---- Curated fuel overrides (local knowledge ERSA doesn't record; see data/fuel_overrides.json) ----
+ov_path=CTX/"fuel_overrides.json"
+if ov_path.exists():
+    overrides=json.loads(ov_path.read_text())
+    by_code={r["code"]:r for r in records}
+    n=0
+    for code,ov in overrides.items():
+        if code.startswith("_") or code not in by_code: continue
+        rec=by_code[code]
+        for k,v in ov.items():
+            if k=="add_fuel_types":
+                cur_types=[t.strip() for t in (rec.get("fuel_types") or "").split(",") if t.strip()]
+                for t in v:
+                    if t not in cur_types: cur_types.append(t)
+                rec["fuel_types"]=", ".join(cur_types)
+            elif k=="override_note":
+                continue  # surfaced on the aerodrome card, not stored in the DB
+            else:
+                rec[k]=v
+        rec["has_fuel"]=bool(rec.get("fuel_types"))
+        n+=1
+    print(f"Applied fuel overrides to {n} airport(s)")
+
 # ---- JSON ----
 (CTX/"fac_database.json").write_text(json.dumps(records,indent=2))
 

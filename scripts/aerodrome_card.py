@@ -27,6 +27,12 @@ ERSA_INDEX = "https://www.airservicesaustralia.com/aip/aip.asp?pg=40"
 con = sqlite3.connect(DB)
 con.row_factory = sqlite3.Row
 
+# Curated fuel overrides (see data/fuel_overrides.json) — surface any override_note on the card.
+import json as _json
+_ov_path = ROOT / "data" / "fuel_overrides.json"
+OVERRIDES = {c: o for c, o in _json.loads(_ov_path.read_text()).items()
+             if not c.startswith("_")} if _ov_path.exists() else {}
+
 
 def card(code: str) -> str | None:
     a = con.execute("SELECT * FROM airports WHERE code=?", (code,)).fetchone()
@@ -55,6 +61,9 @@ def card(code: str) -> str | None:
     L.append("## Fuel & handling\n")
     L.append(f"- **Fuel types (parsed):** {a['fuel_types'] or 'none listed'}"
              + ("  ⚠️ *caveat flagged — read handling text*" if a["fuel_caveat"] else ""))
+    note = OVERRIDES.get(code, {}).get("override_note")
+    if note:
+        L.append(f"- **⚠️ Fuel override (local knowledge, not ERSA):** {note}")
     if a["payment_methods"]:
         L.append(f"- **Payment:** {a['payment_methods']}")
     if a["handling_raw"]:
