@@ -44,19 +44,29 @@ becomes ~45–60 min). If a roadhouse can't do 95 RON, take AVGAS there instead.
 
 ---
 
-## Daylight — the real constraint (timezone-free)
+## Daylight — worst case 1 OCT 2026 (shortest day; verify for actual date)
 
-Flying **west lengthens the usable day**: each overnight-to-destination run tracks toward a later sunset
-(Busselton is ~15° west of Nullarbor → sun sets ~1 h later in absolute time), and October days are growing.
-So both days have healthy margin despite being long:
+Computed for **1–2 Oct 2026**, the earliest/worst-case start (days only lengthen through October).
+**Note: standard time everywhere** — Eastern DST doesn't begin until Sun 4 Oct 2026 (AEST +10, ACST +9.5,
+AWST +8). Flying west also lengthens the usable day. Margins below are in absolute/UTC time (zone-crossing safe):
 
-| Day | Airborne + stops = elapsed | Approx first-light→last-light window | Margin |
-|-----|----|----|----|
-| Day 1 (Parkes→Nullarbor) | 9 h 06 m + 1 h 30 m = **10 h 36 m** | ~14 h (dawn Parkes → dusk Nullarbor) | ~+3 h |
-| Day 2 (Nullarbor→Busselton) | 8 h 22 m + 1 h 30 m = **9 h 52 m** | ~14 h (dawn Nullarbor → dusk Busselton) | ~+4 h |
+| Day | Depart (first light) | Arrive | Last light | Elapsed | **Margin** |
+|-----|----|----|----|----|----|
+| Day 1 Parkes→Nullarbor | Parkes **05:22 AEST** | Nullarbor ~15:28 ACST | 19:13 ACST | 9:06 + 1:30 = **10:36** | **+3 h 45 m** |
+| Day 2 Nullarbor→Busselton | Nullarbor **06:01 ACST** | Busselton ~14:23 AWST | 18:47 AWST | 8:22 + 1:30 = **9:52** | **+4 h 24 m** |
 
-**Both days are genuine dawn departures**, but the westward daylight gain gives real buffer. Pull actual
-first/last-light for the date and confirm before committing.
+First/last-light (civil twilight) worst-case reference, 1 Oct 2026, local standard time:
+
+| Site | First light | Sunrise | Sunset | Last light |
+|------|----|----|----|----|
+| YPKS Parkes (AEST+10) | 05:22 | 05:47 | 18:09 | 18:34 |
+| YNUB Nullarbor (ACST+9.5) | 06:02 | 06:27 | 18:48 | 19:13 |
+| YBLN Busselton (AWST+8) | 05:33 | 05:58 | 18:21 | 18:46 |
+
+**Both days fit with 3½–4½ h to spare even on the shortest day** — but you must be **wheels-up at physical
+first light** (05:22 AEST at Parkes is an early, standard-time dawn). It only gets easier later in October
+(days lengthen ~1½ min/day; after 4 Oct DST shifts first light to ~06:20 AEDT). The +4:24 Day-2 margin
+absorbs a longer Caiguna Mogas decant. Pull actual first/last light for the real date and confirm.
 
 ---
 
