@@ -16,7 +16,7 @@ for the 912 ULS. Rotax prefers Mogas anyway (less lead fouling).
 
 | Stop | Fuel taken | Why |
 |------|-----------|-----|
-| YMND Maitland (start) | **MOGAS** | depart with a full tank of your own Mogas |
+| YMND Maitland (start) | **MOGAS** | Royal Newcastle Aero Club Mogas (trailer, **office hours only** — fuel the evening before for the dawn departure) |
 | YGTH Griffith | AVGAS | town bowser (no strip Mogas) |
 | YMIA Mildura | AVGAS | town bowser |
 | YPAG Port Augusta | AVGAS | town bowser |
@@ -30,6 +30,18 @@ for the 912 ULS. Rotax prefers Mogas anyway (less lead fouling).
 Biggest Mogas wins are **Nullarbor & Caiguna** — servo at the strip *and* where remote AVGAS is dearest.
 Carry an **Air BP Carnet** as the AVGAS backstop. Rough saving Mogas vs AVGAS ≈ $350–550 over the trip.
 Caveat: jerry-canning at the roadhouses can take 45–60 min (vs 30) and needs ethanol-free 95+ confirmed by phone.
+
+### Mogas redundancy across the Nullarbor (not in ERSA — confirm before relying on)
+The Eyre Highway roadhouses run car-petrol bowsers, so Mogas is denser than just the two planned stops
+(source: aircraftpilots.com Mogas thread + the community **"Outback Fuel" Google map** by JG3 — check before departure):
+- **Border Village** (SA/WA border) — backs up **Nullarbor Roadhouse**.
+- **Cocklebiddy** (east) and **Balladonia** (west) — back up **Caiguna**.
+These strips are not in the ERSA FAC dataset, so runway length/surface/serviceability are unverified here — **phone ahead.**
+
+### White Gum (YWGM) — the one verified extra Mogas field
+ERSA-listed self-serve Mogas bowser (east of RWY 14/32), inland near York (~130 nm from Busselton). Substituting it
+for the Albany tail (…→ YWGM → YBLN) would make the WA run Mogas, **but routes through Perth Class C/D airspace** —
+rejected here for the simpler, CTA-free Albany south-coast track. Keep as a Mogas alternative if desired.
 
 ## Daylight — worst case 1–2 OCT 2026 (shortest days; verify for actual date)
 **Standard time everywhere** (Eastern DST starts Sun 4 Oct): AEST +10, ACST +9.5, AWST +8. Flying west lengthens
