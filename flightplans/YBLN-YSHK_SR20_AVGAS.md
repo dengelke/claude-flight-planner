@@ -102,7 +102,7 @@ enough for the 61 nm hop to Carnarvon (or 184 nm back to Geraldton) **plus reser
       **YGEL (184 nm)** plus reserves. Ideally arrive near-full from Geraldton.
 - [ ] Confirm AVGAS available and open at **YGEL** (and **YCAR** for the onward leg) — phone ahead.
 - [ ] Get actual AVGAS price/L at each stop to firm up the ~$404 estimate.
-- [ ] Fixed reserve: min 45 min at normal cruise burn (~9 USG) on top of trip fuel.
+- [ ] Fixed reserve: min 45 min at the **12.5 GPH** planning burn (~9.4 USG) on top of trip fuel.
 - [ ] W&B within limits at each departure fuel load.
 
 ### Permissions & access
