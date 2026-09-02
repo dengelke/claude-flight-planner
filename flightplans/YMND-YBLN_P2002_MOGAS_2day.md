@@ -12,7 +12,6 @@
 ![YMND → YGTH → YMIA → YPAG → YCDU → YNUB → YCAG → YESP → YABA → YBLN route across the Nullarbor](maps/YMND-YBLN.png)
 
 - 🗺️ **[Interactive version: `maps/YMND-YBLN.geojson`](maps/YMND-YBLN.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
-- 🌐 **[Great Circle Mapper](https://www.gcmap.com/mapui?P=YMND-YGTH-YMIA-YPAG-YCDU-YNUB-YCAG-YESP-YABA-YBLN)** — quick browser view of the whole route.
 - Map shows the **default (Griffith) routing**; the Cowra Mogas option is an equal-distance swap on the eastern leg (see Day 1).
 
 ## Fuel strategy — MOGAS-first to save cost (no crew car)
