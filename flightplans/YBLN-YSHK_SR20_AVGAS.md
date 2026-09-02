@@ -25,7 +25,13 @@
 - Fuel figures use **12.5 GPH** (safe planning). At book cruise 11.6 GPH the trip is ~38 USG / ~$430.
 - Coastal tracking via Bunbury/Mandurah/Fremantle adds only **~10 nm** vs the direct 296 nm — negligible.
 - Direct YBLN→YSHK great-circle distance: **477 nm** — within the 600 nm range nonstop, **but** see notes.
-- Longest leg 306 nm ≈ **51% of the 600 nm safe range** — very comfortable.
+- **Day VFR fuel margin.** Trip fuel above is *burn-only, before reserves*. On top, carry the **45-min fixed
+  fuel reserve** (~9.4 USG at 12.5 GPH — the CASA piston minimum) **plus any alternate/holding fuel**; the
+  fixed reserve must be **untouched on landing**. Plan each leg to the *reserve*, not to a dry tank:
+  usable margin at each landing = fuel on board − trip fuel − 9.4 USG FFR (− alternate fuel if required).
+- Longest leg 306 nm / 25.5 USG. Against the ~600 nm still-air range this leaves a healthy margin **even after
+  the 45-min reserve** (~112 nm of range), so no leg gets close to minimum fuel in nil-wind — but recompute
+  for actual headwind, which eats directly into that margin.
 - Figures are cruise time only; add ~1 USG/leg taxi on top of the 12.5 GPH margin when uplifting.
 - Fuel cost is price-sensitive: regional AVGAS ~$2.80–$3.50/L. At $3.50/L ≈ $478.
 
@@ -102,7 +108,12 @@ enough for the 61 nm hop to Carnarvon (or 184 nm back to Geraldton) **plus reser
       **YGEL (184 nm)** plus reserves. Ideally arrive near-full from Geraldton.
 - [ ] Confirm AVGAS available and open at **YGEL** (and **YCAR** for the onward leg) — phone ahead.
 - [ ] Get actual AVGAS price/L at each stop to firm up the ~$404 estimate.
-- [ ] Fixed reserve: min 45 min at the **12.5 GPH** planning burn (~9.4 USG) on top of trip fuel.
+- [ ] **Fixed fuel reserve (Day VFR, piston):** min **45 min** at the **12.5 GPH** planning burn (~9.4 USG),
+      carried *on top of* trip fuel and **intact on landing** at every stop.
+- [ ] **Alternate / holding fuel** on top of the fixed reserve where required — no TAF, TAF showing
+      deterioration below the alternate minima, or to reach the nominated alternate (YGEL/YCAR bracket YSHK).
+- [ ] Sanity-check margin per leg: fuel on board − trip − 9.4 USG FFR (− alternate) must stay **positive**
+      with room to spare; the fixed reserve is not "usable" fuel.
 - [ ] W&B within limits at each departure fuel load.
 
 ### Permissions & access
@@ -112,7 +123,12 @@ enough for the 61 nm hop to Carnarvon (or 184 nm back to Geraldton) **plus reser
 ### Weather & NOTAMs (day of flight)
 - [ ] Area forecast (ARFOR) + TAFs for YBLN, YGEL, YSHK, YCAR.
 - [ ] NOTAMs for all aerodromes + en-route (coastal WA).
-- [ ] Actual wind — recompute leg times/fuel if significant head/tailwind.
+- [ ] **VMC the whole way — this is a VFR flight.** Confirm forecast cloud/vis keep every leg in VMC; if any
+      leg is marginal, carry an alternate + alternate fuel or don't go. No IFR let-down at the fuel-less YSHK.
+- [ ] **Day VFR last light.** Plan the flight (all legs) to be **completed ≥10 min before last light** at the
+      destination; check last-light times for YGEL and YSHK and leave slack for delays at the fuel stop.
+- [ ] Actual wind — recompute leg times/fuel if significant head/tailwind; **headwind eats the fuel margin
+      directly** (and pushes back last-light timing).
 - [ ] Coastal sea-breeze / crosswind at YSHK (single RWY 18/36) — check limits.
 
 ### Navigation & documents
