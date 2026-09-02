@@ -49,23 +49,34 @@ enough for the 61 nm hop to Carnarvon (or 184 nm back to Geraldton) **plus reser
 
 ---
 
+## Route Map
+
+![YBLN → YGEL → YSHK coastal route up the WA coast](maps/YBLN-YSHK.png)
+
+- 🗺️ **[Interactive version: `maps/YBLN-YSHK.geojson`](maps/YBLN-YSHK.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
+- 🌐 **[Great Circle Mapper view](https://www.gcmap.com/mapui?P=YBLN-YGEL-YSHK)** — quick browser preview.
+- Map shows the flown legs YBLN→YGEL→YSHK; the coastal detour via Mandurah/Fremantle (~7 nm extra) is not drawn.
+- Regenerate: `.venv/bin/python scripts/route_map.py YBLN-YSHK YBLN YGEL YSHK`
+
+---
+
 ## Aerodromes
 
-### YBLN — Busselton (WA) — DEPARTURE
+### [YBLN](aerodromes/YBLN.md) — Busselton (WA) — DEPARTURE
 - Position: -33.687, 115.400 · Elev 56 ft · AVGAS + Jet A1
 
-### YGEL — Geraldton (WA) — FUEL STOP
+### [YGEL](aerodromes/YGEL.md) — Geraldton (WA) — FUEL STOP
 - Position: -28.796, 114.707 · Elev 122 ft · AVGAS + Jet A1
 - RWY 03/21: TORA 2389 m, **Grooved (sealed)**, WID 45 m, 0.3% down to S
 - RWY 08/26: TORA 900 m, Gravel · RWY 14/32: TORA 844 m
 - Full regional airport — reliable fuel and services.
 
-### YSHK — Shark Bay / Denham (WA) — DESTINATION (NO FUEL)
+### [YSHK](aerodromes/YSHK.md) — Shark Bay / Denham (WA) — DESTINATION (NO FUEL)
 - Position: -25.894, 113.577 · Elev 129 ft · **NO FUEL AVAILABLE**
 - RWY 18/36: TORA 1690 m, TODA 1750 m, LDA 1690 m, WID 30 m
 - Confirm surface on current ERSA.
 
-### YCAR — Carnarvon (WA) — NEAREST AVGAS TO DESTINATION (onward/return)
+### [YCAR](aerodromes/YCAR.md) — Carnarvon (WA) — NEAREST AVGAS TO DESTINATION (onward/return)
 - Position: -24.881, 113.672 · Elev 13 ft · AVGAS + Jet A1 · **61 nm N of YSHK (~25 min)**
 - RWY 04/22: TORA 1619 m · RWY 18/36: TORA 1140 m
 
