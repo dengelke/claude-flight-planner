@@ -13,7 +13,7 @@
 
 ![YMND → YGTH → YMIA → YPAG → YCDU → YNUB → YCAG → YESP → YWGN → YBLN route across the Nullarbor](maps/YMND-YBLN.png)
 
-- 🗺️ **[Interactive version: `maps/YMND-YBLN.geojson`](maps/YMND-YBLN.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
+- 🗺️ **[Interactive version: `maps/YMND-YBLN.geojson`](maps/YMND-YBLN.geojson)** — pan/zoom map; click any marker/leg for its code, fuel and distance. (GitHub draws plain pins — it no longer applies the simplestyle colours; the coloured start/stop markers show in the PNG above and in geojson.io.)
 - Map shows the **default (Griffith) routing**; the Cowra Mogas option is an equal-distance swap on the eastern leg (see Day 1).
 
 ## Fuel strategy — MOGAS-first to save cost (no crew car)
