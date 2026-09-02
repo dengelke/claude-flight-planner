@@ -319,7 +319,7 @@ VIVA Energy: Airport Refuelling Service H24. Phone 0408 711 968, Card Swipe Bows
 VIVA Fuel2Sky and credit cards (V and MC).
 Caboolture Aero Club: MOGAS (98RON) Bowser. Airport Refuelling Service H24, Phone 0488 922
 245 (APP RQ)."
-YCAG,CAIGUNA,WA,-32.280278,125.477778,321649S,1252840E,287,2 E,UNCR,+8,True,AVGAS,True,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 134.2; CTAF 126.7,0,,"AVGAS, H24. Phone 08 9039 3459."
+YCAG,CAIGUNA,WA,-32.280278,125.477778,321649S,1252840E,287,2 E,UNCR,+8,1,"AVGAS, MOGAS",True,1,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 134.2; CTAF 126.7,0,,"AVGAS, H24. Phone 08 9039 3459."
 YCAH,COOLAH,NSW,-31.773333,149.609444,314624S,1493634E,1654,11 E,UNCR,+10,False,,False,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 127.1,1,"08/26 1074M Gravel, Grass",
 YCAR,CARNARVON,WA,-24.880556,113.672222,245250S,1134020E,13,0 W,CERT,+8,True,"AVGAS, JET A1",True,False,True,False,False,False,False,False,handling_section,"Credit card, App, Fuel card",False,True,False,False,False,True,True,False,,126.7,FIA 122.1,2,04/22 ; 18/36,"World Fuel Services (WFS): 0800-1700 Local MON-FRI, PH 0418 911 465 (H24) or
 email: carnarvon@uafuel.com.au. H24 AVGAS bowser WFS cardswipe and credit card (via
@@ -1053,7 +1053,7 @@ Carnet card, EFTPOS and cash. 0800-1700 Local MON-FRI AH by
 2arrangement. Call-out fee applies. 90MIN PN. PH: 07 4745 1615 or
 3
 0474 073 734 (H24). Email: wfsnormanton@gmail.com."
-YNUB,NULLARBOR MOTEL,SA,-31.441111,130.902222,312628S,1305408E,220,4 E,UNCR,+9:30,True,AVGAS,True,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 132.7; CTAF 126.7,0,,"Nullarbor Motel: HJ. Phone 08 8625 6271, fax 08 8625 6261. AVGAS, O125."
+YNUB,NULLARBOR MOTEL,SA,-31.441111,130.902222,312628S,1305408E,220,4 E,UNCR,+9:30,1,"AVGAS, MOGAS",True,1,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 132.7; CTAF 126.7,0,,"Nullarbor Motel: HJ. Phone 08 8625 6271, fax 08 8625 6261. AVGAS, O125."
 YNUL,NULLAGINE,WA,-21.912778,120.198611,215446S,1201155E,1251,1 E,UNCR,+8,False,,False,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 128.15; CTAF 126.7,1,"14/32 1620M Natural, Sand",
 YNUM,NUMBULWAR,,-14.271667,135.716667,141618S,1354300E,31,,,,False,,False,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 122.2,1,15/33 Sealed,
 YNWN,NEWMAN,WA,-23.417778,119.802778,232504S,1194810E,1724,,,+8,True,"AVGAS, JET A1",True,False,True,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,122.0,FIA 123.4,1,05/23,"AIR BP: AVGAS, JET A1. 2300-1100 and JO service fee applies AH. Phone/Fax 08 9177 8907,

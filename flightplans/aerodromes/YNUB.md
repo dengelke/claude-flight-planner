@@ -12,7 +12,8 @@
 
 ## Fuel & handling
 
-- **Fuel types (parsed):** AVGAS
+- **Fuel types (parsed):** AVGAS, MOGAS
+- **⚠️ Fuel override (local knowledge, not ERSA):** MOGAS is Premium ULP (confirm 95+ RON, ethanol-free) jerry-canned from the Nullarbor Roadhouse forecourt — NOT an ERSA-listed aviation bowser. Phone 08 8625 6271 to confirm. ERSA AVGAS aviation supply also listed (HJ / daylight only).
 
 **HANDLING (verbatim from ERSA — the source of truth):**
 

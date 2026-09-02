@@ -1,0 +1,13 @@
+{
+  "_comment": "Curated fuel overrides layered on top of the ERSA parse. These record local/operational knowledge that ERSA does NOT list (e.g. car-petrol Mogas at roadhouse forecourts). Applied by scripts/parse_fac.py during a rebuild and by scripts/apply_overrides.py against an existing DB. Per entry: set any boolean fuel flag (avgas/mogas/jet_a1/...), 'add_fuel_types' appends to the fuel_types string, 'override_note' is surfaced on the aerodrome data card (not stored in the DB).",
+  "YNUB": {
+    "mogas": 1,
+    "add_fuel_types": ["MOGAS"],
+    "override_note": "MOGAS is Premium ULP (confirm 95+ RON, ethanol-free) jerry-canned from the Nullarbor Roadhouse forecourt — NOT an ERSA-listed aviation bowser. Phone 08 8625 6271 to confirm. ERSA AVGAS aviation supply also listed (HJ / daylight only)."
+  },
+  "YCAG": {
+    "mogas": 1,
+    "add_fuel_types": ["MOGAS"],
+    "override_note": "MOGAS is Premium ULP (confirm 95+ RON, ethanol-free) jerry-canned from the Caiguna Roadhouse forecourt — NOT an ERSA-listed aviation bowser. Phone 08 9039 3459 to confirm. ERSA AVGAS aviation supply also listed (H24)."
+  }
+}
