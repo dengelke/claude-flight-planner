@@ -45,6 +45,25 @@ Regenerate just the DB from cached text (PDFs already fetched):
 `python scripts/parse_fac.py && python scripts/parse_rds.py`
 (run `parse_fac.py` first — `parse_rds.py` merges the `rds` table into the DB it builds).
 
+## Flight-plan tooling (`flightplans/`)
+
+Two helpers turn the database into linkable/inspectable content inside the flight-plan markdown:
+
+| Script | What it does |
+|--------|-------------|
+| `scripts/aerodrome_card.py` | Emits a per-aerodrome markdown "data card" → `flightplans/aerodromes/<CODE>.md` (position, **verbatim ERSA handling text**, fuel, payment, frequencies, runways + RDS distances, links to the official ERSA FAC/RDS PDFs). The plans link each aerodrome heading to its card. |
+| `scripts/route_map.py` | Emits `flightplans/maps/<name>.geojson` (GitHub renders it as an interactive map) **and** `<name>.png` (a static coastline map embedded inline in the plan with `![](…)`). |
+
+```bash
+python  scripts/aerodrome_card.py --plan flightplans/YBLN-YAYE_SR20_AVGAS.md   # cards for a whole plan
+python  scripts/aerodrome_card.py --all                                        # every aerodrome
+.venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE            # geojson + png
+```
+
+- `aerodrome_card.py` is pure stdlib. `route_map.py` needs **Pillow** for the PNG (`.venv/bin/pip install Pillow`); without it the geojson is still written and the PNG is skipped with a warning.
+- `scripts/au_coast.json` is the baked Natural-Earth-50m Australia coastline used to draw the PNG (committed, ~29 KB).
+- The ERSA cycle the cards cite is set by `ERSA_CYCLE`/`ERSA_STATE` at the top of `aerodrome_card.py` — update it when the DB is rebuilt from a new cycle.
+
 ## `airports` columns
 
 `code, name, state, lat, lon` (decimal degrees), `lat_raw, lon_raw` (DDMMSS as

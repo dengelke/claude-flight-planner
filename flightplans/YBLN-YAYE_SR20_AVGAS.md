@@ -25,25 +25,35 @@
 
 ---
 
+## Route Map
+
+![YBLN → YPKG → YWBR → YAYE route over the WA/NT coastline](maps/YBLN-YAYE.png)
+
+- 🗺️ **[Interactive version: `maps/YBLN-YAYE.geojson`](maps/YBLN-YAYE.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
+- 🌐 **[Great Circle Mapper view](https://www.gcmap.com/mapui?P=YBLN-YPKG-YWBR-YAYE)** — quick browser preview.
+- Regenerate: `.venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE`
+
+---
+
 ## Aerodromes
 
-### YBLN — Busselton (WA) — DEPARTURE
+### [YBLN](aerodromes/YBLN.md) — Busselton (WA) — DEPARTURE
 - Position: -33.687, 115.400 · AVGAS + Jet A1
 
-### YPKG — Kalgoorlie-Boulder (WA) — FUEL STOP 1
+### [YPKG](aerodromes/YPKG.md) — Kalgoorlie-Boulder (WA) — FUEL STOP 1
 - Position: -30.789, 121.462 · Elev 1203 ft · AVGAS + Jet A1 + F34
 - RWY 11/29: TORA 2000 m, sealed, WID 45 m, 0.8% down to E
 - RWY 18/36: TORA 1200 m, WID 18 m
 - Major regional airport — reliable fuel and services.
 
-### YWBR — Warburton (WA) — FUEL STOP 2
+### [YWBR](aerodromes/YWBR.md) — Warburton (WA) — FUEL STOP 2
 - Position: -26.128, 126.583 · Elev 1510 ft · AVGAS + Jet A1
 - RWY 18/36: TORA 1590 m, TODA 1650 m, LDA 1590 m, WID 23 m, 0.2% down to S
 - Lighting: LIRL + PAL 119.65 · standby power available
 - Remote Indigenous-community aerodrome — **PPR / permit + fuel-availability phone call required in advance.**
 - Surface: sealed (confirm on current ERSA).
 
-### YAYE — Ayers Rock / Connellan (NT) — ARRIVAL
+### [YAYE](aerodromes/YAYE.md) — Ayers Rock / Connellan (NT) — ARRIVAL
 - Position: -25.186, 130.976 · AVGAS + Jet A1
 
 ---
@@ -93,7 +103,7 @@
 ---
 
 ## Alternative (1 stop, tight — NOT recommended)
-YBLN → **YLEO Leonora** (419 nm) → YAYE (**562 nm**). Final leg is ~94% of the 600 nm safe range — no
+YBLN → **[YLEO](aerodromes/YLEO.md) Leonora** (419 nm) → YAYE (**562 nm**). Final leg is ~94% of the 600 nm safe range — no
 allowance for wind/reserves. Only viable near-nil wind with full tanks. Leonora: sealed RWY 04/22 TORA 2018 m, AVGAS + Jet A1.
 
 ---
