@@ -1,6 +1,6 @@
 # Flight Plan — YMND → YBLN (Tecnam P2002, MOGAS-priority) · 2-Day Nullarbor Crossing
 
-**Route:** Maitland (YMND) → Griffith (YGTH) → Mildura (YMIA) → Port Augusta (YPAG) → **Ceduna (YCDU — overnight)** → Nullarbor Roadhouse (YNUB) → Caiguna (YCAG) → Esperance (YESP) → Albany (YABA) → Busselton (YBLN)
+**Route:** Maitland (YMND) → Griffith (YGTH) *(or Cowra — see Mogas option)* → Mildura (YMIA) → Port Augusta (YPAG) → **Ceduna (YCDU — overnight)** → Nullarbor Roadhouse (YNUB) → Caiguna (YCAG) → Esperance (YESP) → Albany (YABA) → Busselton (YBLN)
 **Aircraft:** Tecnam P2002 · Rotax 912 ULS · 100 L usable · 20 L/hr · 100 KTAS
 **Planning basis:** No wind · 45-min fixed reserve (15 L) → **85 L usable = 425 nm still-air max**; longest leg 287 nm / 57 L.
 **Season:** planned **October 2026** (worst case 1 Oct below; Eastern DST from 4 Oct — before then all standard time).
@@ -17,7 +17,8 @@ for the 912 ULS. Rotax prefers Mogas anyway (less lead fouling).
 | Stop | Fuel taken | Why |
 |------|-----------|-----|
 | YMND Maitland (start) | **MOGAS** | Royal Newcastle Aero Club Mogas (trailer, **office hours only** — fuel the evening before for the dawn departure) |
-| YGTH Griffith | AVGAS | town bowser (no strip Mogas) |
+| YGTH Griffith *(default)* | AVGAS | confirmed 24 h bowser; shorter/safer legs |
+| YCWR Cowra *(Mogas option)* | Mogas **if confirmed** | **FlyOz bowser truck (Lyn Gray) — NOT in ERSA, unconfirmed;** AVGAS 24 h if no Mogas |
 | YMIA Mildura | AVGAS | town bowser |
 | YPAG Port Augusta | AVGAS | town bowser |
 | YCDU Ceduna (o/night) | AVGAS | town bowser (Air BP carnet) |
@@ -28,6 +29,7 @@ for the 912 ULS. Rotax prefers Mogas anyway (less lead fouling).
 | YBLN Busselton (dest) | **MOGAS** | your aeroclub supply |
 
 Biggest Mogas wins are **Nullarbor & Caiguna** — servo at the strip *and* where remote AVGAS is dearest.
+(If you confirm the FlyOz Mogas at Cowra, routing via Cowra keeps you on Mogas out to Mildura, ~485 nm — see Day 1.)
 Carry an **Air BP Carnet** as the AVGAS backstop. Rough saving Mogas vs AVGAS ≈ $350–550 over the trip.
 Caveat: jerry-canning at the roadhouses can take 45–60 min (vs 30) and needs ethanol-free 95+ confirmed by phone.
 
@@ -58,6 +60,7 @@ fuel delay should trigger an overnight short (e.g. Esperance) rather than pressi
 later in October (days lengthen ~1½ min/day; after 4 Oct DST shifts first light later on the clock).
 
 ## DAY 1 — Maitland → Ceduna (931 nm, ~9 h 19 m airborne)
+**Default routing via Griffith** (confirmed AVGAS, shorter legs):
 | Leg | From → To | Dist | Time | Fuel @20L/hr | Fuel type |
 |-----|-----------|-----:|-----:|-------------:|-----------|
 | 1 | YMND Maitland → YGTH Griffith | 287 nm | 2:52 | 57.4 L | Mogas (start tank) |
@@ -68,6 +71,13 @@ later in October (days lengthen ~1½ min/day; after 4 Oct DST shifts first light
 
 - Leg 1 crosses the Great Dividing Range (plan a sensible cruise altitude / terrain clearance).
 - Longest leg 287 nm ≈ 57 L, well inside 85 L usable. Overnight Ceduna (fuel + town accommodation).
+
+> **Cowra Mogas option (unconfirmed — only if FlyOz confirms):** swapping Griffith for **Cowra** is the *same
+> 931 nm* (Maitland→Cowra 158 + Cowra→Mildura 327) and keeps you on Mogas out to Mildura. But the **Cowra→Mildura
+> leg is 327 nm / 65 L — the tightest of the trip** (lands ~15 min above the 45-min reserve, still air only).
+> **Cowra's Mogas is not in ERSA** (word-of-mouth FlyOz bowser truck), so: phone FlyOz first (02 6341 1616); if
+> Mogas isn't there, Griffith is the better stop anyway. Griffith sits on the Cowra→Mildura line (131 + 198) as an
+> in-track AVGAS splitter if you go via Cowra and hit any headwind.
 
 ## DAY 2 — Ceduna → Busselton (987 nm, ~9 h 52 m airborne) — DAWN DEPARTURE
 | Leg | From → To | Dist | Time | Fuel @20L/hr | Fuel type |
@@ -87,8 +97,9 @@ but Forrest is **PN-required and takes no carnet** (cash/EFTPOS/Visa/MC).
 ## Aerodromes
 | Code | Name | ST | Elev | Fuel (bowser) | Runways | CTAF |
 |------|------|----|-----:|------|---------|------|
-| YMND | Maitland | NSW | 95 ft | AVGAS | 05/23, 08/26 sealed; 18/36 | 122.65 |
-| YGTH | Griffith | NSW | 439 ft | AVGAS, Jet A1 | 06/24; 18/36 gravel | 126.55 |
+| YMND | Maitland | NSW | 95 ft | AVGAS + **club Mogas** | 05/23, 08/26 sealed; 18/36 | 122.65 |
+| YGTH | Griffith *(default Day-1 stop)* | NSW | 439 ft | AVGAS, Jet A1 | 06/24; 18/36 gravel | 126.55 |
+| YCWR | Cowra *(Mogas option, unconfirmed)* | NSW | 973 ft | AVGAS, Jet A1 (+ FlyOz Mogas?) | 03/21 clay; 15/33 | 126.7 |
 | YMIA | Mildura | VIC | 167 ft | AVGAS, Jet A1 | 09/27 grooved; 18/36 | 118.8 |
 | YPAG | Port Augusta | SA | 56 ft | AVGAS, Jet A1 | 15/33 | 126.9 |
 | **YCDU** | **Ceduna** | SA | 77 ft | AVGAS, Jet A1 | **11/29 sealed** (17/35 gravel — avoid) | 126.7 |
@@ -101,8 +112,9 @@ but Forrest is **PN-required and takes no carnet** (cash/EFTPOS/Visa/MC).
 ## Fuel cards & payment (carry Air BP Carnet + Visa/MC + cash)
 | Stop | Provider | Payment | Notes |
 |------|----------|---------|-------|
-| YMND Maitland | Air BP | BP carnet or credit (via Royal Newcastle Aero Club 0800–1600) | H24 self-serve; ph 02 4932 8888 |
-| YGTH Griffith | WFS | Carnet, credit (app), fuel card | H24 bowser; manned MON–FRI |
+| YMND Maitland | Air BP / Aero Club | **Mogas via aero club (office hrs)**; AVGAS BP carnet or credit | H24 AVGAS; ph 02 4932 8888 |
+| YGTH Griffith *(default)* | WFS | Carnet, credit (app), fuel card | H24 bowser; manned MON–FRI |
+| YCWR Cowra *(Mogas option)* | FlyOz / self-serve | AVGAS self-serve Visa/MC 24 h; **Mogas via FlyOz bowser truck — unconfirmed, phone first** | ph BH 02 6341 1616, AH 0419 263 405 |
 | YMIA Mildura | WFS | Carnet, Visa/MC via app | 24 hr bowser |
 | YPAG Port Augusta | Flying Fuels | Carnet + credit | 24 hr swipe |
 | YCDU Ceduna | Air BP | **Carnet ONLY** | H24 swipe; assisted bus. hrs + PN |
@@ -114,7 +126,8 @@ but Forrest is **PN-required and takes no carnet** (cash/EFTPOS/Visa/MC).
 
 ## Pre-flight checks
 - [ ] **Air BP Carnet** carried (only accepted method at Ceduna; public bowser at Busselton).
-- [ ] **Phone ahead** Nullarbor (08 8625 6271) & Caiguna (08 9039 3459): confirm **95+ RON ethanol-free** Mogas on hand + payment; allow 45–60 min decant.
+- [ ] **Confirm Mogas ahead** at Maitland (aero club — fuel evening before), Nullarbor (08 8625 6271) & Caiguna (08 9039 3459): **95+ RON ethanol-free** on hand + payment; allow 45–60 min decant at the roadhouses.
+- [ ] **Only if taking the Cowra Mogas option:** phone FlyOz (02 6341 1616) to confirm the bowser truck + 95+ RON; if unconfirmed, use Griffith instead.
 - [ ] Confirm roadhouse strip length/surface/serviceability + daylight hours on current ERSA/NOTAMs.
 - [ ] Pull **actual first/last light** for the date; confirm both days fit — Day 2 has the tighter margin.
 - [ ] Depart at first light both days; if a stop/weather deviation erodes Day-2 margin → overnight short (Esperance) rather than press into dusk.
