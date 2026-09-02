@@ -10,9 +10,17 @@ Emits two artefacts under `flightplans/maps/`:
 
 Also prints a Great Circle Mapper URL for a quick browser view.
 
+Each ordered stop is either an aerodrome code (looked up in the FAC DB) or a
+free-form visual waypoint written `LABEL@lat,lon` — e.g. `Mandurah@-32.53,115.72`.
+Waypoints are drawn as small hollow markers and the legs route through them, so a
+coastal track can follow visual features that aren't aerodromes.
+
 Usage:
     .venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE
     #                                      ^name    ^ordered aerodrome codes (>=2)
+    .venv/bin/python scripts/route_map.py YBLN-YSHK YBLN Mandurah@-32.53,115.72 \
+        Fremantle@-32.06,115.75 YGEL YSHK
+    #    aerodrome codes and LABEL@lat,lon waypoints can be mixed, in order
 """
 import sys, json, math, sqlite3, pathlib
 
@@ -111,6 +119,13 @@ def render_png(name, pts, total_nm):
     # Markers + labels
     for i, p in enumerate(pts):
         x, y = xy(p["lon"], p["lat"])
+        if p.get("is_waypoint"):
+            # Small hollow marker for non-aerodrome visual waypoints.
+            r = 4
+            d.ellipse([x - r, y - r, x + r, y + r],
+                      fill="#eaf2f8", outline="#6a7b88", width=2)
+            d.text((x + 8, y - 6), p["code"], fill="#4a5a66", font=font(13))
+            continue
         end = i in (0, len(pts) - 1)
         r = 6
         d.ellipse([x - r, y - r, x + r, y + r],
@@ -118,7 +133,8 @@ def render_png(name, pts, total_nm):
         label = f"{p['code']}"
         d.text((x + 9, y - 7), label, fill="#11334d", font=font(16))
 
-    title = f"{'  >  '.join(p['code'] for p in pts)}    |    {round(total_nm)} nm"
+    stops = [p["code"] for p in pts if not p.get("is_waypoint")]
+    title = f"{'  >  '.join(stops)}    |    {round(total_nm)} nm"
     d.text((M_L, 16), title, fill="#11334d", font=font(20))
 
     dest = OUT / f"{name}.png"
@@ -126,22 +142,55 @@ def render_png(name, pts, total_nm):
     return dest
 
 
+def parse_waypoint(token):
+    """Parse a `LABEL@lat,lon` visual waypoint into a pts dict, or None."""
+    if "@" not in token:
+        return None
+    label, _, coords = token.partition("@")
+    try:
+        lat_s, lon_s = coords.split(",")
+        lat, lon = float(lat_s), float(lon_s)
+    except ValueError:
+        print(f"! {token}: bad waypoint (expected LABEL@lat,lon) — skipping")
+        return None
+    return {"code": label, "name": label, "lat": lat, "lon": lon,
+            "elevation_ft": None, "fuel_types": None, "is_waypoint": True}
+
+
 def main(argv):
     if len(argv) < 3:
         print(__doc__); return
-    name, codes = argv[0], [c.upper() for c in argv[1:]]
+    name = argv[0]
     pts = []
-    for code in codes:
+    for token in argv[1:]:
+        wp = parse_waypoint(token)
+        if wp is not None:
+            pts.append(wp); continue
+        code = token.upper()
         r = con.execute("SELECT code,name,state,lat,lon,elevation_ft,fuel_types "
                         "FROM airports WHERE code=?", (code,)).fetchone()
         if r is None or r["lat"] is None:
             print(f"! {code}: not in DB or no coordinates — skipping"); continue
-        pts.append(r)
-    if len(pts) < 2:
+        pts.append({"code": r["code"], "name": r["name"], "lat": r["lat"],
+                    "lon": r["lon"], "elevation_ft": r["elevation_ft"],
+                    "fuel_types": r["fuel_types"], "is_waypoint": False})
+    if len([p for p in pts if not p["is_waypoint"]]) < 2:
         print("Need at least 2 aerodromes with coordinates."); return
 
     features = []
     for i, r in enumerate(pts):
+        if r["is_waypoint"]:
+            features.append({
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [r["lon"], r["lat"]]},
+                "properties": {
+                    "code": r["code"], "name": r["name"], "role": "waypoint",
+                    # marker-* keys are honoured by GitHub's GeoJSON renderer
+                    "marker-color": "#6a7b88", "marker-symbol": "triangle",
+                    "marker-size": "small",
+                },
+            })
+            continue
         role = "departure" if i == 0 else "arrival" if i == len(pts)-1 else "stop"
         features.append({
             "type": "Feature",
