@@ -55,8 +55,8 @@ enough for the 61 nm hop to Carnarvon (or 184 nm back to Geraldton) **plus reser
 
 - 🗺️ **[Interactive version: `maps/YBLN-YSHK.geojson`](maps/YBLN-YSHK.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
 - 🌐 **[Great Circle Mapper view](https://www.gcmap.com/mapui?P=YBLN-YGEL-YSHK)** — quick browser preview.
-- Map shows the flown legs YBLN→YGEL→YSHK; the coastal detour via Mandurah/Fremantle (~7 nm extra) is not drawn.
-- Regenerate: `.venv/bin/python scripts/route_map.py YBLN-YSHK YBLN YGEL YSHK`
+- Map shows the flown legs YBLN→**Mandurah**→**Fremantle**→YGEL→YSHK; Mandurah & Fremantle are the coastal visual waypoints (small hollow markers), so the total reflects the ~7 nm coastal detour (487 nm).
+- Regenerate: `.venv/bin/python scripts/route_map.py YBLN-YSHK YBLN Mandurah@-32.53,115.72 Fremantle@-32.06,115.75 YGEL YSHK`
 
 ---
 
