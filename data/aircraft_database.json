@@ -1,0 +1,118 @@
+{
+  "_meta": {
+    "description": "Aircraft performance & weight-and-balance database for flight planning. Figures transcribed from the manufacturer POH/AFM cited per aircraft (kept in .context/attachments, gitignored). Always verify against the specific airframe's current POH and its individual Weight & Balance Record before flight.",
+    "fuel_density_used_kg_per_L": 0.72,
+    "fuel_density_note": "AVGAS 100LL specific gravity 0.72 (per SR20 POH). Mogas/premium ULP is ~0.72-0.74; treat as ~0.72 for planning and round conservatively.",
+    "usg_to_L": 3.785,
+    "nm_to_km": 1.852
+  },
+  "aircraft": [
+    {
+      "key": "SR20",
+      "model": "Cirrus SR20",
+      "variant": "G1 (this airframe: s/n 1312)",
+      "source_poh": ".context/attachments/S84ap1/Cirrus-SR20-POH.pdf",
+      "engine": "Teledyne Continental IO-360 (200 hp)",
+      "fuel": {
+        "type": "AVGAS",
+        "grade_min": "Aviation Grade 100LL (blue) or 100 (green)",
+        "specific_gravity": 0.72,
+        "total_capacity_USG": 60.5,
+        "total_capacity_L": 229.0,
+        "usable_USG": 56.0,
+        "usable_L": 212.0,
+        "usable_weight_kg": 152.4,
+        "usable_weight_lb": 336,
+        "lb_per_USG": 6.0
+      },
+      "weights": {
+        "mtow_kg": 1361,
+        "mtow_lb": 3000,
+        "max_landing_kg": 1315,
+        "max_landing_lb": 2900,
+        "over_2900lb_note": "All weight above 2900 lb (1315 kg) must consist of usable fuel.",
+        "poh_standard_max_useful_load_kg": 431,
+        "poh_standard_max_useful_load_lb": 950,
+        "this_airframe_empty_kg": 973,
+        "this_airframe_empty_lb": 2145,
+        "this_airframe_useful_load_kg": 388,
+        "this_airframe_useful_load_lb": 855,
+        "this_airframe_empty_arm_in_estimate": "139.5-141.0 (confirm from aircraft W&B Record)",
+        "max_baggage_kg": 59,
+        "max_baggage_lb": 130,
+        "baggage_strap_each_lb": 35
+      },
+      "cg": {
+        "datum": "FS (fuselage station), inches aft of reference datum",
+        "forward_limit": "FS 138.7 at 2110 lb, straight-line to FS 141.0 at 2694 lb, to FS 144.1 at 3000 lb",
+        "aft_limit": "~FS 148 (30-31.5% MAC) across the weight range",
+        "loading_arms_in": {"front_seats": 143.5, "rear_seats": 180.0, "baggage": 208.0, "fuel": 153.95},
+        "note": "Both occupants in the front seats with full fuel and light baggage sits the CG near the FORWARD limit - verify against the airframe's actual empty arm."
+      },
+      "performance": {
+        "cruise_ktas_75pct": {"4000ft": 150, "6000ft": 152, "8000ft": 155},
+        "cruise_fuel_gph_75pct": 11.6,
+        "planning_burn_gph": 12.5,
+        "planning_cruise_ktas": 150,
+        "poh_range_nm_75pct_full_fuel": "~606-627 (incl. 45-min IFR reserve, still air)",
+        "safe_planning_range_nm": 600,
+        "reserve_USG_45min": 10.1,
+        "vs0_kias": 96
+      }
+    },
+    {
+      "key": "P2002",
+      "model": "Tecnam P2002 Sierra",
+      "variant": "P2002 Sierra (LSA)",
+      "source_poh": ".context/attachments/cRiWHq/p2002_poh.pdf",
+      "engine": "Rotax 912 ULS (98.5 hp / 73.5 kW)",
+      "fuel": {
+        "type": "Mogas (preferred) or AVGAS",
+        "grade_min": "Auto fuel min RON 95 (AKI 91 US premium), ethanol-free; or AVGAS 100LL (greater valve-seat wear / deposits with prolonged 100LL use)",
+        "specific_gravity": 0.72,
+        "total_capacity_L": 100.0,
+        "total_capacity_USG": 26.4,
+        "tanks": "2 x 50 L (wing leading-edge)",
+        "usable_L": 99.0,
+        "usable_USG": 26.2,
+        "usable_weight_kg": 71.3,
+        "usable_weight_lb": 157
+      },
+      "weights": {
+        "mtow_kg": 600,
+        "mtow_lb": 1320,
+        "max_landing_kg": 600,
+        "max_landing_lb": 1320,
+        "poh_standard_empty_kg": 331,
+        "poh_standard_empty_lb": 730,
+        "poh_standard_useful_load_kg": 269,
+        "poh_example_empty_kg": 339.7,
+        "poh_example_empty_lb": 748.9,
+        "this_airframe_empty_kg": 330,
+        "this_airframe_useful_load_kg": 270,
+        "this_airframe_empty_note": "330 kg confirmed by owner for planning; confirm empty weight/arm against the aircraft's current Weight & Balance record on the day. Full fuel + 165 kg payload fits MTOW while empty weight <= ~363 kg.",
+        "max_baggage_kg": 20,
+        "max_baggage_lb": 44
+      },
+      "cg": {
+        "datum": "Propeller support flange (without spacer)",
+        "forward_limit": "1611 mm / 63.4 in (20.0% MAC)",
+        "aft_limit": "1789 mm / 70.4 in (33.0% MAC)",
+        "loading_arms_in": {"occupants": 70.86, "baggage": 86.61, "fuel": 60.23},
+        "note": "POH mixes unit conversions in the sample chart; compute in one unit set and confirm against the airframe W&B record."
+      },
+      "performance": {
+        "cruise_ktas_55pct_2000ft": 102,
+        "cruise_ktas_65pct_2000ft": 108,
+        "cruise_ktas_75pct_0ft": 113,
+        "cruise_fuel_gph_55pct": 4.0,
+        "cruise_fuel_gph_65pct": 4.8,
+        "cruise_fuel_lph_planning": 20,
+        "planning_cruise_ktas": 100,
+        "poh_range_nm_full_fuel": "553-728 depending on power/altitude (approx, zero wind, no reserve)",
+        "vs0_kcas": 40,
+        "demonstrated_crosswind_kt": 22
+      }
+    }
+  ]
+}

@@ -64,8 +64,25 @@ are `2day.md`/`3day.md`:
 flightplans/
 ├── SR20/<route>/          plan.md (or 2day.md, …) + map.png/map.geojson
 ├── P2002/<route>/         2day.md, 3day.md + map.png/map.geojson
+├── aircraft/<KEY>.md      per-aircraft spec cards (SR20, P2002) — fuel, W&B, performance
 └── aerodromes/<CODE>.md   shared cards linked by every plan
 ```
+
+### Aircraft database (`data/aircraft_database.*`, `flightplans/aircraft/`)
+
+Fuel type, weights (MTOW / empty / useful load / baggage), CG limits and cruise/range
+performance for each aircraft, transcribed from its manufacturer POH/AFM. The POHs live in
+`.context/attachments/` (gitignored, per-workspace); the parsed figures are committed:
+
+| Path | What it is |
+|------|-----------|
+| `data/aircraft_database.json` | Full nested specs per aircraft (fuel, weights, CG, performance) + source POH path |
+| `data/aircraft_database.csv` | Flat one-row-per-aircraft summary |
+| `flightplans/aircraft/SR20.md`, `P2002.md` | Readable data cards, linked from each plan's header |
+
+- **SR20** — Cirrus SR20 G1 (this airframe s/n 1312: empty 973 kg, MTOW 1361 kg), AVGAS, ~600 nm.
+- **P2002** — Tecnam P2002 Sierra, MTOW 600 kg (weight-limited LSA), Mogas/AVGAS, 99 L usable.
+- Empty weight is **airframe-specific** — always re-check W&B against the aircraft's own Weight & Balance Record.
 
 ```bash
 python  scripts/aerodrome_card.py --plan flightplans/SR20/YBLN-YAYE/plan.md   # cards for a whole plan

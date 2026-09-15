@@ -1,0 +1,3 @@
+key,model,engine,fuel_type,fuel_grade_min,usable_fuel_L,usable_fuel_USG,usable_fuel_kg,mtow_kg,max_landing_kg,empty_kg,useful_load_kg,max_baggage_kg,planning_cruise_ktas,planning_burn,safe_range_nm,source_poh
+SR20,Cirrus SR20 (G1 s/n 1312),Continental IO-360 200hp,AVGAS,100LL / 100,212.0,56.0,152.4,1361,1315,973,388,59,150,12.5 USG/hr,600,.context/attachments/S84ap1/Cirrus-SR20-POH.pdf
+P2002,Tecnam P2002 Sierra,Rotax 912 ULS 98.5hp,Mogas or AVGAS,RON95 auto (ethanol-free) or 100LL,99.0,26.2,71.3,600,600,330,270,20,100,20 L/hr,,.context/attachments/cRiWHq/p2002_poh.pdf
