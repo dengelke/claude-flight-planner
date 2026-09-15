@@ -55,7 +55,7 @@ Two helpers turn the database into linkable/inspectable content inside the fligh
 | `scripts/route_map.py` | Emits `flightplans/maps/<name>.geojson` (GitHub renders it as an interactive map) **and** `<name>.png` (a static coastline map embedded inline in the plan with `![](…)`). |
 
 ```bash
-python  scripts/aerodrome_card.py --plan flightplans/YBLN-YAYE_SR20_AVGAS.md   # cards for a whole plan
+python  scripts/aerodrome_card.py --plan flightplans/SR20/YBLN-YAYE_SR20_AVGAS.md   # cards for a whole plan
 python  scripts/aerodrome_card.py --all                                        # every aerodrome
 .venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE            # geojson + png
 ```
