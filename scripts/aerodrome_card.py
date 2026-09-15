@@ -8,7 +8,7 @@ plus a link to the official Airservices ERSA source PDF.
 
 Usage:
     python scripts/aerodrome_card.py YAYE YWBR YPKG      # named aerodromes
-    python scripts/aerodrome_card.py --plan flightplans/YBLN-YAYE_SR20_AVGAS.md
+    python scripts/aerodrome_card.py --plan flightplans/SR20/YBLN-YAYE/plan.md
     python scripts/aerodrome_card.py --all               # every aerodrome in the DB
 """
 import sys, re, sqlite3, pathlib

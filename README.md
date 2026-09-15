@@ -52,12 +52,26 @@ Two helpers turn the database into linkable/inspectable content inside the fligh
 | Script | What it does |
 |--------|-------------|
 | `scripts/aerodrome_card.py` | Emits a per-aerodrome markdown "data card" → `flightplans/aerodromes/<CODE>.md` (position, **verbatim ERSA handling text**, fuel, payment, frequencies, runways + RDS distances, links to the official ERSA FAC/RDS PDFs). The plans link each aerodrome heading to its card. |
-| `scripts/route_map.py` | Emits `flightplans/maps/<name>.geojson` (GitHub renders it as an interactive map) **and** `<name>.png` (a static coastline map embedded inline in the plan with `![](…)`). |
+| `scripts/route_map.py` | Emits `<name>.geojson` (GitHub renders it as an interactive map) **and** `<name>.png` (a static coastline map embedded inline in the plan with `![](…)`) into the output dir — default `flightplans/maps/`, or pass `--out <plan folder>` to write them beside the plan. |
+
+Plans are grouped by aircraft (`SR20/` = AVGAS, `P2002/` = Mogas), then by route.
+Each route folder holds its plan variant(s) and that route's map (`map.png`/
+`map.geojson`); aerodrome cards stay shared. The aircraft/fuel/route already live
+in the path, so filenames don't repeat them — a single plan is `plan.md`, variants
+are `2day.md`/`3day.md`:
+
+```
+flightplans/
+├── SR20/<route>/          plan.md (or 2day.md, …) + map.png/map.geojson
+├── P2002/<route>/         2day.md, 3day.md + map.png/map.geojson
+└── aerodromes/<CODE>.md   shared cards linked by every plan
+```
 
 ```bash
-python  scripts/aerodrome_card.py --plan flightplans/YBLN-YAYE_SR20_AVGAS.md   # cards for a whole plan
+python  scripts/aerodrome_card.py --plan flightplans/SR20/YBLN-YAYE/plan.md   # cards for a whole plan
 python  scripts/aerodrome_card.py --all                                        # every aerodrome
-.venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE            # geojson + png
+.venv/bin/python scripts/route_map.py map YBLN YPKG YWBR YAYE \
+    --out flightplans/SR20/YBLN-YAYE                                            # writes map.geojson + map.png beside the plan
 ```
 
 - `aerodrome_card.py` is pure stdlib. `route_map.py` needs **Pillow** for the PNG (`.venv/bin/pip install Pillow`); without it the geojson is still written and the PNG is skipped with a warning.
