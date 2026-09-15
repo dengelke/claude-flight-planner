@@ -51,12 +51,12 @@ enough for the 61 nm hop to Carnarvon (or 184 nm back to Geraldton) **plus reser
 
 ## Route Map
 
-![YBLN → YGEL → YSHK coastal route up the WA coast](YBLN-YSHK.png)
+![YBLN → YGEL → YSHK coastal route up the WA coast](map.png)
 
-- 🗺️ **[Interactive version: `YBLN-YSHK.geojson`](YBLN-YSHK.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
+- 🗺️ **[Interactive version: `map.geojson`](map.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
 - 🌐 **[Great Circle Mapper view](https://www.gcmap.com/mapui?P=YBLN-YGEL-YSHK)** — quick browser preview.
 - Map shows the flown legs YBLN→**Mandurah**→**Fremantle**→YGEL→YSHK; Mandurah & Fremantle are the coastal visual waypoints (small hollow markers), so the total reflects the ~7 nm coastal detour (487 nm).
-- Regenerate: `.venv/bin/python scripts/route_map.py YBLN-YSHK YBLN Mandurah@-32.53,115.72 Fremantle@-32.06,115.75 YGEL YSHK --out flightplans/SR20/YBLN-YSHK_SR20_AVGAS`
+- Regenerate: `.venv/bin/python scripts/route_map.py map YBLN Mandurah@-32.53,115.72 Fremantle@-32.06,115.75 YGEL YSHK --out flightplans/SR20/YBLN-YSHK`
 
 ---
 

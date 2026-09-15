@@ -11,9 +11,9 @@
 > ✈️ **Overview:** ~1,892 nm, ~18 h 56 m airborne, seven fuel stops, split over two days with an overnight at
 > **Ceduna** (roughly the midpoint). Over-land route shadowing the Eyre Highway/rail — no overwater.
 
-![YMND → YGTH → YMIA → YPAG → YCDU → YNUB → YCAG → YESP → YWGN → YBLN route across the Nullarbor](YMND-YBLN.png)
+![YMND → YGTH → YMIA → YPAG → YCDU → YNUB → YCAG → YESP → YWGN → YBLN route across the Nullarbor](map.png)
 
-- 🗺️ **[Interactive version: `YMND-YBLN.geojson`](YMND-YBLN.geojson)** — pan/zoom map; click any marker/leg for its code, fuel and distance. (GitHub draws plain pins — it no longer applies the simplestyle colours; the coloured start/stop markers show in the PNG above and in geojson.io.)
+- 🗺️ **[Interactive version: `map.geojson`](map.geojson)** — pan/zoom map; click any marker/leg for its code, fuel and distance. (GitHub draws plain pins — it no longer applies the simplestyle colours; the coloured start/stop markers show in the PNG above and in geojson.io.)
 - Map shows the **default (Griffith) routing**; the Cowra Mogas option is an equal-distance swap on the eastern leg (see Day 1).
 
 ## Fuel strategy — MOGAS-first to save cost (no crew car)

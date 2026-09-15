@@ -27,11 +27,11 @@
 
 ## Route Map
 
-![YBLN → YPKG → YWBR → YAYE route over the WA/NT coastline](YBLN-YAYE.png)
+![YBLN → YPKG → YWBR → YAYE route over the WA/NT coastline](map.png)
 
-- 🗺️ **[Interactive version: `YBLN-YAYE.geojson`](YBLN-YAYE.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
+- 🗺️ **[Interactive version: `map.geojson`](map.geojson)** — GitHub renders this as a pan/zoom Leaflet map; click legs/markers for distances and fuel.
 - 🌐 **[Great Circle Mapper view](https://www.gcmap.com/mapui?P=YBLN-YPKG-YWBR-YAYE)** — quick browser preview.
-- Regenerate: `.venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE --out flightplans/SR20/YBLN-YAYE_SR20_AVGAS`
+- Regenerate: `.venv/bin/python scripts/route_map.py map YBLN YPKG YWBR YAYE --out flightplans/SR20/YBLN-YAYE`
 
 ---
 

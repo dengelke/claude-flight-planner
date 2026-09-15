@@ -6,6 +6,7 @@ override with `--out DIR` — e.g. the plan's own folder):
   <name>.geojson  — GitHub renders this as an interactive Leaflet map.
   <name>.png      — a static coastline map that embeds inline in the plan
                     markdown (`![](<name>.png)`), so the route is visible
+                    (plans use `<name>` = `map`, one map per route folder)
                     without opening the geojson. Needs Pillow (in .venv); if
                     Pillow is missing the PNG step is skipped with a warning.
 
@@ -17,11 +18,11 @@ Waypoints are drawn as small hollow markers and the legs route through them, so 
 coastal track can follow visual features that aren't aerodromes.
 
 Usage:
-    .venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE \
-        --out flightplans/SR20/YBLN-YAYE_SR20_AVGAS
+    .venv/bin/python scripts/route_map.py map YBLN YPKG YWBR YAYE \
+        --out flightplans/SR20/YBLN-YAYE
     #                                      ^name    ^ordered aerodrome codes (>=2)
-    .venv/bin/python scripts/route_map.py YBLN-YSHK YBLN Mandurah@-32.53,115.72 \
-        Fremantle@-32.06,115.75 YGEL YSHK --out flightplans/SR20/YBLN-YSHK_SR20_AVGAS
+    .venv/bin/python scripts/route_map.py map YBLN Mandurah@-32.53,115.72 \
+        Fremantle@-32.06,115.75 YGEL YSHK --out flightplans/SR20/YBLN-YSHK
     #    aerodrome codes and LABEL@lat,lon waypoints can be mixed, in order
     #    --out DIR (optional) writes the artefacts into DIR (default flightplans/maps)
 """

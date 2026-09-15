@@ -11,9 +11,9 @@
 > airborne) with overnights at **Port Augusta** and **Caiguna**. Over-land route shadowing the Eyre Highway/rail — no overwater.
 > This is the unhurried alternative to the 2-day plan; every day finishes with 5½–7¾ h of daylight to spare (worst case).
 
-![YMND → YGTH → YMIA → YPAG → YCDU → YNUB → YCAG → YESP → YWGN → YBLN route across the Nullarbor](YMND-YBLN.png)
+![YMND → YGTH → YMIA → YPAG → YCDU → YNUB → YCAG → YESP → YWGN → YBLN route across the Nullarbor](map.png)
 
-- 🗺️ **[Interactive version: `YMND-YBLN.geojson`](YMND-YBLN.geojson)** — pan/zoom map; click any marker/leg for its code, fuel and distance. (Same route as the 2-day plan — only the overnight split differs. GitHub draws plain pins; coloured markers show in the PNG / geojson.io.)
+- 🗺️ **[Interactive version: `map.geojson`](map.geojson)** — pan/zoom map; click any marker/leg for its code, fuel and distance. (Same route as the 2-day plan — only the overnight split differs. GitHub draws plain pins; coloured markers show in the PNG / geojson.io.)
 - Map shows the **default (Griffith) routing**; the Cowra Mogas option is an equal-distance swap on the eastern leg (see Day 1).
 
 ## Overnight stops & accommodation (airport ↔ town distance matters)
@@ -164,7 +164,7 @@ Each code links to its full parsed ERSA data card (fuel + handling verbatim, run
 - [ ] Leg 1 terrain: Great Dividing Range crossing — plan cruise altitude/clearance.
 
 ## Alternatives considered
-- **2-day version:** same route, overnight at Ceduna — see `YMND-YBLN_P2002_MOGAS_2day.md`. Day 2 there is a full ~9½ h airborne day; this 3-day plan trades a night for much shorter days and closer beds.
+- **2-day version:** same route, overnight at Ceduna — see `2day.md`. Day 2 there is a full ~9½ h airborne day; this 3-day plan trades a night for much shorter days and closer beds.
 - **Overnight Nullarbor instead of Caiguna:** unbalances the split (Day 2 short, Day 3 long) and Nullarbor's AVGAS bowser is daylight-only; Caiguna is H24 with an on-strip motel.
 - **Esperance→Busselton via Wagin (chosen):** 324 nm direct lands +61 min above the 45-min buffer in still air, so no fuel stop is needed; Wagin (+4 nm) is a comfort/decision gate, Albany a headwind diversion.
 
