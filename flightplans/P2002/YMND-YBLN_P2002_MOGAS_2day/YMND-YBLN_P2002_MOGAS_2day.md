@@ -11,9 +11,9 @@
 > ✈️ **Overview:** ~1,892 nm, ~18 h 56 m airborne, seven fuel stops, split over two days with an overnight at
 > **Ceduna** (roughly the midpoint). Over-land route shadowing the Eyre Highway/rail — no overwater.
 
-![YMND → YGTH → YMIA → YPAG → YCDU → YNUB → YCAG → YESP → YWGN → YBLN route across the Nullarbor](../maps/YMND-YBLN.png)
+![YMND → YGTH → YMIA → YPAG → YCDU → YNUB → YCAG → YESP → YWGN → YBLN route across the Nullarbor](YMND-YBLN.png)
 
-- 🗺️ **[Interactive version: `../maps/YMND-YBLN.geojson`](../maps/YMND-YBLN.geojson)** — pan/zoom map; click any marker/leg for its code, fuel and distance. (GitHub draws plain pins — it no longer applies the simplestyle colours; the coloured start/stop markers show in the PNG above and in geojson.io.)
+- 🗺️ **[Interactive version: `YMND-YBLN.geojson`](YMND-YBLN.geojson)** — pan/zoom map; click any marker/leg for its code, fuel and distance. (GitHub draws plain pins — it no longer applies the simplestyle colours; the coloured start/stop markers show in the PNG above and in geojson.io.)
 - Map shows the **default (Griffith) routing**; the Cowra Mogas option is an equal-distance swap on the eastern leg (see Day 1).
 
 ## Fuel strategy — MOGAS-first to save cost (no crew car)
@@ -114,20 +114,20 @@ Each code links to its full parsed ERSA data card (fuel + handling verbatim, run
 
 | Code | Name | ST | Elev | Fuel (bowser) | Runways | CTAF |
 |------|------|----|-----:|------|---------|------|
-| [YMND](../aerodromes/YMND.md) | Maitland | NSW | 95 ft | AVGAS + **club Mogas** | 05/23, 08/26 sealed; 18/36 | 122.65 |
-| [YGTH](../aerodromes/YGTH.md) | Griffith *(default Day-1 stop)* | NSW | 439 ft | AVGAS, Jet A1 | 06/24; 18/36 gravel | 126.55 |
-| [YCWR](../aerodromes/YCWR.md) | Cowra *(Mogas option, unconfirmed)* | NSW | 973 ft | AVGAS, Jet A1 (+ FlyOz Mogas?) | 03/21 clay; 15/33 | 126.7 |
-| [YMIA](../aerodromes/YMIA.md) | Mildura | VIC | 167 ft | AVGAS, Jet A1 | 09/27 grooved; 18/36 | 118.8 |
-| [YPAG](../aerodromes/YPAG.md) | Port Augusta | SA | 56 ft | AVGAS, Jet A1 | 15/33 | 126.9 |
-| [**YCDU**](../aerodromes/YCDU.md) | **Ceduna** | SA | 77 ft | AVGAS, Jet A1 | **11/29 sealed** (17/35 gravel — avoid) | 126.7 |
-| [YNUB](../aerodromes/YNUB.md) | Nullarbor Roadhouse | SA | 220 ft | AVGAS + **forecourt Mogas** | roadhouse strip — confirm len/surface | 126.7 |
-| [YCAG](../aerodromes/YCAG.md) | Caiguna | WA | 287 ft | AVGAS + **forecourt Mogas** | roadhouse strip — confirm len/surface | 126.7 |
-| [YESP](../aerodromes/YESP.md) | Esperance *(last fuel)* | WA | 471 ft | AVGAS, Jet A1 | 11/29; 03/21 gravel | 126.7 |
-| [YWGN](../aerodromes/YWGN.md) | Wagin *(comfort stop)* | WA | 836 ft | AVGAS **emergency-only** (Greg Ball 0428 611 360) | — | 126.7 |
-| [YBLN](../aerodromes/YBLN.md) | Busselton | WA | 56 ft | AVGAS + club Mogas | 03/21 grooved | 127.0 |
-| [YABA](../aerodromes/YABA.md) | Albany *(headwind diversion)* | WA | 233 ft | AVGAS, Jet A1 | 05/23; 14/32 | 127.85 |
-| [YFRT](../aerodromes/YFRT.md) | Forrest *(Nullarbor split alt)* | WA | 511 ft | AVGAS, Jet A1 | — | 126.7 |
-| [YWGM](../aerodromes/YWGM.md) | White Gum *(Mogas alt, Perth CTA)* | WA | — | **MOGAS** bowser | — | — |
+| [YMND](../../aerodromes/YMND.md) | Maitland | NSW | 95 ft | AVGAS + **club Mogas** | 05/23, 08/26 sealed; 18/36 | 122.65 |
+| [YGTH](../../aerodromes/YGTH.md) | Griffith *(default Day-1 stop)* | NSW | 439 ft | AVGAS, Jet A1 | 06/24; 18/36 gravel | 126.55 |
+| [YCWR](../../aerodromes/YCWR.md) | Cowra *(Mogas option, unconfirmed)* | NSW | 973 ft | AVGAS, Jet A1 (+ FlyOz Mogas?) | 03/21 clay; 15/33 | 126.7 |
+| [YMIA](../../aerodromes/YMIA.md) | Mildura | VIC | 167 ft | AVGAS, Jet A1 | 09/27 grooved; 18/36 | 118.8 |
+| [YPAG](../../aerodromes/YPAG.md) | Port Augusta | SA | 56 ft | AVGAS, Jet A1 | 15/33 | 126.9 |
+| [**YCDU**](../../aerodromes/YCDU.md) | **Ceduna** | SA | 77 ft | AVGAS, Jet A1 | **11/29 sealed** (17/35 gravel — avoid) | 126.7 |
+| [YNUB](../../aerodromes/YNUB.md) | Nullarbor Roadhouse | SA | 220 ft | AVGAS + **forecourt Mogas** | roadhouse strip — confirm len/surface | 126.7 |
+| [YCAG](../../aerodromes/YCAG.md) | Caiguna | WA | 287 ft | AVGAS + **forecourt Mogas** | roadhouse strip — confirm len/surface | 126.7 |
+| [YESP](../../aerodromes/YESP.md) | Esperance *(last fuel)* | WA | 471 ft | AVGAS, Jet A1 | 11/29; 03/21 gravel | 126.7 |
+| [YWGN](../../aerodromes/YWGN.md) | Wagin *(comfort stop)* | WA | 836 ft | AVGAS **emergency-only** (Greg Ball 0428 611 360) | — | 126.7 |
+| [YBLN](../../aerodromes/YBLN.md) | Busselton | WA | 56 ft | AVGAS + club Mogas | 03/21 grooved | 127.0 |
+| [YABA](../../aerodromes/YABA.md) | Albany *(headwind diversion)* | WA | 233 ft | AVGAS, Jet A1 | 05/23; 14/32 | 127.85 |
+| [YFRT](../../aerodromes/YFRT.md) | Forrest *(Nullarbor split alt)* | WA | 511 ft | AVGAS, Jet A1 | — | 126.7 |
+| [YWGM](../../aerodromes/YWGM.md) | White Gum *(Mogas alt, Perth CTA)* | WA | — | **MOGAS** bowser | — | — |
 
 ## Fuel cards & payment (carry Air BP Carnet + Visa/MC + cash)
 | Stop | Provider | Payment | Notes |

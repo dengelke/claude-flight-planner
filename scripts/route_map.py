@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Generate a route map (GeoJSON) from an ordered list of aerodrome codes.
 
-Emits two artefacts under `flightplans/maps/`:
+Emits two artefacts into the output directory (default `flightplans/maps/`,
+override with `--out DIR` — e.g. the plan's own folder):
   <name>.geojson  — GitHub renders this as an interactive Leaflet map.
   <name>.png      — a static coastline map that embeds inline in the plan
-                    markdown (`![](maps/<name>.png)`), so the route is visible
+                    markdown (`![](<name>.png)`), so the route is visible
                     without opening the geojson. Needs Pillow (in .venv); if
                     Pillow is missing the PNG step is skipped with a warning.
 
@@ -16,11 +17,13 @@ Waypoints are drawn as small hollow markers and the legs route through them, so 
 coastal track can follow visual features that aren't aerodromes.
 
 Usage:
-    .venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE
+    .venv/bin/python scripts/route_map.py YBLN-YAYE YBLN YPKG YWBR YAYE \
+        --out flightplans/SR20/YBLN-YAYE_SR20_AVGAS
     #                                      ^name    ^ordered aerodrome codes (>=2)
     .venv/bin/python scripts/route_map.py YBLN-YSHK YBLN Mandurah@-32.53,115.72 \
-        Fremantle@-32.06,115.75 YGEL YSHK
+        Fremantle@-32.06,115.75 YGEL YSHK --out flightplans/SR20/YBLN-YSHK_SR20_AVGAS
     #    aerodrome codes and LABEL@lat,lon waypoints can be mixed, in order
+    #    --out DIR (optional) writes the artefacts into DIR (default flightplans/maps)
 """
 import sys, json, math, sqlite3, pathlib
 
@@ -64,7 +67,7 @@ def nm(lat1, lon1, lat2, lon2):
     return r*2*math.asin(math.sqrt(h))
 
 
-def render_png(name, pts, total_nm):
+def render_png(name, pts, total_nm, out_dir):
     """Draw a static coastline map with the route. Returns the dest path or None."""
     try:
         from PIL import Image, ImageDraw, ImageFont
@@ -137,7 +140,7 @@ def render_png(name, pts, total_nm):
     title = f"{'  >  '.join(stops)}    |    {round(total_nm)} nm"
     d.text((M_L, 16), title, fill="#11334d", font=font(20))
 
-    dest = OUT / f"{name}.png"
+    dest = out_dir / f"{name}.png"
     img.save(dest)
     return dest
 
@@ -158,6 +161,12 @@ def parse_waypoint(token):
 
 
 def main(argv):
+    out_dir = OUT
+    if "--out" in argv:
+        i = argv.index("--out")
+        out_dir = (ROOT / argv[i + 1]) if not pathlib.Path(argv[i + 1]).is_absolute() \
+            else pathlib.Path(argv[i + 1])
+        del argv[i:i + 2]
     if len(argv) < 3:
         print(__doc__); return
     name = argv[0]
@@ -221,10 +230,10 @@ def main(argv):
                          "total_nm": round(total)},
           "features": features}
 
-    OUT.mkdir(parents=True, exist_ok=True)
-    dest = OUT / f"{name}.geojson"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    dest = out_dir / f"{name}.geojson"
     dest.write_text(json.dumps(fc, indent=1))
-    png = render_png(name, pts, total)
+    png = render_png(name, pts, total, out_dir)
     gcmap = "https://www.gcmap.com/mapui?P=" + "-".join(p["code"] for p in pts)
     print(f"Wrote {dest.relative_to(ROOT)}  ({round(total)} nm total)")
     if png:
