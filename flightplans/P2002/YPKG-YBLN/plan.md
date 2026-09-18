@@ -1,18 +1,17 @@
-# Plan 2 — Kalgoorlie → Busselton return via White Gum (1-day)
+# Plan 2 — Kalgoorlie → Busselton return via Northam (1-day)
 
-**Route (1-day, White Gum fuel · Northam YNTM the alternate):** **YPKG → YWGM → YBLN**
-· **YPKG→YWGM 241 nm (~253°T)** then **YWGM→YBLN 134 nm (~216°T)**
+**Route (1-day, Northam YNTM fuel):** **YPKG → YNTM → YBLN**
+· **YPKG→YNTM 250 nm (~257°T)** then **YNTM→YBLN 140 nm (~207°T)**
 **Aircraft:** [Tecnam P2002 Sierra](../../aircraft/P2002.md) · Rotax 912 ULS · **empty 355 kg (this airframe)** · MTOW **600 kg** · 99 L usable
 **Planning basis:** No wind · Cruise 100 KTAS · Burn **20 L/hr** (conservative; POH ~15–18) · **final reserve 10 L (30 min, day VFR)**
 **Loading:** occupants **170 kg** + cargo **5–10 kg** (staying light) · **fuel capped ~90 L, NOT full** — full fuel busts MTOW (see W&B)
 **Data source:** ERSA FAC/RDS effective **09 JUL 2026** — verify against current ERSA + NOTAMs on the day.
 
-> ✈️ **Bottom line:** The straight run home — **375 nm in two short legs**, split at **White Gum** for a Mogas top-up, with
-> **Northam (YNTM, 19 nm) as the alternate** if the bowser's dry. **In this 355 kg-empty airframe you can't carry full
-> fuel:** 355 kg empty + 170 kg pax + even 5 kg cargo already needs fuel held to ~97 L, and with 10 kg cargo to ~90 L, to
-> stay under the 600 kg MTOW. That's no hardship — the legs only need ~60 L, so **cap the fill at ~90 L and both legs still
-> land with big margins** (nil-wind ~38 L at White Gum, ~59 L at Busselton). CoG sits mid-envelope throughout. Only the
-> Kalgoorlie leg runs on AVGAS; the leg home from White Gum is Mogas.
+> ✈️ **Bottom line:** The straight run home — **390 nm in two legs**, split at **Northam (YNTM)** for an AVGAS top-up
+> (H24 self-serve card bowser, sealed, no PPR). **In this 355 kg-empty airframe you can't carry full fuel:** 355 kg empty +
+> 170 kg pax + even 5 kg cargo needs fuel held to ~97 L, and with 10 kg cargo to ~90 L, to stay under the 600 kg MTOW.
+> That's no hardship — the legs only need ~62 L, so **cap the fill at ~90 L and both legs still land with margin** (nil-wind
+> ~38 L at Northam, ~60 L at Busselton). CoG sits mid-envelope. It's an **AVGAS trip** — no Mogas en route.
 
 ---
 
@@ -20,25 +19,25 @@
 
 | Leg | From → To | Distance | Track | Time @ 100 kt | Trip fuel (L) |
 |-----|-----------|---------:|------:|--------------:|--------------:|
-| 1 | YPKG → YWGM | 241 nm | ~253°T | 2 h 24 m | ~50 |
-| 2 | YWGM → YBLN | 134 nm | ~216°T | 1 h 20 m | ~29 |
-| **Total** | **YPKG → YBLN** | **375 nm** | | **~3 h 44 m** | |
+| 1 | YPKG → YNTM | 250 nm | ~257°T | 2 h 30 m | ~52 |
+| 2 | YNTM → YBLN | 140 nm | ~207°T | 1 h 24 m | ~30 |
+| **Total** | **YPKG → YBLN** | **390 nm** | | **~3 h 54 m** | |
 
-- One WA day (AWST) — no timezone change. Longest leg 241 nm (~2.4 h); ~90 L covers it with room to spare (~60 L needed).
+- One WA day (AWST) — no timezone change. Longest leg 250 nm (~2.5 h); ~90 L covers it with room to spare (~62 L needed).
 
-## Fuel plan — cap the fill at ~90 L, top up Mogas at White Gum (Northam the alternate)
+## Fuel plan — cap the fill at ~90 L, AVGAS at Northam
 
 | Departure | Fuel type | Depart | Leg | Land with (nil wind) | Over 30-min reserve (10 L) |
 |-----------|-----------|-------:|-----|---------------------:|---------------------------:|
-| YPKG | AVGAS 100LL | **~90 L** | → YWGM 241 nm | **~38 L** | **+28 L** |
-| YWGM | **Mogas (bowser)** | **~90 L** | → YBLN 134 nm | ~59 L | +49 L |
+| YPKG | AVGAS 100LL | **~90 L** | → YNTM 250 nm | **~38 L** | **+28 L** |
+| YNTM | **AVGAS (H24 card)** | **~90 L** | → YBLN 140 nm | ~60 L | +50 L |
 
 - **Don't fill to full** — in the 355 kg airframe, ~90 L (10 kg cargo) / ~97 L (5 kg cargo) is the MTOW ceiling; ~90 L is
   plenty for these legs, so filling to it keeps a comfortable margin under 600 kg.
-- **Wind is not a range issue** — even a 25 kt headwind on the 241 nm leg (~66 L) still lands White Gum with ~24 L from 90 L.
-- **⛽ Alternate if White Gum is dry → Northam (YNTM), 19 nm WNW** — sealed 14/32 (1248 m), **AVGAS H24 credit-card
-  bowser**, no PPR. You reach White Gum with ~38 L, so the diversion costs ~4 L. AVGAS not Mogas, but the 912 runs on it.
-- **Fuel type:** only the Kalgoorlie→White Gum leg is AVGAS; the leg home is Mogas (the 912's preferred fuel).
+- **Wind:** even a 25 kt headwind on the 250 nm leg (~69 L) still lands Northam with ~21 L from 90 L.
+- **Northam is the fuel stop** — sealed 14/32 (1248 m), **AVGAS H24 credit-card bowser** (Viva/Dunnings), no PPR. If ever
+  unavailable, the nearest AVGAS is **Jandakot (~50 nm SW, controlled)**.
+- **Fuel type:** AVGAS throughout — no Mogas en route. The 912 ULS runs on 100LL fine.
 
 ## Weight & Balance — 355 kg-empty airframe, 170 kg pax, light cargo (fuel MTOW-limited)
 
@@ -54,21 +53,20 @@ Recommended loadout — **cargo 10 kg, fill to ~90 L** (not full):
 
 - **Full fuel does NOT fit.** With 355 kg empty + 170 kg pax the MTOW ceiling on fuel is **~97 L at 5 kg cargo / ~90 L at
   10 kg cargo** — full 99 L would put you 1–6 kg over 600 kg. Cap the fill accordingly.
-- **~90 L is well above what the legs need** (~60 L for the 241 nm leg incl. reserve), so hold a little below the ceiling
+- **~90 L is well above what the legs need** (~62 L for the 250 nm leg incl. reserve), so hold a little below the ceiling
   (say **85–88 L**) for a few kg of MTOW margin — you'll still land Busselton with ~55 L. Do the W&B on the real empty weight.
-- **CoG stays mid-envelope** — ~68.1–68.4 in across the fuel range, comfortably inside 63.4–70.4 in ✓ (fuel arm is forward,
-  so lighter fuel nudges CoG only slightly aft).
+- **CoG stays mid-envelope** — ~68.1–68.4 in across the fuel range, comfortably inside 63.4–70.4 in ✓.
 
 ## Route Map
 
-![Kalgoorlie → White Gum → Busselton](map.png)
+![Kalgoorlie → Northam → Busselton](map.png)
 
-- 🗺️ **[Interactive: `map.geojson`](map.geojson)** · 🌐 **[Great Circle Mapper](https://www.gcmap.com/mapui?P=YPKG-YWGM-YBLN)**
-- Regenerate: `.venv/bin/python scripts/route_map.py map YPKG YWGM YBLN --out flightplans/P2002/YPKG-YBLN`
+- 🗺️ **[Interactive: `map.geojson`](map.geojson)** · 🌐 **[Great Circle Mapper](https://www.gcmap.com/mapui?P=YPKG-YNTM-YBLN)**
+- Regenerate: `.venv/bin/python scripts/route_map.py map YPKG YNTM YBLN --out flightplans/P2002/YPKG-YBLN`
 
 ## Density altitude
-- **Kalgoorlie 1203 ft, White Gum 1000 ft** — warm-day density altitude climbs well above these; the 98 hp Rotax loses
-  climb and lengthens the roll. **Check TODR**, prefer early-morning departures near MTOW.
+- **Kalgoorlie 1203 ft, Northam 500 ft** — warm-day density altitude climbs well above these; the 98 hp Rotax loses climb
+  and lengthens the roll. **Check TODR**, prefer early-morning departures near MTOW.
 
 ---
 
@@ -77,22 +75,19 @@ Recommended loadout — **cargo 10 kg, fill to ~90 L** (not full):
 ### [YPKG](../../aerodromes/YPKG.md) — Kalgoorlie-Boulder (WA) — DEPART
 - -30.789, 121.462 · Elev 1203 ft · AVGAS + Jet A1 + F34 (**no Mogas**) · CTAF/UNICOM 126.6 · RWY 11/29 2000 m sealed; 18/36 1200 m · **H24 AVGAS card bowser** (Carnet/credit)
 
-### [YWGM](../../aerodromes/YWGM.md) — White Gum (WA) — FUEL STOP (Mogas)
-- -31.867, 116.939 · Elev 1000 ft · **UNCR, private — PPR** · CTAF 126.7 · **MOGAS bowser** (TWY east of RWY 14/32)
-- **RWY 14/32 1400 m SAND; 09/27 750 m gravel** (ample) · confirm PPR + Mogas ahead.
-
-### [YNTM](../../aerodromes/YNTM.md) — Northam (WA) — FUEL ALTERNATE (if White Gum dry)
-- -31.626, 116.684 · Elev 500 ft · **UNCR** · CTAF 124.2 · **AVGAS H24 credit-card bowser** (no Jet A1) · RWY 14/32 1248 m sealed · **~19 nm WNW of White Gum**
+### [YNTM](../../aerodromes/YNTM.md) — Northam (WA) — FUEL STOP (AVGAS)
+- -31.626, 116.684 · Elev 500 ft · **UNCR** · CTAF 124.2 · **AVGAS H24 credit-card bowser** (Viva/Dunnings; no Jet A1, no Mogas)
+- **RWY 14/32 1248 m sealed** · no PPR — reliable self-serve splitting point.
 
 ### [YBLN](../../aerodromes/YBLN.md) — Busselton (WA) — HOME BASE
 - -33.687, 115.400 · Elev 56 ft · AVGAS + Jet A1 (+ **aeroclub Mogas**) · CTAF 127.0 · RWY 03/21 grooved, 2460 m, 45 m wide
 
 ## Pre-Flight Checks
-- [ ] **PPR + Mogas confirmed at White Gum**; if unavailable, divert to **Northam (YNTM, ~19 nm)**.
+- [ ] **Northam AVGAS** — H24 card bowser (no PPR); carry a working card. If down, nearest AVGAS is Jandakot (~50 nm, controlled).
 - [ ] **W&B** against real empty weight (355 kg) — **do NOT fill to full**; cap at ~90 L (10 kg cargo) / ~97 L (5 kg), hold ~85–88 L for MTOW margin.
-- [ ] Kalgoorlie AVGAS to **~90 L** (not full) before departure; Carnet/credit carried. White Gum Mogas to the same ~90 L cap for the leg home.
-- [ ] Density altitude / TODR for Kalgoorlie (1203 ft) & White Gum (1000 ft); cool-of-day departures near MTOW.
-- [ ] ARFOR/TAFs + NOTAMs for YPKG, YWGM, YNTM, YBLN; crosswind ≤ 22 kt demonstrated; water + PLB on the inland legs.
+- [ ] Kalgoorlie AVGAS to **~90 L** (not full) before departure; Carnet/credit carried. Northam AVGAS to the same ~90 L cap for the leg home.
+- [ ] Density altitude / TODR for Kalgoorlie (1203 ft) & Northam (500 ft); cool-of-day departures near MTOW.
+- [ ] ARFOR/TAFs + NOTAMs for YPKG, YNTM, YBLN; crosswind ≤ 22 kt demonstrated; water + PLB on the inland legs.
 
 ---
 *Planning only. Cross-check current ERSA, NOTAMs, weather, W&B and the P2002 Flight Manual before flight.*
