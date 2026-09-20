@@ -64,6 +64,25 @@ Recommended loadout — **cargo 10 kg, fill to ~90 L** (not full):
 - 🗺️ **[Interactive: `map.geojson`](map.geojson)** · 🌐 **[Great Circle Mapper](https://www.gcmap.com/mapui?P=YPKG-YNTM-YBLN)**
 - Regenerate: `.venv/bin/python scripts/route_map.py map YPKG YNTM YBLN --out flightplans/P2002/YPKG-YBLN`
 
+## Winds aloft (GPWT) — planned-day snapshot
+
+**Aerodromes marked (YPKG, YSCR, YNTM along the leg):**
+
+![GPWT WA-S with YPKG, YSCR, YNTM marked](gpwt-wa-s-0000utc-21sep2026.png)
+
+**Original chart (as issued):**
+
+![GPWT WA-S original](gpwt-wa-s-0000utc-21sep2026-original.png)
+
+- BoM GPWT WA-S, **valid 0000 UTC 21 Sep 2026** (0800 local departure); the first image adds YPKG, YSCR (Southern Cross)
+  and YNTM along the leg, the second is the chart as issued. Winds are **°TRUE / knots**, valid for the **centre of each
+  box**. **Re-pull the current GPWT on the day** — this is a snapshot for the planned date only.
+- **Leg 1 (YPKG → YNTM), track 257°T (~258°M), TAS 100 kt:**
+  - **4500 ft** (read 5000 ft line): wind **340/13** → WCA +7° right, GS ~98 kt, ~2 h 34, **heading ~265°M**.
+  - **6500 ft**: wind **310/8** → WCA +4° right, GS ~95 kt, ~2 h 38 (weaker wind but more on the nose — ~3 kt slower).
+  - **6500 ft is the better cruise overall** (glide options, cooler/smoother, terrain/coms) for a trivial ~4 min cost; the
+    Great Eastern Highway parallels the leg, so track it visually and trim the crab as you go.
+
 ## Density altitude
 - **Kalgoorlie 1203 ft, Northam 500 ft** — warm-day density altitude climbs well above these; the 98 hp Rotax loses climb
   and lengthens the roll. **Check TODR**, prefer early-morning departures near MTOW.
