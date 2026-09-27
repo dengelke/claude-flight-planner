@@ -1381,7 +1381,7 @@ YSDU,DUBBO,NSW,-32.216667,148.574722,321300S,1483429E,935,11 E,CERT,+10,True,"AV
 VIVA Energy Aviation. 24HR 7 Days 0700-1700. AVGAS and JET A1 tankers, AH 45MIN PN.
 Mobile 0407 708 066, Fax 02 6882 7522, 24HR AVGAS Card Swipe Bowser. VIVA Fuel2Sky fuel
 card and credit cards (V and MC)."
-YSEN,SERPENTINE,WA,-32.395,115.873333,322342S,1155224E,30,2 W,UNCR,+8,False,,False,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,119.1,FIA 135.25,2,05/23 900M Sealed; 09/27 600M Grass,
+YSEN,SERPENTINE,WA,-32.395,115.873333,322342S,1155224E,30,2 W,UNCR,+8,1,"AVGAS, MOGAS",1,1,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,119.1,FIA 135.25,2,05/23 900M Sealed; 09/27 600M Grass,
 YSFG,STONEFIELD GLIDING,SA,-34.341667,139.308333,342030S,1391830E,350,8 E,UNCR,+9:30,False,,False,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 125.3,6,01L/19R 740M Natural; 01R/19L 740M Natural; 05/23 1380M Natural; 11/29 1400M Natural; 16L/34R 780M Natural; 16R/34L 720M Natural,
 YSGE,SAINT GEORGE,QLD,-28.049722,148.595278,280259S,1483543E,656,10 E,CERT,+10,False,,False,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 118.95,1,11/29,
 YSGR,SOUTH GRAFTON,NSW,-29.708889,152.928333,294232S,1525542E,20,12 E,UNCR,+10,True,AVGAS,True,False,False,False,False,False,False,False,handling_section,,False,False,False,False,False,False,False,False,,126.7,FIA 122.6,1,"08/26 1200M Sealed, Bitumen, Grass",AVGAS not AVBL.
