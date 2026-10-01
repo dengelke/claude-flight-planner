@@ -1,182 +1,129 @@
 # Plan — Solo XC nav: Busselton · Wagin · Kojonup · Busselton
 
-**Route (solo cross-country nav triangle, land back at Busselton):**
-- YBLN → **YWGN Wagin** → **YKOJ Kojonup** → YBLN
-- **Landings:** YBLN, Wagin, Kojonup, YBLN (three-landing solo nav). **All three are full-stop landings.**
-- **Pilot:** solo (1 POB). This is a navigation-currency exercise, not a passenger trip.
+**Route:** YBLN → **YWGN Wagin** → **YKOJ Kojonup** → YBLN · solo (1 POB) · three full-stop landings
+**Aircraft:** [Tecnam P2002 Sierra](../../aircraft/P2002.md) · 99 L usable · MTOW 600 kg
+**Planning basis:** 100 KTAS · 20 L/hr · reserve 10 L (30 min) · var 3°W · **nil wind** (apply the forecast on the day)
+**Data:** ERSA 09 JUL 2026 (YBLN, YWGN). Kojonup is a Shire ALA, not in ERSA (verify on the day).
 
-**Aircraft:** 1 × [Tecnam P2002 Sierra](../../aircraft/P2002.md) · Rotax 912 ULS · MTOW **600 kg** · 99 L usable
-**Planning basis:** Cruise 100 KTAS · Burn **20 L/hr** (conservative; POH ~15–18) · **final reserve 10 L (30 min, day VFR)** · variation **3°W**
-**Wind:** ⚠️ **not assumed — figures below are NIL-WIND.** Get the actual area forecast (ARFOR)/GAF + winds-aloft on the day and **apply wind correction to every leg** (heading, groundspeed, time and fuel all change). See "Applying the wind" below.
-**Loading:** pilot **85 kg** + baggage **5 kg** = **90 kg** · empty weight **365 kg** (confirm against this airframe's real W&B record)
-**Data source:** ERSA FAC/RDS effective **09 JUL 2026** for YBLN & YWGN. **Kojonup (YKOJ) is a Shire ALA — not in ERSA**; details from the Shire of Kojonup / airport listings (verify on the day).
-
-> ✈️ **Bottom line:** A ~**216 nm** solo nav triangle inland to the Great Southern and back — **~2 h 15 m flying in nil wind (incl. climb), ~2 h 30 m total with a 15-min Wagin stop** (recompute for the
-> real wind). **Solo, fuel and weight are both non-issues:** you can **brim the tanks (99 L)** and still sit **74 kg under MTOW** (at 365 kg empty), and the
-> whole triangle burns only ~**45 L nil-wind**, so you land back at Busselton with ~**54 L** on **one Mogas fill at Busselton — no refuel
-> needed**. **The real work is the navigation and the fields:** leg 1 is a **~100 nm leg** across featureless wheatbelt with few line
-> features (a good DR/timing leg — and the leg the wind will change most), and both turning fields are **elevated inland strips** —
-> **Wagin 836 ft (sealed RWY 06/24 preferred, gravel 16/34), Kojonup 915 ft (single 16/34 strip, ~1,300 m, asphalt ends — use short-field technique)**. **Neither has usable fuel** (Wagin AVGAS is *emergency-only*;
-> Kojonup none), and **Kojonup is PPR (Shire) with radio-activated (PAL) lighting**. Watch the **CTAFs** — Busselton 127.0,
-> Wagin 126.7, Kojonup (confirm; area/multicom 126.7), and **monitor 126.7 for Zone Five (YZON)** which the route clips within 10 nm on legs 1 & 3 near Busselton — plus the **Melbourne Centre area change** 124.9 → 125.4 (~14 nm before Wagin).
-> **⚠️ Leg 1 skirts ~9 nm from Hillman Farm (YHLM), an active 14,000 ft parachute dropzone** — check NOTAMs/DZ freq and give it room.
-> **Winds are not baked in — apply the forecast on the day.**
+> ✈️ **Bottom line:** ~**216 nm**, **~2 h 15 m flying / ~2 h 30 m total** with a 15-min stop at Wagin. One Mogas fill at
+> Busselton does it, since there's no usable fuel en route. You land with **~54 L (+44 L over reserve)**, and even a 20 kt headwind on every
+> leg leaves +33 L. Solo with full tanks you're 74 kg under MTOW. Watch out for the
+> **Hillman Farm parachute DZ** (~9 nm off leg 1) and **Zone Five** (monitor 126.7, within 10 nm on legs 1 & 3).
 
 ---
 
-## Route Summary — leg-by-leg nav log (NIL WIND)
+## Route Summary (nil wind)
 
-TAS 100 kt · 20 L/hr · var 3°W. **No wind applied.** HDG °M = track + 3°W variation only; **groundspeed = TAS.** Each leg time **includes a +2 min climb allowance** (1 min / 2,000 ft to a 3,500–6,500 ft cruise — see cruise levels below); the rest is cruise at 100 kt, so these are the nil-wind baseline. On the day, correct each leg for the forecast wind — heading (WCA), GS, time and fuel all move. **Leg 1 (long, ~E–W) is the most wind-sensitive.**
+Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°W; wind-correct each leg on the day.
 
-| Leg | Segment | Dist (nm) | Track °T | HDG °M *(nil wind)* | GS = TAS | Time *(incl. climb)* | Leg fuel (L) | Cum. time | Fuel left (L) |
-|:---:|---------|----------:|:--------:|:-------------------:|---------:|---------------------:|-------------:|----------:|--------------:|
-| 1 | YBLN → YWGN Wagin | 100.6 | 078 | 081 | 100 | 62 m | 20.7 | 62 m | 78 |
-| 2 | YWGN Wagin → YKOJ Kojonup | 28.4 | 203 | 206 | 100 | 19 m | 6.3 | 81 m | 72 |
-| 3 | YKOJ Kojonup → YBLN | 86.8 | 272 | 275 | 100 | 54 m | 18.0 | 135 m | 54 |
-| **—** | **Triangle total (flight only)** | **216** | — | — | — | **~2 h 15 m** | **~45** | — | **~54** |
+| Leg | Segment | Dist (nm) | Track °T | HDG °M | Cruise alt | Time | Leg fuel (L) | Cum. time | Fuel left (L) |
+|:---:|---------|----------:|:--------:|:------:|:----------:|-----:|-------------:|----------:|--------------:|
+| 1 | YBLN → YWGN Wagin | 100.6 | 078 | 081 | 3,500 / 5,500 | 62 m | 20.7 | 62 m | 78 |
+| — | *Wagin ground stop* | — | — | — | — | *15 m* | — | 77 m | 78 |
+| 2 | YWGN Wagin → YKOJ Kojonup | 28.4 | 203 | 206 | 4,500 / 6,500 | 19 m | 6.3 | 96 m | 72 |
+| 3 | YKOJ Kojonup → YBLN | 86.8 | 272 | 275 | 4,500 / 6,500 | 54 m | 18.0 | 150 m | 54 |
+| **—** | **Total** | **216** | — | — | — | **2 h 15 m flying · 2 h 30 m total** | **~45** | — | **~54** |
 
-**Total trip time (chock-to-chock, nil wind):**
+- **Cruise altitudes:** the highest LSALT for the trip is **3,000 ft** (ERC Low). Eastbound, fly 3,500 or 5,500 ft. Westbound, fly 4,500 or 6,500 ft. Pick based on the weather. The higher levels add about 1 min of climb per leg.
+- **Kojonup ground time isn't included.** Add it if you shut down there.
+- **Leg 1 is the long, wind-sensitive leg:** ~100 nm over open wheatbelt with few line features. Treat it as a DR and timing leg, and recheck the forecast before you commit.
+- **On the day:** for each leg, work out the WCA from the forecast wind. THDG = track + WCA, and MHDG = THDG + 3°W. Then re-time the leg (dist ÷ GS) and re-fuel it (time × 20 L/hr).
+- **Runways:** take the into-wind runway at each field. At Wagin, prefer the **sealed 06/24**. Kojonup has **only 16/34**.
 
-| Component | Time |
-|-----------|-----:|
-| Flight time (3 legs, nil wind, incl. climb) | ~2 h 15 m |
-| Wagin ground stop (full stop) | + 0 h 15 m |
-| **Total** | **~2 h 30 m** |
+## Radio & en-route hazards
 
-> **Total ≈ 2 h 30 m** nil-wind, counting a **15-minute full stop at Wagin** and a **+2 min climb allowance per leg**. This does **not** include any ground time at Kojonup (assumed a quick taxi-back / minimal turnaround) — add it if you plan to shut down there. **Wind changes the flight portion** (leg 1 headwind is the big mover), so recompute the ~2 h 15 m flight time once you have the forecast and add your ground stops.
+| Where | What | Action |
+|-------|------|--------|
+| Legs 1 & 3, ~25 nm from YBLN | **Zone Five (YZON)** airstrip, Brookhampton (-33.667, 115.903, 768 ft). You pass ~4.2 nm abeam outbound and ~2.5 nm abeam inbound | **Monitor and broadcast on 126.7** within 10 nm |
+| Leg 1, ~75 nm out | **Hillman Farm (YHLM)**, Darkan (-33.264, 116.815), an active **parachute DZ to 14,000 ft**, ~9 nm NW of track | Check NOTAMs and the DZ freq. Listen for jump calls and widen the offset (5+ nm) if jumps are active |
+| Leg 1, ~14 nm before Wagin (~87 nm out) | Melbourne Centre **124.9 → 125.4** | Change frequency. Confirm the boundary on the ERC-L |
+| Leg 3, just after Kojonup | Melbourne Centre **125.4 → 124.9** | Change back. It's 124.9 from there to YBLN |
 
-- These are the **nil-wind baseline** numbers — a reference to wind-correct, not a flight plan to fly as-is. **Wind will change the heading, groundspeed, time and fuel on every leg.**
-- **Cruise levels (VFR hemispherical; LSALT 3,000 ft):** leg 1 (track ~081°M, *eastbound*) → **3,500 or 5,500 ft**; legs 2 & 3 (tracks ~206°/275°M, *westbound*) → **4,500 or 6,500 ft** — pick the lower or higher pair depending on weather (cloud base/wind). All four are above the 3,000 ft LSALT. The **+2 min/leg climb allowance** in the times above suits the lower levels (3,500/4,500); the higher levels (5,500/6,500) add roughly another minute of climb per affected leg.
-- **Leg 1 (YBLN→Wagin) is the long, wind-sensitive one:** a near-straight ~easterly 100 nm track over open wheatbelt with sparse line features. A headwind component here is where your timing and fuel margin move most — recheck the forecast before you commit.
-- **Legs 2 & 3** are the SW hop to Kojonup and the westerly run home; a wind that hurts leg 1 tends to help these (and vice-versa), so the triangle partly self-cancels — but **only after you've applied the actual wind.**
-- **Runway choice is wind-dependent** — pick the into-wind runway at each field from the wind on the day (options: YBLN 03/21, Wagin 06/24 & 16/34, **Kojonup single 16/34 only**). **At Wagin prefer the sealed 06/24** (16/34 is gravel) unless the crosswind makes it unworkable. Confirm the active runway on each CTAF.
-- All WA (AWST) — no timezone change. **No usable fuel at Wagin or Kojonup.** Even with a stiff headwind on leg 1, endurance (~4.9 h on full tanks) dwarfs the ~2.25 h flown; **range/fuel is not the constraint solo.**
+- **No controlled airspace on the route (Class G).** Perth CTA is well to the north.
+- **No ERSA-registered aerodrome lies within 10 nm.** The nearest is Bunbury at ~15 nm (shares CTAF 127.0 with Busselton). Next are Dumbleyung (~19 nm), Margaret River (~21 nm), Katanning (~23 nm) and Narrogin (~26 nm). Unregistered farm and ag strips aren't charted, so keep a lookout.
+- **Area frequencies** come from the field assignments plus your 14 nm-before-Wagin point. Wagin, Kojonup, Katanning and Narrogin are on 125.4. Busselton, Bunbury and Margaret River are on 124.9.
 
-## Applying the wind (do this on the day)
-1. Pull the **GAF/ARFOR** and **winds-aloft** for your cruise level over the SW/Great Southern for your ETD window.
-2. For each leg, run the wind triangle off the **Track °T** in the table: compute WCA → **THDG = Track + WCA**, then **MHDG = THDG + 3°W**; compute **GS** and re-time the leg (dist ÷ GS) and re-fuel it (time × 20 L/hr).
-3. **Re-check fuel to reserve** with the worst-case headwind leg — you'll still land well over reserve on full tanks (see fuel plan), but confirm it.
-4. **Pick the into-wind runway** at each field and note the crosswind component — **Kojonup has only 16/34** (~1,300 m, asphalt ends), so in a cross-strip wind that's your sharpest handling of the day; the P2002's demonstrated crosswind is 22 kt. **Plan a short-field takeoff off Kojonup** (below).
+## Fuel Plan
 
-## Radio & en-route airspace — traffic and Melbourne Centre frequencies
+**One fill at Busselton covers the whole trip.** Fill Mogas through the aeroclub (off-book, so arrange it ahead). There's **no usable fuel en route**: Wagin's AVGAS is emergency-only and Kojonup has none.
 
-### ⚠️ Active parachute drop zone near leg 1 — Hillman Farm (YHLM, Darkan)
-- **YHLM Hillman Farm — ~-33.264, 116.815 — lies ~9.2 nm NW of leg 1** (abeam at ~75 nm from YBLN, ~25 nm before Wagin). It is **Western Australia's dedicated skydiving dropzone with tandem jumps to 14,000 ft** (Hillman Farm Skydivers / The Skydive School) — i.e. an **active PJE (parachute jumping exercise) area**, likely NOTAM'd, with canopies and freefall descending through your cruise levels over a wide area.
-- **Treat it as a hazard, not just a strip.** At ~9 nm abeam you clip the edge of a 14,000 ft DZ's working area. **Monitor the DZ/CTAF frequency, listen for jump calls ("jumpers away"), and broaden the offset** — aim to stay well clear (ideally 5+ nm) of the field, especially between its surface and 14,000 ft. If jumps are active, consider tracking slightly south on leg 1 to open the gap.
-- **Confirm before flight:** current **NOTAMs** for Hillman Farm PJE, the **DZ radio frequency**, and jump activity/times (weekends are busiest). This strip is **not in the ERSA FAC database**, which is why the registered-aerodrome check below didn't flag it — thanks for catching it.
+| Point | Expected on board | Needed from here to YBLN + 10 L reserve | Spare | Endurance left (20 L/hr) |
+|-------|------------------:|----------------------------------------:|------:|-------------------------:|
+| Depart YBLN (full) | **99 L** | 55 L | **+44 L** | ~4 h 57 m |
+| Wagin (after leg 1; **dip here**) | **~78 L** | 35 L | **+43 L** | ~3 h 54 m |
+| Depart Kojonup | **~72 L** | 28 L | **+44 L** | ~3 h 36 m |
+| Land YBLN | **~54 L** | 10 L (reserve) | **+44 L** | ~2 h 42 m |
 
-**En-route ERSA-registered aerodromes within 10 nm of track — none.** Checking every ERSA-listed aerodrome against all three legs, **nothing registered comes within 10 nm** of the route. Nearest approaches (min distance to any leg):
+- **Minimum to continue from Wagin: 35 L.** If your dip shows much less than ~78 L, find out why before you go on. Look for a leak, a cap left off, or burn higher than planned.
+- **Headwind stress test:** a **20 kt headwind on every leg** (worst case) takes ~2 h 48 m of flying and burns ~56 L. You'd still land with ~43 L, which is **+33 L over reserve**.
+- **The 20 L/hr burn is conservative.** The POH gives ~15–18 L/hr at 55–65% power, so actual use should come in under plan. If you log your real burn, you can refine this for future trips.
+- **If you need fuel:**
+  - **Bunbury (YBUN)** has an H24 AVGAS card bowser, ~15 nm off leg 1 near home.
+  - **Manjimup (YMJM)** has AVGAS, ~32 nm S of leg 3.
+  - **Wagin AVGAS** is for emergencies only (Greg Ball 0428 611 360).
+  - The 912 ULS runs fine on 100LL.
 
-| Aerodrome | Closest to | Min dist | CTAF | Note |
-|-----------|-----------|---------:|------|------|
-| YBUN Bunbury | leg 1 (near YBLN) | **~15 nm** | 127.0 | Shares Busselton's CTAF; ~15 nm abeam early on leg 1 |
-| YDUM Dumbleyung | leg 1 (near YWGN) | ~19 nm | — | NE of track approaching Wagin |
-| YMGT Margaret River | leg 1 | ~21 nm | — | SW of departure |
-| YKNG Katanning | leg 2 | ~23 nm | — | E of the Wagin–Kojonup leg |
-| YNRG Narrogin | leg 1 | ~26 nm | — | N of track |
-
-- **You never enter a *registered* aerodrome's circuit area en route** — only your own three fields — but two **unregistered strips sit within 10 nm**: **Hillman Farm's parachute DZ (above)** is the real hazard, and **Zone Five (YZON, 126.7)** is clipped on legs 1 & 3 near Busselton (below). Also **listen out** on the area frequency and monitor Busselton/Bunbury early (both **127.0**, ~15–20 nm apart near departure). *(Registered aerodromes only — other unregistered farm/ag strips over the wheatbelt won't be charted; keep a lookout.)*
-- **No controlled airspace *on* track.** The whole triangle is Class G under Melbourne Centre FIA — Perth CTA and the Perth Centre area (135.25) are well to the north; you don't enter them.
-- **⚠️ "Zone Five" (YZON) airstrip — route skirts it twice, monitor 126.7.** Zone Five is an **uncontrolled airstrip at Brookhampton** (-33.667, 115.903, elev 768 ft, **CTAF 126.700**) — not restricted airspace. The track passes **~4.2 nm abeam on leg 1** (~25 nm out of Busselton, outbound) and **~2.5 nm abeam on leg 3** (~25 nm before Busselton, inbound), i.e. **you clip its circuit area on both the way out and the way home.** **Monitor and make broadcasts on CTAF 126.7** when within ~10 nm of it each time, and watch for its traffic. *(Near Busselton you're juggling 127.0 (YBLN) and 126.7 (Zone Five) — listen to both on departure and arrival. Source: VATPAC AIP.)*
-
-**Melbourne Centre area frequency — you change once each way:**
-
-| Where | Frequency | Applies to |
-|-------|----------:|-----------|
-| Busselton / coastal SW (west end) | **124.9** | YBLN and its area |
-| Great Southern / wheatbelt (east) | **125.4** | Wagin, Kojonup, Katanning, Narrogin, Dumbleyung |
-
-- **Depart YBLN on 124.9.** Change up to **125.4** at **~14 nm before Wagin** — i.e. **~87 nm out from Busselton (~52 min into leg 1 nil-wind), near 117.09°E**. Switch to **125.4** as you cross it.
-- **Legs 2 & 3's east end are all 125.4** — Wagin, the Wagin→Kojonup leg, and Kojonup all sit in the 125.4 area. **Kojonup (117.14°E) sits right on the boundary**, barely inside the 125.4 side.
-- **On the return (Kojonup→YBLN)** you cross the same line back almost immediately — change **125.4 → 124.9 within the first ~2–3 nm of the leg**, essentially as you leave Kojonup, then it's 124.9 all the way to Busselton.
-- ⚠️ **The exact boundary line isn't in this database** (it only stores each field's assigned frequency); the "14 nm before Wagin" point is your input. **Confirm the depicted FIA area-frequency boundary on the current ERC-L / area frequency boundaries chart** and switch when you cross the charted line (or when Centre directs).
-
-## Fuel plan — one Busselton Mogas fill does the whole triangle
-
-| Point | Fuel type | State | Next leg | Land with (nil wind) | Over 30-min reserve (10 L) |
-|-------|-----------|------:|----------|---------------------:|---------------------------:|
-| YBLN depart | **Mogas (aeroclub)** | **~99 L** (full — solo, MTOW-safe) | whole 216 nm triangle | **~54 L** back at YBLN | **+44 L** |
-
-- **Fill Mogas at Busselton** (aeroclub, off-book — arrange with the club). There is **no Mogas at Wagin or Kojonup**, and the P2002's 912 ULS prefers Mogas.
-- **Wagin (YWGN) AVGAS is *emergency only*** (Greg Ball, 0428 611 360) — a card-and-phone job, not a routine top-up. **Kojonup has no fuel.** So the whole triangle runs on the Busselton fill.
-- **Solo you can brim it.** Full 99 L + pilot + a little baggage is **526 kg = 74 kg under MTOW** (see W&B). The triangle only burns ~45 L nil-wind, so full tanks is pure reserve — sensible for a long inland leg with no en-route fuel and unknown wind. **Even a strong headwind leaves a big margin over the 10 L reserve.**
-
-## Weight & Balance (solo; empty **365 kg**, pilot 85 + baggage 5)
+## Weight & Balance (solo, empty 365 kg)
 
 | Item | Mass (kg) | Arm (in) | Moment (kg·in) |
 |------|----------:|---------:|---------------:|
 | Empty | 365 | ~67.8 | 24,747 |
-| Pilot (solo) | 85 | 70.86 | 6,023 |
+| Pilot | 85 | 70.86 | 6,023 |
 | Baggage | 5 | 86.61 | 433 |
 | **Zero-fuel** | **455** | **68.6** | **31,203** |
-| + Full fuel 99 L | 71 | 60.23 | 4,276 |
-| **Takeoff (full 99 L)** | **526** | **67.5** | **35,479** |
+| Full fuel 99 L | 71 | 60.23 | 4,276 |
+| **Takeoff** | **526** | **67.5** | **35,479** |
 
-- **526 kg < 600 MTOW ✓** (**74 kg** margin); CoG **67.5 in**, inside 63.4–70.4 ✓. **Solo, neither weight nor CoG is limiting — you can carry full fuel even at 365 kg empty.**
-- Contrast the 2-pax loops in this project (MTOW-limited to ~65–87 L): **solo removes that constraint entirely.** The only reason to carry less than full would be a soft/short strip — and both fields here are long.
-- Empty **arm is a planning assumption** (~67.8 in); **empty weight 365 kg** per your input. **Confirm the real empty weight and arm** from this airframe's Weight & Balance Record before flight — at 365 kg empty you have 74 kg of margin, so a heavier real figure still leaves room but recheck.
-
-## LSALT (area) — lowest safe altitude
-- **Highest LSALT for the whole trip = 3,000 ft** (read off the **ERC Low**). Terrain is modest — the inland wheatbelt rises from the Busselton coast (sea level) to undulating ground around **Wagin 836 ft / Kojonup 915 ft**, with local hilltops to ~1,320 ft — so the 3,000 ft figure is driven by the charted grid/route LSALT (terrain + obstacle allowance), no major ranges on track.
-- **Use 3,000 ft as your LSALT floor** for the route. Keep at/above it any time you can't maintain visual terrain clearance (reduced vis), and recheck the ERC Low + obstacle NOTAMs before flight.
-- Remember the **Hillman Farm DZ** works up to 14,000 ft near leg 1 — the LSALT floor and the DZ ceiling are separate considerations.
+**526 kg is 74 kg under MTOW, and the CoG of 67.5 in is inside 63.4–70.4** ✓. Full tanks are fine solo. The empty arm is assumed, so confirm it from the airframe's W&B record.
 
 ## Route Map
 
 ![Busselton → Wagin → Kojonup → Busselton](map.png)
 
-- 🗺️ **[Interactive: `map.geojson`](map.geojson)** · 🌐 **[Great Circle Mapper](https://www.gcmap.com/mapui?P=YBLN-YWGN-YKOJ-YBLN)**
-- Regenerate: `.venv/bin/python scripts/route_map.py map YBLN YWGN "YKOJ@-33.7503,117.1358" YBLN --out flightplans/P2002/YBLN-YWGN-YKOJ`
-
-## Density altitude
-- **Both turning fields are elevated:** **Wagin 836 ft**, **Kojonup 915 ft** (Busselton is 56 ft). On a warm late-September afternoon
-  (~28 °C) DA at Kojonup is roughly **2,700 ft** — modest, but real for the 98 hp Rotax. Both runways are long enough
-  (Wagin ~1,200 m, Kojonup **~1,300 m, asphalt ends**) that the takeoff roll is not marginal for a lightly-loaded solo P2002, but at
-  Kojonup **use short-field takeoff technique** (see its card), **check TODR** against the temperature and QNH on the day, and prefer the
-  cool of the day. **Confirm Kojonup's surface/length** (asphalt ends, centre condition) with the Shire when you get PPR.
+🗺️ [Interactive `map.geojson`](map.geojson) · Regenerate: `.venv/bin/python scripts/route_map.py map YBLN YWGN "YKOJ@-33.7503,117.1358" YBLN --out flightplans/P2002/YBLN-YWGN-YKOJ`
 
 ---
 
 ## Aerodromes
 
-| Aerodrome | Role | Position | Elev | Runway (surface, length) | Fuel | CTAF / area | Key notes |
-|-----------|------|----------|-----:|--------------------------|------|-------------|-----------|
-| **[YBLN](../../aerodromes/YBLN.md) Busselton** *(CERT)* | Depart & return (home) | -33.687, 115.400 | 56 ft | 03/21 grooved, 2460 × 45 m | AVGAS · Jet A1 · **aeroclub Mogas** | CTAF **127.0** · area 124.9 | Fill Mogas here. Var 3°W |
-| **[YWGN](../../aerodromes/YWGN.md) Wagin** | Turning point 1 (land) | -33.315, 117.360 | 836 ft | **06/24 SEALED ~1200 m** (preferred); 16/34 gravel ~1100 m | **AVGAS emergency-only** (Greg Ball 0428 611 360) | CTAF **126.7** · area 125.4 | Use sealed 06/24; **dip tanks**; elevated |
-| **YKOJ Kojonup** *(Shire ALA, not in ERSA)* | Turning point 2 (land) | -33.7503, 117.1358 | 915 ft | **16/34 only, ~1,300 m, asphalt ends** | **None** | CTAF **confirm** (area/multicom 126.7) · area 125.4 | **PPR (Shire); PAL lighting; single strip; short-field T/O** |
+| Aerodrome | Elev | Runway | Fuel | CTAF / area | Notes |
+|-----------|-----:|--------|------|-------------|-------|
+| **[YBLN](../../aerodromes/YBLN.md) Busselton** *(CERT)* | 56 ft | 03/21 grooved, 2460 × 45 m | AVGAS · Jet A1 · **aeroclub Mogas** | **127.0** · 124.9 | Home base. Fill Mogas here |
+| **[YWGN](../../aerodromes/YWGN.md) Wagin** | 836 ft | **06/24 sealed ~1200 m** (preferred) · 16/34 gravel ~1100 m | AVGAS **emergency only** | **126.7** · 125.4 | Full stop (15 min). **Dip tanks** |
+| **YKOJ Kojonup** *(Shire ALA)* | 915 ft | **16/34 only, ~1300 m, asphalt ends** | None | **Confirm** (likely 126.7) · 125.4 | **PPR**, PAL lighting, **short-field T/O** |
 
-### [YBLN](../../aerodromes/YBLN.md) — Busselton (WA) — HOME BASE (depart & return)
-- -33.687, 115.400 · Elev 56 ft · **CERT** · AVGAS + Jet A1 (+ **aeroclub Mogas** — off-book, arrange with the club) · **CTAF 127.0** · FIA (Melbourne Centre) 124.9 · **var 3°W**
-- **RWY 03/21 grooved, 2460 m, 45 m wide.** Fill Mogas here before departure. Pick the into-wind runway (03 or 21) from the wind on the day.
+**YBLN Busselton** (-33.687, 115.400): Mogas is through the aeroclub, off-book, so arrange it ahead. Use whichever of 03/21 is into wind.
 
-### [YWGN](../../aerodromes/YWGN.md) — Wagin (WA) — TURNING POINT 1 (full-stop landing)
-- **-33.315, 117.360** · **Elev 836 ft** · **CTAF 126.7** · area **Melbourne Centre 125.4**
-- **Runways:**
-  - **06/24 — SEALED bitumen, ~1,200 m / 3,937 ft** (newer runway, opened 2013). ✅ **Preferred** — use this where the wind allows.
-  - **16/34 — gravel/dirt, ~1,100 m / 3,608 ft.** Use only if the wind makes 06/24's crosswind unworkable.
-  - **Prefer the sealed 06/24** unless the day's crosswind on it is excessive; accept 16/34 only when the wind demands it. Confirm condition on the day.
-- **⛽ Dip the tanks at Wagin** — physically dip/visually check fuel quantity on the ground before departing (don't rely on gauges), and reconcile against your expected ~79 L remaining after leg 1. There's **no usable fuel here** to top up, so confirm you have ample for Kojonup + the run home + reserve.
-- **Fuel: AVGAS *emergency only*** — Greg Ball, **0428 611 360** (phone-and-carnet, not a routine bowser). **Treat Wagin as no-fuel for planning.**
-- Elevated field — mind the density altitude on a warm afternoon.
+**YWGN Wagin** (-33.315, 117.360):
+- **Use the sealed 06/24.** Only use the gravel 16/34 if 06/24's crosswind is too strong.
+- **Dip the tanks** before you leave. Expect ~78 L, and check you have enough for Kojonup, the leg home and the reserve.
+- AVGAS is **emergency only** (Greg Ball 0428 611 360).
 
-### YKOJ — Kojonup (WA) — TURNING POINT 2 — **SHIRE ALA, not in ERSA FAC**
-- **-33.7503, 117.1358** (S33°45′01″ E117°08′09″) · **Elev 915 ft** · **RWY 16/34, ~1,300 m, asphalt ends (sealed thresholds)** · **No fuel** · No landing fees
-- **~7.5 km north of Kojonup township, adjacent to Albany Highway.** **PPR — Shire of Kojonup (08) 9831 2400** (Property Services 0448 560 943 / CEO 0419 903 363). Confirm current length, surface (asphalt ends / centre condition), circuit and any parking restrictions when you call.
-- **PAL (pilot-activated lighting):** press the radio 3× at ~2-second intervals to bring the lights up (relevant only if you're near last light).
-- **Short-field takeoff:** at **915 ft elevation** on a warm afternoon (DA ~2,700 ft) off a **~1,300 m** strip, **use short-field technique** — full length, flap per POH, hold on the brakes to full power, rotate at the POH short-field speed and climb at Vx until obstacle-clear. ~1,300 m is ample for a solo P2002, but the technique keeps margin against the DA and any soft/rough centre between the sealed ends.
-- **⚠️ Single strip (16/34) only** — no alternative runway for a cross-strip wind, so **assess the crosswind component from the day's wind** (P2002 demonstrated crosswind 22 kt) and be ready to divert (Wagin is ~28 nm N) if it's out of limits or the surface is unsuitable.
-- **CTAF not confirmed in ERSA** (unlisted ALA) — plan on the area/multicom **126.7** and **verify** from current charts/ERSA/the Shire before flight.
+**YKOJ Kojonup** (-33.7503, 117.1358), ~7.5 km N of town beside Albany Hwy:
+- **PPR from the Shire of Kojonup, (08) 9831 2400.** Confirm the surface, circuit and parking when you call.
+- **Short-field takeoff.** At 915 ft elevation on a warm day the DA is ~2,700 ft. Use the full length, POH flap, full power on the brakes, then climb at Vx.
+- **There's only one strip (16/34)**, so check the crosswind on the day (22 kt demonstrated). Divert to Wagin, ~28 nm N, if it's unsuitable.
+- PAL: 3 clicks. The CTAF isn't published, so verify it before you go.
 
-## Pre-Flight Checks
-- [ ] **Get the actual wind** (GAF/ARFOR + winds-aloft) and **wind-correct every leg** off the nil-wind table — heading, GS, time and fuel. Re-check fuel-to-reserve on the worst headwind leg.
-- [ ] **PPR: Kojonup** — call the **Shire of Kojonup (08) 9831 2400** for permission, surface condition and circuit. (Wagin & Busselton are ERSA CERT/registered — no PPR, but check NOTAMs.)
-- [ ] **Confirm Kojonup's CTAF** and current strip status (16/34, **~1,300 m, asphalt ends**, PAL) — plan a **short-field takeoff**. Confirm **Wagin's runway surface/length** and that AVGAS there is *emergency-only*.
-- [ ] **Busselton Mogas** arranged and filled (aeroclub, off-book). **No usable fuel at Wagin or Kojonup** — depart full and it's a one-fill day.
-- [ ] **At Wagin: dip the tanks** (visual fuel check, don't trust gauges) and confirm ample fuel for Kojonup + home + reserve. **Use the sealed RWY 06/24** unless the crosswind forces gravel 16/34.
-- [ ] **LSALT:** highest for the trip is **3,000 ft** (ERC Low) — recheck + obstacle NOTAMs. Plan cruise **3,500 or 5,500 ft eastbound (leg 1) / 4,500 or 6,500 ft westbound (legs 2–3)** per the weather.
-- [ ] **"Zone Five" (YZON) airstrip:** **monitor/broadcast CTAF 126.7** — the route passes ~4 nm abeam outbound (leg 1) and ~2.5 nm abeam inbound (leg 3), ~25 nm from Busselton each way. Watch for its circuit traffic.
-- [ ] **W&B on the day** against the real empty weight/arm — **solo you can carry full 99 L** (~526 kg at 365 kg empty, 74 kg under MTOW). No weight constraint.
-- [ ] **Parachute DZ:** check **Hillman Farm (YHLM) NOTAMs + DZ frequency + jump times** — it's a **14,000 ft dropzone ~9 nm off leg 1**. Monitor it, listen for jump calls, and widen the offset (5+ nm) if active.
-- [ ] **Radios:** three CTAFs — **Busselton 127.0, Wagin 126.7, Kojonup (confirm)** — and the **Melbourne Centre area change 124.9 ⇄ 125.4** (up to 125.4 **~14 nm before Wagin / ~87 nm out**, back to 124.9 right after leaving Kojonup). **Confirm the boundary on the ERC-L.** Monitor Busselton/Bunbury (both 127.0) near departure. Full position calls at each field.
-- [ ] **Density altitude / TODR** at Wagin (836 ft) and **Kojonup (915 ft, ~1,300 m, short-field T/O)** for the day's temp/QNH; plan the into-wind runway and crosswind at each field (**Kojonup 16/34 only**).
-- [ ] Current **ERSA + NOTAMs** for YBLN/YWGN; daylight/last-light with reserve.
+---
+
+## Pre-Flight Checklist
+- [ ] **Wind:** get the GAF/ARFOR and winds aloft, then wind-correct HDG, GS, time and fuel for every leg.
+- [ ] **NOTAMs and ERSA:** YBLN and YWGN, Hillman Farm parachute ops, and any obstacles.
+- [ ] **PPR for Kojonup** (Shire 08 9831 2400). Confirm the CTAF and strip condition.
+- [ ] **Mogas** arranged and filled at Busselton (full 99 L). **Dip the tanks** to confirm the full load and do a fuel drain/water check.
+- [ ] **Fuel plan:** you need 55 L minimum to depart and 35 L minimum to continue from Wagin. Recompute both against the forecast wind.
+- [ ] **W&B** using the real empty weight and arm (~526 kg planned).
+- [ ] **Cruise altitudes and LSALT:** LSALT is 3,000 ft. Fly 3,500/5,500 ft eastbound and 4,500/6,500 ft westbound, depending on the weather.
+- [ ] **Density altitude and TODR** at Wagin (836 ft) and Kojonup (915 ft, short-field).
+- [ ] **Daylight:** last light, with your reserve.
+
+## In-Flight Checklist
+- [ ] **Departing YBLN:** CTAF 127.0, area 124.9.
+- [ ] **~25 nm out (leg 1):** monitor and broadcast **126.7 for Zone Five**.
+- [ ] **~75 nm out:** watch the **Hillman Farm DZ** ~9 nm NW. Listen for jump calls.
+- [ ] **~87 nm out (14 nm before Wagin):** change to area **125.4**, then CTAF **126.7** for Wagin.
+- [ ] **Fuel log:** on each leg, note the time and gauge reading, and check them against the plan (78 / 72 / 54 L).
+- [ ] **At Wagin:** land on the **sealed 06/24** if the wind allows, **dip the tanks** (expect ~78 L, 35 L minimum to continue), and take your 15 min.
+- [ ] **Kojonup:** monitor the CTAF (confirm the frequency). Check fuel (expect ~72 L, 28 L minimum). Make a **short-field takeoff**, then switch area to **124.9** right after departure.
+- [ ] **~25 nm before YBLN (leg 3):** monitor and broadcast **126.7 for Zone Five**, then CTAF **127.0** for Busselton.
