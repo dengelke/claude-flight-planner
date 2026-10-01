@@ -37,11 +37,11 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 | Legs 1 & 3, ~25 nm from YBLN | **Zone Five (YZON)** airstrip, Brookhampton (-33.667, 115.903, 768 ft). You pass ~4.2 nm abeam outbound and ~2.5 nm abeam inbound | **Monitor and broadcast on 126.7** within 10 nm |
 | Leg 1, ~75 nm out | **Hillman Farm (YHLM)**, Darkan (-33.264, 116.815), an active **parachute DZ to 14,000 ft**, ~9 nm NW of track | Check NOTAMs and the DZ freq. Listen for jump calls and widen the offset (5+ nm) if jumps are active |
 | Leg 1, ~14 nm before Wagin (~87 nm out) | Melbourne Centre **124.9 → 125.4** | Change frequency. Confirm the boundary on the ERC-L |
-| Leg 2, Wagin → Kojonup | Melbourne Centre **125.4 → 124.9** | Change back before Kojonup, which is on 124.9 (VNC). Check where leg 2 crosses the boundary. All of leg 3 is 124.9 |
+| Leg 2, ~10 nm before Kojonup (~18 nm out of Wagin) | Melbourne Centre **125.4 → 124.9** | Change **just after your 10 nm inbound call** to Kojonup, which is on 124.9 (VNC). All of leg 3 is 124.9 |
 
 - **No controlled airspace on the route (Class G).** Perth CTA is well to the north.
 - **No ERSA-registered aerodrome lies within 10 nm.** The nearest is Bunbury at ~15 nm (shares CTAF 127.0 with Busselton). Next are Dumbleyung (~19 nm), Margaret River (~21 nm), Katanning (~23 nm) and Narrogin (~26 nm). Unregistered farm and ag strips aren't charted, so keep a lookout.
-- **Area frequencies:** Wagin, Katanning and Narrogin are on **125.4**. Busselton, Bunbury, Margaret River and **Kojonup** are on **124.9** (VNC). That means you're on 125.4 only around Wagin: from 14 nm before it, until partway down leg 2.
+- **Area frequencies:** Wagin, Katanning and Narrogin are on **125.4**. Busselton, Bunbury, Margaret River and **Kojonup** are on **124.9** (VNC). That means you're on 125.4 only around Wagin: from 14 nm before Wagin until about 10 nm before Kojonup.
 
 ## Fuel Plan
 
@@ -115,7 +115,7 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 - [ ] **Wind:** get the GAF/ARFOR and winds aloft, then wind-correct HDG, GS, time and fuel for every leg.
 - [ ] **NOTAMs and ERSA:** YBLN and YWGN, Hillman Farm parachute ops, and any obstacles.
 - [ ] **PPR for Kojonup** (Shire 08 9831 2400). Confirm the strip condition and that touch-and-goes are OK.
-- [ ] **Area boundary:** on the ERC-L, mark where you cross 124.9 → 125.4 on leg 1 (~14 nm before Wagin) and 125.4 → 124.9 on leg 2.
+- [ ] **Area boundary:** mark both crossings on the VNC: 124.9 → 125.4 ~14 nm before Wagin, and 125.4 → 124.9 ~10 nm before Kojonup.
 - [ ] **Mogas** arranged and filled at Busselton (full 99 L). **Dip the tanks** to confirm the full load and do a fuel drain/water check.
 - [ ] **Fuel plan:** you need 55 L minimum to depart and 35 L minimum to continue from Wagin. Recompute both against the forecast wind.
 - [ ] **W&B** using the real empty weight and arm (~526 kg planned).
@@ -130,6 +130,6 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 - [ ] **~87 nm out (14 nm before Wagin):** change to area **125.4**, then CTAF **126.7** for Wagin.
 - [ ] **Fuel log:** on each leg, note the time and gauge reading, and check them against the plan (78 / 72 / 54 L).
 - [ ] **At Wagin:** land on the **sealed 06/24** if the wind allows, **dip the tanks** (expect ~78 L, 35 L minimum to continue), and take your 15 min.
-- [ ] **Leg 2:** change area **125.4 → 124.9** at the boundary you marked, before Kojonup.
+- [ ] **Leg 2, ~10 nm before Kojonup:** make your 10 nm inbound call on CTAF **126.7**, then change area **125.4 → 124.9** right after.
 - [ ] **Kojonup:** CTAF **126.7**. Check the fuel gauges (expect ~72 L, 28 L minimum). Do the **touch-and-go** on the asphalt end and respect your go/no-go point (full stop: short-field T/O). Stay on area **124.9** for leg 3.
 - [ ] **~25 nm before YBLN (leg 3):** monitor and broadcast **126.7 for Zone Five**, then CTAF **127.0** for Busselton.
