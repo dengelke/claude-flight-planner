@@ -37,7 +37,7 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 | Legs 1 & 3, ~25 nm from YBLN | **Zone Five (YZON)** airstrip, Brookhampton (-33.667, 115.903, 768 ft). You pass ~4.2 nm abeam outbound and ~2.5 nm abeam inbound | **Monitor and broadcast on 126.7** within 10 nm |
 | Leg 1, ~75 nm out | **Hillman Farm (YHLM)**, Darkan (-33.264, 116.815), an active **parachute DZ to 14,000 ft**, ~9 nm NW of track | Check NOTAMs and the DZ freq. Listen for jump calls and widen the offset (5+ nm) if jumps are active |
 | Leg 1, ~14 nm before Wagin (~87 nm out) | Melbourne Centre **124.9 → 125.4** | Change frequency. Confirm the boundary on the ERC-L |
-| Leg 2, Wagin → Kojonup | Melbourne Centre **125.4 → 124.9** | Change back before Kojonup (it's on 124.9). Kojonup is 124.9 (confirmed on the VNC). Check where leg 2 crosses the boundary. All of leg 3 is 124.9 |
+| Leg 2, Wagin → Kojonup | Melbourne Centre **125.4 → 124.9** | Change back before Kojonup, which is on 124.9 (VNC). Check where leg 2 crosses the boundary. All of leg 3 is 124.9 |
 
 - **No controlled airspace on the route (Class G).** Perth CTA is well to the north.
 - **No ERSA-registered aerodrome lies within 10 nm.** The nearest is Bunbury at ~15 nm (shares CTAF 127.0 with Busselton). Next are Dumbleyung (~19 nm), Margaret River (~21 nm), Katanning (~23 nm) and Narrogin (~26 nm). Unregistered farm and ag strips aren't charted, so keep a lookout.
