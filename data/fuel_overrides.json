@@ -9,11 +9,5 @@
     "mogas": 1,
     "add_fuel_types": ["MOGAS"],
     "override_note": "MOGAS is Premium ULP (confirm 95+ RON, ethanol-free) jerry-canned from the Caiguna Roadhouse forecourt — NOT an ERSA-listed aviation bowser. Phone 08 9039 3459 to confirm. ERSA AVGAS aviation supply also listed (H24)."
-  },
-  "YSEN": {
-    "avgas": 1,
-    "mogas": 1,
-    "add_fuel_types": ["AVGAS", "MOGAS"],
-    "override_note": "This fuel IS in ERSA (HANDLING: \"AVGAS and MOGAS 95 AVBL H24\") but was missed by the FAC text parser (blank handling section), so it is restored here. PPR to confirm fuel available. Accepts Dunning Card and credit card (Visa/Mastercard only). System faults PH 0407 199 681."
   }
 }

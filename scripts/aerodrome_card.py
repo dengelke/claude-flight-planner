@@ -18,8 +18,8 @@ DB = ROOT / "data" / "fac_database.sqlite"
 OUT = ROOT / "flightplans" / "aerodromes"
 
 # ERSA cycle the committed database was parsed from. Update alongside a DB rebuild.
-ERSA_CYCLE = "09JUL2026"
-ERSA_STATE = "pending"  # "pending" or "current" path on the Airservices AIP site
+ERSA_CYCLE = "03SEP2026"
+ERSA_STATE = "current"  # "pending" or "current" path on the Airservices AIP site
 FAC_URL = "https://www.airservicesaustralia.com/aip/{state}/ersa/FAC_{code}_{cycle}.pdf"
 RDS_URL = "https://www.airservicesaustralia.com/aip/{state}/ersa/RDS_{code}_{cycle}.pdf"
 ERSA_INDEX = "https://www.airservicesaustralia.com/aip/aip.asp?pg=40"
@@ -72,6 +72,16 @@ def card(code: str) -> str | None:
         L.append(a["handling_raw"].strip())
         L.append("```")
     L.append("")
+
+    # Additional information — operational hazards/restrictions (model aircraft, parachuting,
+    # birds, PPR…) that appear nowhere else in the FAC. Verbatim, and placed high on the card.
+    if a["additional_info"]:
+        L.append("## ⚠️ Additional information\n")
+        L.append("**Verbatim from ERSA — read it in full; hazards and restrictions live here:**\n")
+        L.append("```")
+        L.append(a["additional_info"].strip())
+        L.append("```")
+        L.append("")
 
     # Communications
     freqs = con.execute(
