@@ -140,4 +140,4 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 - [ ] **At Wagin:** land on the **sealed 06/24** if the wind allows, **dip the tanks** (expect ~78 L, 35 L minimum to continue), and take your 15 min.
 - [ ] **Leg 2, ~10 nm before Kojonup:** make your 10 nm inbound call on CTAF **126.7**, then change area **125.4 → 124.9** right after.
 - [ ] **Kojonup:** CTAF **126.7**. Check the fuel gauges (expect ~72 L, 28 L minimum). Do the **touch-and-go** on the asphalt end and respect your go/no-go point (full stop: short-field T/O). Stay on area **124.9** for leg 3.
-- [ ] **~25 nm before YBLN (leg 3):** monitor and broadcast **126.7 for Zone Five**, then CTAF **127.0** for Busselton.
+- [ ] **~25 nm before YBLN (leg 3):** monitor and broadcast **126.7 for Zone Five**, then CTAF **127.0** for Busselton. **Watch for wetland birds** on approach and landing, and be ready to go around.
