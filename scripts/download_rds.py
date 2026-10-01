@@ -1,5 +1,5 @@
 import concurrent.futures as cf, pathlib, requests
-BASE = "https://www.airservicesaustralia.com/aip/pending/ersa/RDS_{}_09JUL2026.pdf"
+BASE = "https://www.airservicesaustralia.com/aip/current/ersa/RDS_{}_03SEP2026.pdf"
 ctx = pathlib.Path(__file__).resolve().parent.parent / "data"
 codes = [c.strip() for c in (ctx/"rds_codes.txt").read_text().split() if c.strip()]
 out = ctx/"rds"; out.mkdir(exist_ok=True)

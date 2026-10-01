@@ -243,6 +243,10 @@ def parse(code, text):
     cm=CTAF_RE.search(text)
     ctaf=cm.group(1) if cm else next((e["freqs"][0] for e in freqs if e["service"]=="CTAF"), None)
     rec["ctaf"]=ctaf
+    # ADDITIONAL INFORMATION holds operational hazards that appear nowhere else in the FAC
+    # (model aircraft / parachuting / gliding ops, bird hazards, PPR, unserviceable areas,
+    # restrictions). Kept verbatim — it is free text and must be read, not summarised.
+    rec["additional_info"]="\n".join(get_section(text,"ADDITIONAL INFORMATION")).strip()
     rec["runways"]=rwys
     rec["runway_count"]=len(rwys)
     rec["runway_summary"]="; ".join(
@@ -285,7 +289,7 @@ cols=["code","name","state","lat","lon","lat_raw","lon_raw","elevation_ft","mag_
       "payment_methods","pay_carnet","pay_credit","pay_eftpos","pay_cash",
       "pay_account","pay_app","pay_fuelcard",
       "controlled","airspace_class","ctaf","frequencies",
-      "runway_count","runway_summary","handling_raw"]
+      "runway_count","runway_summary","handling_raw","additional_info"]
 BOOLCOLS=("has_fuel","avgas","mogas","jet_a1","jet_b","f34","fsii","jetplus","fuel_caveat",
           "pay_carnet","pay_credit","pay_eftpos","pay_cash","pay_account","pay_app","pay_fuelcard",
           "controlled")
@@ -304,7 +308,7 @@ cur.execute("""CREATE TABLE airports(code TEXT PRIMARY KEY,name TEXT,state TEXT,
   payment_methods TEXT,pay_carnet INT,pay_credit INT,pay_eftpos INT,pay_cash INT,
   pay_account INT,pay_app INT,pay_fuelcard INT,
   controlled INT,airspace_class TEXT,ctaf TEXT,frequencies TEXT,
-  runway_count INT,runway_summary TEXT,handling_raw TEXT)""")
+  runway_count INT,runway_summary TEXT,handling_raw TEXT,additional_info TEXT)""")
 cur.execute("""CREATE TABLE runways(code TEXT,designator TEXT,length_m INT,width_m INT,
   surface TEXT,strength TEXT,raw TEXT)""")
 cur.execute("""CREATE TABLE frequencies(code TEXT,service TEXT,callsign TEXT,freq TEXT,raw TEXT)""")

@@ -1,10 +1,10 @@
-# Australian Aerodrome FAC Database (ERSA, effective 09 JUL 2026)
+# Australian Aerodrome FAC Database (ERSA, effective 03 SEP 2026)
 
-Searchable database built by parsing all **749 Facility (FAC) entries** from the
+Searchable database built by parsing all **751 Facility (FAC) entries** from the
 Airservices Australia ERSA (En Route Supplement Australia).
 
-Source index: `https://www.airservicesaustralia.com/aip/aip.asp?pg=40&vdate=09JUL2026&ver=2`
-PDF pattern:  `https://www.airservicesaustralia.com/aip/pending/ersa/FAC_<CODE>_09JUL2026.pdf`
+Source index: `https://www.airservicesaustralia.com/aip/aip.asp?pg=40&vdate=03SEP2026&ver=1`
+PDF pattern:  `https://www.airservicesaustralia.com/aip/current/ersa/FAC_<CODE>_03SEP2026.pdf`
 
 ## Layout
 
@@ -104,7 +104,8 @@ f34 / fsii / jetplus`, `fuel_caveat`, `fuel_source`, `payment_methods` (summary
 string) + payment flags `pay_carnet / pay_credit / pay_eftpos / pay_cash /
 pay_account / pay_app / pay_fuelcard`, `controlled` (has own control tower),
 `airspace_class` (e.g. `C, D, G`), `ctaf`, `frequencies` (summary string),
-`runway_count`, `runway_summary`, `handling_raw` (verbatim fuel/handling text).
+`runway_count`, `runway_summary`, `handling_raw` (verbatim fuel/handling text),
+`additional_info` (verbatim ADDITIONAL INFORMATION section — see below).
 
 - **AVTUR is folded into `jet_a1`** (AVTUR is the ICAO name for Jet A-1).
 - **AVPULP (aviation unleaded) is folded into `mogas`** — treated as the same product.
@@ -127,10 +128,22 @@ WFS, etc.). `payment_methods` is a readable summary (e.g. `Carnet, Credit card, 
 
 - `pay_app` is matched by brand, not bare "APP" — "APP" alone is ambiguous with
   "approach" (e.g. "245 (APP RQ)"), so that would misfire.
-- 217 of 411 aerodromes with a handling section list ≥1 payment method. Totals:
-  credit 140 · fuel card 63 · app 60 · carnet 95 · account 37 · cash 28 · EFTPOS 16.
+- 219 of 412 aerodromes with a handling section list ≥1 payment method. Totals:
+  credit 143 · fuel card 63 · app 61 · carnet 94 · account 38 · cash 27 · EFTPOS 17.
   Where none are listed, fuel is often account-only or the FAC just doesn't say —
   check `handling_raw`.
+
+### Additional information
+
+`additional_info` is the FAC's **ADDITIONAL INFORMATION** section, kept verbatim. This is
+where ERSA publishes operational hazards and restrictions that appear nowhere else in the
+FAC: model aircraft and parachuting operations, bird hazards, PPR, unserviceable areas,
+noise and operating restrictions. It is free text — **read it, don't keyword-filter it**.
+
+- 531 of 751 aerodromes have the section; all 531 are captured (each ends cleanly at
+  the next section header, CHARTS RELATED TO THE AERODROME).
+- Aerodrome cards show it verbatim under **⚠️ Additional information**.
+- Example: YWGN Wagin — model aircraft within 1,000 m, SFC–1,000 ft AGL, operator on 126.7.
 
 ## `runways` columns
 
@@ -148,7 +161,7 @@ Parsed from the ATS AND AERODROME COMMUNICATION FACILITIES section.
 - `frequencies` table: one row per (aerodrome, service, frequency) — `code, service,
   callsign, freq` (MHz), `raw` line. Services: `FIA`/`CENTRE` (area/flight-info),
   `TWR` (tower), `SMC`/`GND` (ground), `ATIS`, `APP`/`DEP` (approach/departure),
-  `ACD` (clearance delivery), `CTAF`, `UNICOM`, `AFIS`, etc. 1392 freqs / 745 fields.
+  `ACD` (clearance delivery), `CTAF`, `UNICOM`, `AFIS`, etc. 1394 freqs / 746 fields.
 - Only VHF/airband 108–137 MHz is captured (NDB idents like `398` are skipped).
 - `airports.frequencies` is a readable summary, e.g. `FIA 135.7; ATIS 120.9; SMC 134.25; TWR 118.1/123.0`.
 - **`controlled = 1`** marks aerodromes with their **own control tower** (46 total:
@@ -177,20 +190,21 @@ Combined view for one aerodrome: `query.py runways <CODE>`.
 ## Coverage / quality
 
 - name **100%**, coordinates **100%**, elevation 98%, state 98%
-  (the 13 without a state are external territories — Lord Howe, Cocos, Christmas,
-  Norfolk, Wilkins/Antarctica, etc.), certification 97%.
+  (the 13 without a state are mostly external territories — Lord Howe, Cocos, Christmas,
+  Norfolk, Wilkins/Antarctica, etc. — plus a few with scrambled headers, e.g. YWGN, and
+  the new POCA entry), certification 97%.
 - Fuel: every fuel keyword in every FAC is accounted for (0 unflagged). Detection is
   scoped to the HANDLING SERVICES section to avoid false positives (e.g. "AVGAS
   available 9 NM north").
-- Runways: 814 runways across 550 airports. Airports with 0 runways are heliports/HLS,
+- Runways: 819 runways across 553 airports. Airports with 0 runways are heliports/HLS,
   seaplane water-alighting areas, or (≈4 cases) unusual military/text-only strips.
 - Some PDFs render with scrambled text; coordinates for those were recovered by
   reconstructing character positions (verified against the prior ERSA cycle).
 
 ## Fuel totals (this cycle)
 
-AVGAS 277 · Jet A-1 250 · MOGAS 15 (incl. AVPULP) · F34 12 · FSII 8 · JetPlus 5 ·
-any fuel 337 of 749.
+AVGAS 278 · Jet A-1 251 · MOGAS 16 (incl. AVPULP) · F34 12 · FSII 9 · JetPlus 5 ·
+any fuel 338 of 751 (ERSA only, before `fuel_overrides.json`).
 
 ## Example queries
 
