@@ -36,7 +36,6 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 |-------|------|--------|
 | Legs 1 & 3, ~25 nm from YBLN | **Zone Five (YZON)** airstrip, Brookhampton (-33.667, 115.903, 768 ft). You pass ~4.2 nm abeam outbound and ~2.5 nm abeam inbound | **Monitor and broadcast on 126.7** within 10 nm |
 | Leg 1, ~75 nm out | **Hillman Farm (YHLM)**, Darkan (-33.264, 116.815), an active **parachute DZ to 14,000 ft**, ~9 nm NW of track | Check NOTAMs and the DZ freq. Listen for jump calls and widen the offset (5+ nm) if jumps are active |
-| Around Wagin and the east end of leg 1 | **Gliders.** Narrogin Gliding Club is ~26 nm N, and cross-country gliders use Wagin as a turnpoint | Keep a close lookout, especially on good thermal days and weekends. Gliders are hard to spot head-on and may climb in thermals near your track. Listen out on CTAF 126.7 |
 | Wagin aerodrome | **Model aircraft** (ERSA). They fly within a **1,000 m radius of the field, SFC–1,000 ft AGL**. The operator monitors **126.7** (tel 0421 966 168) | Listen for them on 126.7 and make clear calls. Join and stay in the circuit above 1,000 ft AGL until established, and look out on final and climb-out |
 | Leg 1, ~14 nm before Wagin (~87 nm out) | Melbourne Centre **124.9 → 125.4** | Change frequency. Confirm the boundary on the ERC-L |
 | Leg 2, ~10 nm before Kojonup (~18 nm out of Wagin) | Melbourne Centre **125.4 → 124.9** | Change **just after your 10 nm inbound call** to Kojonup, which is on 124.9 (VNC). All of leg 3 is 124.9 |
@@ -91,7 +90,7 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 | Aerodrome | Elev | Runway | Fuel | CTAF / area | Notes |
 |-----------|-----:|--------|------|-------------|-------|
 | **[YBLN](../../aerodromes/YBLN.md) Busselton** *(CERT)* | 56 ft | 03/21 grooved, 2460 × 45 m | AVGAS · Jet A1 · **aeroclub Mogas** | **127.0** · 124.9 | Home base. Fill Mogas here |
-| **[YWGN](../../aerodromes/YWGN.md) Wagin** | 836 ft | **06/24 sealed ~1200 m** (preferred) · 17/35 gravel ~1100 m | AVGAS **emergency only** | **126.7** · 125.4 · PAL 120.65 | Full stop (15 min). **Dip tanks**. Watch for **model aircraft** and **gliders** |
+| **[YWGN](../../aerodromes/YWGN.md) Wagin** | 836 ft | **06/24 sealed ~1200 m** (preferred) · 17/35 gravel ~1100 m | AVGAS **emergency only** | **126.7** · 125.4 · PAL 120.65 | Full stop (15 min). **Dip tanks**. Watch for **model aircraft** (ERSA) |
 | **YKOJ Kojonup** *(Shire ALA)* | 915 ft | **16/34 only, ~1300 m, asphalt ends** | None | **126.7** · 124.9 | **PPR**. Touch-and-go (or full stop + short-field T/O) |
 
 **YBLN Busselton** (-33.687, 115.400): Mogas is through the aeroclub, off-book, so arrange it ahead. Use whichever of 03/21 is into wind.
@@ -103,7 +102,6 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 - Lighting: both runways have LIRL with PAL on **120.65**.
 - **Dip the tanks** before you leave. Expect ~78 L, and check you have enough for Kojonup, the leg home and the reserve.
 - AVGAS is **emergency only** (Greg Ball 0428 611 360).
-- **Watch for gliders.** Wagin is a cross-country turnpoint for the Narrogin Gliding Club, ~26 nm N. Look for gliders in or near the circuit and overhead, especially on thermal days.
 
 **YKOJ Kojonup** (-33.7503, 117.1358), ~7.5 km N of town beside Albany Hwy:
 - **PPR from the Shire of Kojonup, (08) 9831 2400.** You still need it for a touch-and-go. When you call, confirm the surface, the circuit, and that touch-and-goes are OK.
@@ -134,7 +132,7 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 - [ ] **Departing YBLN:** CTAF 127.0, area 124.9.
 - [ ] **~25 nm out (leg 1):** monitor and broadcast **126.7 for Zone Five**.
 - [ ] **~75 nm out:** watch the **Hillman Farm DZ** ~9 nm NW. Listen for jump calls.
-- [ ] **~87 nm out (14 nm before Wagin):** change to area **125.4**, then CTAF **126.7** for Wagin. **Look out for model aircraft** (within 1,000 m, up to 1,000 ft AGL) and **gliders**.
+- [ ] **~87 nm out (14 nm before Wagin):** change to area **125.4**, then CTAF **126.7** for Wagin. **Look out for model aircraft** (within 1,000 m of the field, SFC–1,000 ft AGL).
 - [ ] **Fuel log:** on each leg, note the time and gauge reading, and check them against the plan (78 / 72 / 54 L).
 - [ ] **At Wagin:** land on the **sealed 06/24** if the wind allows, **dip the tanks** (expect ~78 L, 35 L minimum to continue), and take your 15 min.
 - [ ] **Leg 2, ~10 nm before Kojonup:** make your 10 nm inbound call on CTAF **126.7**, then change area **125.4 → 124.9** right after.
