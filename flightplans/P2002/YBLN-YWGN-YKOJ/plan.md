@@ -34,6 +34,7 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 
 | Where | What | Action |
 |-------|------|--------|
+| Busselton (departure and arrival) | **Bird hazard** (ERSA): possibly large numbers of wetland birds around the aerodrome | Keep a lookout on takeoff, climb-out, approach and landing. Be ready to go around |
 | Legs 1 & 3, ~25 nm from YBLN | **Zone Five (YZON)** airstrip, Brookhampton (-33.667, 115.903, 768 ft). You pass ~4.2 nm abeam outbound and ~2.5 nm abeam inbound | **Monitor and broadcast on 126.7** within 10 nm |
 | Leg 1, ~75 nm out | **Hillman Farm (YHLM)**, Darkan (-33.264, 116.815), an active **parachute DZ to 14,000 ft**, ~9 nm NW of track | Check NOTAMs and the DZ freq. Listen for jump calls and widen the offset (5+ nm) if jumps are active |
 | Wagin aerodrome | **Model aircraft** (ERSA). They fly within a **1,000 m radius of the field, SFC–1,000 ft AGL**. The operator monitors **126.7** (tel 0421 966 168) | Listen for them on 126.7 and make clear calls. Join and stay in the circuit above 1,000 ft AGL until established, and look out on final and climb-out |
@@ -89,11 +90,13 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 
 | Aerodrome | Elev | Runway | Fuel | CTAF / area | Notes |
 |-----------|-----:|--------|------|-------------|-------|
-| **[YBLN](../../aerodromes/YBLN.md) Busselton** *(CERT)* | 56 ft | 03/21 grooved, 2460 × 45 m | AVGAS · Jet A1 · **aeroclub Mogas** | **127.0** · 124.9 | Home base. Fill Mogas here |
+| **[YBLN](../../aerodromes/YBLN.md) Busselton** *(CERT)* | 56 ft | 03/21 grooved, 2460 × 45 m | AVGAS · Jet A1 · **aeroclub Mogas** | **127.0** · 124.9 | Home base. Fill Mogas here. **Bird hazard** (ERSA) |
 | **[YWGN](../../aerodromes/YWGN.md) Wagin** | 836 ft | **06/24 sealed ~1200 m** (preferred) · 17/35 gravel ~1100 m | AVGAS **emergency only** | **126.7** · 125.4 · PAL 120.65 | Full stop (15 min). **Dip tanks**. Watch for **model aircraft** (ERSA) |
 | **YKOJ Kojonup** *(Shire ALA)* | 915 ft | **16/34 only, ~1300 m, asphalt ends** | None | **126.7** · 124.9 | **PPR**. Touch-and-go (or full stop + short-field T/O) |
 
-**YBLN Busselton** (-33.687, 115.400): Mogas is through the aeroclub, off-book, so arrange it ahead. Use whichever of 03/21 is into wind.
+**YBLN Busselton** (-33.687, 115.400):
+- Mogas is through the aeroclub, off-book, so arrange it ahead. Use whichever of 03/21 is into wind.
+- **⚠️ Bird hazard (ERSA):** there may be large numbers of wetland birds around the aerodrome. Keep a lookout on departure and arrival.
 
 **YWGN Wagin** (-33.315, 117.360):
 - **Use the sealed 06/24.** Only use the gravel 17/35 if 06/24's crosswind is too strong.
@@ -129,7 +132,7 @@ Times include **+2 min climb per leg** (1 min / 2,000 ft). HDG °M = track + 3°
 - [ ] **Daylight:** last light, with your reserve.
 
 ## In-Flight Checklist
-- [ ] **Departing YBLN:** CTAF 127.0, area 124.9.
+- [ ] **Departing YBLN:** CTAF 127.0, area 124.9. **Watch for wetland birds** on takeoff and climb-out (ERSA bird hazard).
 - [ ] **~25 nm out (leg 1):** monitor and broadcast **126.7 for Zone Five**.
 - [ ] **~75 nm out:** watch the **Hillman Farm DZ** ~9 nm NW. Listen for jump calls.
 - [ ] **~87 nm out (14 nm before Wagin):** change to area **125.4**, then CTAF **126.7** for Wagin. **Look out for model aircraft** (within 1,000 m of the field, SFC–1,000 ft AGL).
