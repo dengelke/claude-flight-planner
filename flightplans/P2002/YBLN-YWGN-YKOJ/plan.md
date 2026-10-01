@@ -26,7 +26,7 @@
 
 ## Route Summary — leg-by-leg nav log (NIL WIND)
 
-TAS 100 kt · 20 L/hr · var 3°W. **No wind applied.** HDG °M = track + 3°W variation only; **groundspeed = TAS.** Each leg time **includes a +2 min climb allowance** (1 min / 2,000 ft to a 4,500/5,500 ft cruise); the rest is cruise at 100 kt, so these are the nil-wind baseline. On the day, correct each leg for the forecast wind — heading (WCA), GS, time and fuel all move. **Leg 1 (long, ~E–W) is the most wind-sensitive.**
+TAS 100 kt · 20 L/hr · var 3°W. **No wind applied.** HDG °M = track + 3°W variation only; **groundspeed = TAS.** Each leg time **includes a +2 min climb allowance** (1 min / 2,000 ft to a 3,500–6,500 ft cruise — see cruise levels below); the rest is cruise at 100 kt, so these are the nil-wind baseline. On the day, correct each leg for the forecast wind — heading (WCA), GS, time and fuel all move. **Leg 1 (long, ~E–W) is the most wind-sensitive.**
 
 | Leg | Segment | Dist (nm) | Track °T | HDG °M *(nil wind)* | GS = TAS | Time *(incl. climb)* | Leg fuel (L) | Cum. time | Fuel left (L) |
 |:---:|---------|----------:|:--------:|:-------------------:|---------:|---------------------:|-------------:|----------:|--------------:|
@@ -46,7 +46,7 @@ TAS 100 kt · 20 L/hr · var 3°W. **No wind applied.** HDG °M = track + 3°W v
 > **Total ≈ 2 h 30 m** nil-wind, counting a **15-minute full stop at Wagin** and a **+2 min climb allowance per leg**. This does **not** include any ground time at Kojonup (assumed a quick taxi-back / minimal turnaround) — add it if you plan to shut down there. **Wind changes the flight portion** (leg 1 headwind is the big mover), so recompute the ~2 h 15 m flight time once you have the forecast and add your ground stops.
 
 - These are the **nil-wind baseline** numbers — a reference to wind-correct, not a flight plan to fly as-is. **Wind will change the heading, groundspeed, time and fuel on every leg.**
-- **Cruise levels (VFR hemispherical):** leg 1 (track ~081°M, *eastbound*) → **5,500 ft**; legs 2 & 3 (tracks ~206°/275°M, *westbound*) → **4,500 ft**. So plan **5,500 ft out to Wagin, 4,500 ft for the Kojonup leg and the run home** — which is exactly the 4,500/5,500 you assumed, and both are well above the ~2,500 ft area LSALT. (A +2 min/leg climb at 1 min/2,000 ft is already in the times above.)
+- **Cruise levels (VFR hemispherical; LSALT 3,000 ft):** leg 1 (track ~081°M, *eastbound*) → **3,500 or 5,500 ft**; legs 2 & 3 (tracks ~206°/275°M, *westbound*) → **4,500 or 6,500 ft** — pick the lower or higher pair depending on weather (cloud base/wind). All four are above the 3,000 ft LSALT. The **+2 min/leg climb allowance** in the times above suits the lower levels (3,500/4,500); the higher levels (5,500/6,500) add roughly another minute of climb per affected leg.
 - **Leg 1 (YBLN→Wagin) is the long, wind-sensitive one:** a near-straight ~easterly 100 nm track over open wheatbelt with sparse line features. A headwind component here is where your timing and fuel margin move most — recheck the forecast before you commit.
 - **Legs 2 & 3** are the SW hop to Kojonup and the westerly run home; a wind that hurts leg 1 tends to help these (and vice-versa), so the triangle partly self-cancels — but **only after you've applied the actual wind.**
 - **Runway choice is wind-dependent** — pick the into-wind runway at each field from the wind on the day (options: YBLN 03/21, Wagin 06/24 & 16/34, **Kojonup single 16/34 only**). **At Wagin prefer the sealed 06/24** (16/34 is gravel) unless the crosswind makes it unworkable. Confirm the active runway on each CTAF.
@@ -116,11 +116,10 @@ TAS 100 kt · 20 L/hr · var 3°W. **No wind applied.** HDG °M = track + 3°W v
 - Contrast the 2-pax loops in this project (MTOW-limited to ~65–87 L): **solo removes that constraint entirely.** The only reason to carry less than full would be a soft/short strip — and both fields here are long.
 - Empty **arm is a planning assumption** (~67.8 in); **empty weight 365 kg** per your input. **Confirm the real empty weight and arm** from this airframe's Weight & Balance Record before flight — at 365 kg empty you have 74 kg of margin, so a heavier real figure still leaves room but recheck.
 
-## LSALT (area) — terrain & lowest safe altitude
-- **Highest terrain on/near the route is ~1,300 ft AMSL** — the inland wheatbelt rises from the Busselton coast (sea level) to undulating ground around **Wagin 836 ft / Kojonup 915 ft**, with local hilltops in the Kojonup shire up to **~1,320 ft** (and granite outcrops / "humps" to ~1,100 ft). No major ranges on track.
-- **Estimated area LSALT ≈ 2,500 ft** — terrain ~1,320 ft + **1,000 ft terrain buffer** ≈ 2,320 ft, rounded up with margin for scattered obstacles (grainbelt radio/comms masts, possible wind-monitoring/turbine structures). The **obstacle** case (e.g. a ~500 ft mast on ~1,000 ft ground → ~1,500 ft + 300 ft ≈ 1,800 ft) is covered by the terrain figure.
-- **This is an estimate, not a surveyed value.** ⚠️ **Read the grid LSALT off the current WAC (Perth WAC 3469) / VNC**, and **check NOTAMs + ERSA for obstacles** (masts, wind farms) within 5 nm either side of each leg before relying on it.
-- **Practically:** a normal VFR cruise (e.g. 3,500–5,500 ft) sits comfortably above this LSALT. Keep **≥ ~2,500 ft AMSL** as your floor in reduced visibility / if you can't maintain visual terrain clearance, and remember the **Hillman Farm DZ** works up to 14,000 ft near leg 1 — the LSALT floor and the DZ ceiling are separate considerations.
+## LSALT (area) — lowest safe altitude
+- **Highest LSALT for the whole trip = 3,000 ft** (read off the **ERC Low**). Terrain is modest — the inland wheatbelt rises from the Busselton coast (sea level) to undulating ground around **Wagin 836 ft / Kojonup 915 ft**, with local hilltops to ~1,320 ft — so the 3,000 ft figure is driven by the charted grid/route LSALT (terrain + obstacle allowance), no major ranges on track.
+- **Use 3,000 ft as your LSALT floor** for the route. Keep at/above it any time you can't maintain visual terrain clearance (reduced vis), and recheck the ERC Low + obstacle NOTAMs before flight.
+- Remember the **Hillman Farm DZ** works up to 14,000 ft near leg 1 — the LSALT floor and the DZ ceiling are separate considerations.
 
 ## Route Map
 
@@ -174,7 +173,7 @@ TAS 100 kt · 20 L/hr · var 3°W. **No wind applied.** HDG °M = track + 3°W v
 - [ ] **Confirm Kojonup's CTAF** and current strip status (16/34, **~1,300 m, asphalt ends**, PAL) — plan a **short-field takeoff**. Confirm **Wagin's runway surface/length** and that AVGAS there is *emergency-only*.
 - [ ] **Busselton Mogas** arranged and filled (aeroclub, off-book). **No usable fuel at Wagin or Kojonup** — depart full and it's a one-fill day.
 - [ ] **At Wagin: dip the tanks** (visual fuel check, don't trust gauges) and confirm ample fuel for Kojonup + home + reserve. **Use the sealed RWY 06/24** unless the crosswind forces gravel 16/34.
-- [ ] **LSALT:** read the **grid LSALT off the WAC/VNC** (est. **~2,500 ft** area; terrain to ~1,320 ft) and check NOTAMs for masts/wind farms within 5 nm of track. Plan cruise **5,500 ft (leg 1, E) / 4,500 ft (legs 2–3, W)**.
+- [ ] **LSALT:** highest for the trip is **3,000 ft** (ERC Low) — recheck + obstacle NOTAMs. Plan cruise **3,500 or 5,500 ft eastbound (leg 1) / 4,500 or 6,500 ft westbound (legs 2–3)** per the weather.
 - [ ] **"Zone Five" (YZON) airstrip:** **monitor/broadcast CTAF 126.7** — the route passes ~4 nm abeam outbound (leg 1) and ~2.5 nm abeam inbound (leg 3), ~25 nm from Busselton each way. Watch for its circuit traffic.
 - [ ] **W&B on the day** against the real empty weight/arm — **solo you can carry full 99 L** (~526 kg at 365 kg empty, 74 kg under MTOW). No weight constraint.
 - [ ] **Parachute DZ:** check **Hillman Farm (YHLM) NOTAMs + DZ frequency + jump times** — it's a **14,000 ft dropzone ~9 nm off leg 1**. Monitor it, listen for jump calls, and widen the offset (5+ nm) if active.
