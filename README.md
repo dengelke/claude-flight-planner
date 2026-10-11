@@ -52,6 +52,7 @@ Two helpers turn the database into linkable/inspectable content inside the fligh
 | Script | What it does |
 |--------|-------------|
 | `scripts/aerodrome_card.py` | Emits a per-aerodrome markdown "data card" → `flightplans/aerodromes/<CODE>.md` (position, **verbatim ERSA handling text**, fuel, payment, frequencies, runways + RDS distances, links to the official ERSA FAC/RDS PDFs). The plans link each aerodrome heading to its card. |
+| `scripts/nav_log.py` | Nil-wind nav log for an ordered route: distance, true track, ERSA mag var, HDG °M, VFR hemispherical cruise level, climb allowance (+1 min / 2,000 ft), leg time/fuel. Also lists ERSA aerodromes within `--near` nm of each leg that publish ADDITIONAL INFORMATION (parachuting, gliding, model aircraft, UA ops…), so en-route hazards come from ERSA. Defaults are the SR20 (150 KTAS, 12.5 USG/hr); pass `--tas 100 --burn 20 --unit L` for the P2002. |
 | `scripts/route_map.py` | Emits `<name>.geojson` (GitHub renders it as an interactive map) **and** `<name>.png` (a static coastline map embedded inline in the plan with `![](…)`) into the output dir — default `flightplans/maps/`, or pass `--out <plan folder>` to write them beside the plan. |
 
 Plans are grouped by aircraft (`SR20/` = AVGAS, `P2002/` = Mogas), then by route.
@@ -89,9 +90,11 @@ python  scripts/aerodrome_card.py --plan flightplans/SR20/YBLN-YAYE/plan.md   # 
 python  scripts/aerodrome_card.py --all                                        # every aerodrome
 .venv/bin/python scripts/route_map.py map YBLN YPKG YWBR YAYE \
     --out flightplans/SR20/YBLN-YAYE                                            # writes map.geojson + map.png beside the plan
+.venv/bin/python scripts/nav_log.py YBLN YPKG YWBR YAYE                          # SR20 nav log + ERSA hazards near track
+.venv/bin/python scripts/nav_log.py YBLN Mandurah@-32.53,115.72 YGEL --alt 1500,8500   # per-segment cruise levels
 ```
 
-- `aerodrome_card.py` is pure stdlib. `route_map.py` needs **Pillow** for the PNG (`.venv/bin/pip install Pillow`); without it the geojson is still written and the PNG is skipped with a warning.
+- `aerodrome_card.py` and `nav_log.py` are pure stdlib. `route_map.py` needs **Pillow** for the PNG (`.venv/bin/pip install Pillow`); without it the geojson is still written and the PNG is skipped with a warning.
 - `scripts/au_coast.json` is the baked Natural-Earth-50m Australia coastline used to draw the PNG (committed, ~29 KB).
 - The ERSA cycle the cards cite is set by `ERSA_CYCLE`/`ERSA_STATE` at the top of `aerodrome_card.py` — update it when the DB is rebuilt from a new cycle.
 
