@@ -36,7 +36,7 @@
   - Joondalup and Dongara were added because the straight Fremantle–Geraldton line runs up to ~3 nm offshore off the northern Perth beaches and again near Dongara.
   - Elsewhere on leg 1 the track is never more than ~2 nm off the beach (Geographe Bay, the Binningup coast, Cockburn Sound).
 - **On the day:** work out the WCA for each leg from the forecast wind. HDG °M = track + WCA + variation (2.5–1°W). Then re-time the leg (dist ÷ GS) and re-fuel it (time × 12.5 USG/hr).
-- **Runways:** take the into-wind runway. Geraldton's sealed **03/21 (2,389 m)** is the main runway, and the gravel 08/26 and 14/32 are short. Shark Bay has **only 18/36**, so check the crosswind before you commit.
+- **Runways:** take the into-wind runway. Geraldton's sealed **03/21 (2,389 m)** is the main runway, and the gravel 08/26 and 14/32 are short. Shark Bay has **only 18/36**, so check the crosswind before you commit. Note that it's **sloped, lowest in the middle** (see the Shark Bay notes).
 
 ## Radio & en-route hazards
 
@@ -55,6 +55,7 @@
 | Leg 2, ~70 nm, **overhead** (0.5 nm off track) | **Kalbarri (YKBR)** (ERSA): kangaroos in the aerodrome vicinity, and power is by generator. No fuel | Listen on CTAF **126.7** as you pass overhead. It's a diversion option only |
 | Leg 2, approaching Shark Bay | Area **121.2 → 122.1** (Shark Bay and Carnarvon are on 122.1) | Read the boundary off the ERC-L |
 | Shark Bay arrival | (ERSA) **Local dust in high winds**, and **numerous kangaroos airside** | CTAF **126.7**. Do an inspection pass if roos are about, and expect poor visibility in strong wind |
+| Shark Bay runway | **Runway slope** (ERSA RDS): S end 0.2% down to the N, N end 0.1% down to the S. It dips to a low point mid-runway | Whichever way you land, the first part runs **downhill** and the far end rises. Fly a normal aim point and speed, don't chase the picture, and go around if you float past your touchdown point |
 
 - **Controlled airspace:** only Perth / Jandakot (and Gingin / Pearce off to the E). Everything north of Perth is Class G. **No towered field** on this route needs a clearance unless you choose to go through Perth.
 - **Area frequencies (ERSA FIA):** Busselton and Bunbury **124.9** · Perth area (Murray Field, Serpentine, Jandakot, Gingin, Pearce) **135.25** · Jurien Bay, Kalbarri and Geraldton **121.2** · Shark Bay and Carnarvon **122.1**.
@@ -149,7 +150,7 @@ The map's coastline is coarse. The over-water checks above were done against the
 |-----------|-----:|--------|------|-------------|-------|
 | **[YBLN](../../aerodromes/YBLN.md) Busselton** *(CERT)* | 56 ft | 03/21 grooved, 2,460 × 45 m | AVGAS · Jet A1 (**carnet only**) | **127.0** · 124.9 | Fill here. **Bird hazard** (ERSA) |
 | **[YGEL](../../aerodromes/YGEL.md) Geraldton** | 122 ft | **03/21 grooved 2,389 × 45 m** · 08/26 red gravel 900 × 18 m · 14/32 844 × 18 m | AVGAS · Jet A1 (WFS H24, PN) | **127.1** · 121.2 | Fuel stop. CTAF shielding, weather balloon, power-plant plume (ERSA) |
-| **[YSHK](../../aerodromes/YSHK.md) Shark Bay** *(CERT)* | 129 ft | **18/36 only**, 1,690 × 30 m | ❌ **None** | **126.7** · 122.1 | Destination. Dust in high winds, **kangaroos airside** (ERSA) |
+| **[YSHK](../../aerodromes/YSHK.md) Shark Bay** *(CERT)* | 129 ft | **18/36 only**, 1,690 × 30 m | ❌ **None** | **126.7** · 122.1 | Destination. **Sloped runway, dips mid-length** (RDS). Dust in high winds, **kangaroos airside** (ERSA) |
 | **[YCAR](../../aerodromes/YCAR.md) Carnarvon** *(CERT)* | 13 ft | 04/22 1,619 × 30 m · 18/36 1,140 × 30 m | AVGAS · Jet A1 (WFS + Air BP, H24 bowsers) | **126.7** · 122.1 | Onward refuel. Helicopter ops, **corellas on both runways** (ERSA) |
 | [YBUN](../../aerodromes/YBUN.md) Bunbury | 53 ft | — | AVGAS (Air BP H24 card bowser) | 127.0 · 124.9 | Fuel option near home. Model aircraft, searchlight (ERSA) |
 
@@ -167,6 +168,10 @@ The map's coastline is coarse. The over-water checks above were done against the
 **YSHK Shark Bay / Denham** (-25.894, 113.577):
 - **There's no fuel.** Arrive with at least 25 USG (land route to Carnarvon + reserve). Planned arrival is ~40.
 - **One runway, 18/36** (1,690 m × 30 m; the surface isn't in the parsed record, so check the FAC). Check the crosswind before you leave Geraldton. Carnarvon is the alternate.
+- **⚠️ Runway slope (ERSA RDS): it catches people out.** The S end slopes 0.2% down to the N, and the N end 0.1% down to the S, so the runway **dips to a low point in the middle**.
+  - **Landing either way, the touchdown zone slopes downhill** away from you. A down-sloping runway can make the approach look low, which tempts you to fly it high and float long. Hold your normal aim point and speed, and if you float past your touchdown point, go around. Don't force it on.
+  - **On the rollout and takeoff, the far end rises.** From the threshold, the dip can hide part of the runway, including kangaroos. That's another reason for the inspection pass.
+  - **18 vs 36:** the S end has the steeper slope (0.2%). So landing on **36** starts with the steeper downhill, and landing on **18** starts with the gentler one. Wind decides the runway; the slope is just what to expect.
 - **⚠️ Dust (ERSA):** local dust in high winds.
 - **⚠️ Kangaroos (ERSA):** increased animal hazard, with numerous kangaroos observed airside. Do an inspection pass if needed, and be ready to go around.
 
@@ -190,6 +195,7 @@ The map's coastline is coarse. The over-water checks above were done against the
 - [ ] **No fuel at Shark Bay:** decide on the Carnarvon routing now (land route 25.0 USG minimum, direct 16.0 USG minimum).
 - [ ] **W&B** using the real empty weight and arm, and **weigh the bags**: 40 kg max planned (59 kg bay limit). Stow them in the baggage bay.
 - [ ] **Flight note / SARTIME**, PLB, water and survival kit for the remote coast north of Geraldton.
+- [ ] **Shark Bay runway:** brief the **slope** (dips to a low point mid-runway; touchdown zone downhill either way), the crosswind on the single 18/36, and the kangaroo inspection pass.
 - [ ] **Daylight:** last light at Shark Bay, allowing for the Geraldton stop.
 
 ## In-Flight Checklist
@@ -203,7 +209,7 @@ The map's coastline is coarse. The over-water checks above were done against the
 - [ ] **Geraldton:** CTAF **127.1**. Make full calls (shielding), and look out for the balloon (0715 local TUE–FRI) and the power-plant plume WSW of 08. **Fill to 56 USG.**
 - [ ] **Leg 2:** direct to Shark Bay, **342°M**. You pass **overhead Kalbarri** at ~70 nm, so listen on CTAF **126.7**. Area **121.2 → 122.1**.
 - [ ] **Fuel log, leg 2:** expect ~43 USG at Shark Bay Rd and **~39 at Shark Bay**. You need **25.0 minimum** for the land route to Carnarvon.
-- [ ] **Shark Bay:** CTAF **126.7**. Watch for **kangaroos airside** and **dust** in strong wind. Land on 18/36 into wind.
+- [ ] **Shark Bay:** CTAF **126.7**. Watch for **kangaroos airside** and **dust** in strong wind. Land on 18/36 into wind. **Expect the slope:** the touchdown zone runs downhill and the runway dips mid-length. Fly a normal aim point and speed, and don't float.
 - [ ] **Onward to Carnarvon:** CTAF **126.7**, area 122.1. Watch for **corellas** on both runways and **helicopters**. Taxi slowly on the rough northern GA apron.
 
 *Planning only. Cross-check current ERSA, NOTAMs, weather, daylight, W&B and the SR20 POH before flight.*
