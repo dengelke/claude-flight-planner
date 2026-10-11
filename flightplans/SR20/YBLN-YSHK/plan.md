@@ -3,7 +3,7 @@
 **Route:** YBLN → *Bunbury → Mandurah → Fremantle → Joondalup → Dongara* → **YGEL Geraldton** (fuel) → direct → **YSHK Shark Bay / Denham** (no fuel) · onward refuel at **YCAR Carnarvon**
 **Aircraft:** [Cirrus SR20 G1 (s/n 1312)](../../aircraft/SR20.md) · 56 USG usable AVGAS · MTOW 3,000 lb (1,361 kg)
 **Planning basis:** 150 KTAS · 12.5 USG/hr · reserve 10.1 USG (45 min) · var per leg from ERSA · **nil wind** (apply the forecast on the day)
-**Loading:** planning assumption (no loading was stated): **2 front-seat occupants 150 kg + 15 kg baggage/equipment, full fuel**
+**Loading:** **2 front-seat occupants 150 kg + 30–40 kg baggage, full fuel**. The W&B is worked at 40 kg, the heavy end.
 **Data:** ERSA **03 SEP 2026** (current). The 26 NOV 2026 cycle is pending, so re-check every field if you fly after 26 NOV.
 
 > ✈️ **Bottom line:** ~**490 nm**, **3 h 24 m flying / ~4 h 09 m total** with a 45-min fuel stop at Geraldton. Fill at both
@@ -100,22 +100,31 @@ Flying **nonstop YBLN → YSHK** (the coastal leg 1 to Dongara, then direct) is 
 
 **Carry an Air BP carnet** (Busselton accepts nothing else), **a credit card with the WFS app set up** (Carnarvon), and a **BP card** as a backup at Carnarvon. For Geraldton, ring WFS ahead and confirm what they take. *(Source: ERSA 03 SEP 2026 handling sections. Unchanged from 09 JUL apart from Bunbury's AH phone.)*
 
-## Weight & Balance (2 front + 15 kg baggage, full fuel)
+## Weight & Balance (2 front + 40 kg baggage, full fuel)
 
 | Item | Mass | Arm (in) | Moment (lb·in) |
 |------|-----:|---------:|---------------:|
 | Empty (s/n 1312) | 973 kg (2,145 lb) | ~140.5 *(assumed)* | 301,373 |
 | Front seats (2) | 150 kg (331 lb) | 143.5 | 47,454 |
-| Baggage / equipment | 15 kg (33 lb) | 208.0 | 6,878 |
-| **Zero-fuel** | **1,138 kg (2,509 lb)** | **141.8** | **355,705** |
+| Baggage (bay) | 40 kg (88 lb) | 208.0 | 18,342 |
+| **Zero-fuel** | **1,163 kg (2,564 lb)** | **143.2** | **367,169** |
 | Full fuel 56 USG | 152 kg (336 lb) | 153.95 | 51,727 |
-| **Takeoff** | **1,290 kg (2,845 lb)** | **143.2** | **407,432** |
-| Land YGEL (~29.7 USG) | 1,219 kg (2,687 lb) | 142.6 | 383,139 |
-| Land YSHK (~39.8 USG) | 1,246 kg (2,748 lb) | 142.8 | 392,468 |
+| **Takeoff** | **1,315 kg (2,900 lb)** | **144.5** | **418,897** |
+| Land YGEL (~29.7 USG) | 1,244 kg (2,742 lb) | 143.9 | 394,603 |
+| Land YSHK (~39.8 USG) | 1,271 kg (2,803 lb) | 144.1 | 403,933 |
 
-**Takeoff is 2,845 lb: 155 lb (70 kg) under MTOW, and already under the 2,900 lb max landing weight.** The CG is inside the envelope at every point. But at takeoff, the **CG of 143.2 is only 0.7 in aft of the forward limit (142.5 at this weight)**. The landing CGs sit 1.3–1.6 in aft of the limit. The aft limit (~148) is never close.
+**Takeoff is 2,900 lb: 100 lb (45 kg) under MTOW** ✓. Baggage of 88 lb is under the 130 lb (59 kg) limit ✓. Every landing is under the 2,900 lb max landing weight ✓. Takeoff itself sits right at 2,900 lb, so an immediate return after takeoff is still within the landing limit.
 
-⚠️ The empty arm is **assumed**. If the real figure is ~139.5, the full-fuel takeoff CG falls just **forward** of the limit. Confirm it from the W&B record. If it's forward, move kit from the cabin into the baggage bay (each kg there moves the CG aft).
+**CG:** the bags in the baggage bay move the CG aft, so the forward-limit problem from the lighter loading goes away.
+- At takeoff, the CG of 144.5 is **1.4 in aft of the forward limit** (143.1 at this weight). Landings sit 2.0–2.4 in aft of the limit.
+- The aft limit (~148) is never close.
+
+| Bags | Takeoff | CG margin to fwd limit (empty arm 140.5 / 139.5) |
+|-----:|--------:|-------------------------------------------------:|
+| 30 kg | 2,878 lb (1,305 kg) | +1.1 / +0.4 in |
+| 40 kg | 2,900 lb (1,315 kg) | +1.4 / +0.6 in |
+
+The empty arm of 140.5 is **assumed**. Even at 139.5, both loadings stay inside the envelope. Confirm the arm from the W&B record anyway, and **keep the bags in the baggage bay, not on the rear seats**, because the bay is what keeps the CG aft.
 
 ## Alternatives considered
 - **Nonstop YBLN → YSHK (490 nm):** within the ~600 nm range on paper, but you'd land with only +4.2 USG over reserve at a field with no fuel (see above). Not recommended.
@@ -179,7 +188,7 @@ The map's coastline is coarse. The over-water checks above were done against the
 - [ ] **GPS:** load the user waypoints (Bunbury, Mandurah, Fremantle, Joondalup, Dongara) and check leg 1 draws along the coast.
 - [ ] **Fuel:** full 56 USG at Busselton (carnet). **Phone WFS Geraldton** (0491 233 624) with your ETA, at least 30 min ahead, and confirm payment. Have a plan for Carnarvon fuel (WFS app set up, or a BP card).
 - [ ] **No fuel at Shark Bay:** decide on the Carnarvon routing now (land route 25.0 USG minimum, direct 16.0 USG minimum).
-- [ ] **W&B** using the real empty weight and arm. Check the full-fuel takeoff CG against the forward limit.
+- [ ] **W&B** using the real empty weight and arm, and **weigh the bags**: 40 kg max planned (59 kg bay limit). Stow them in the baggage bay.
 - [ ] **Flight note / SARTIME**, PLB, water and survival kit for the remote coast north of Geraldton.
 - [ ] **Daylight:** last light at Shark Bay, allowing for the Geraldton stop.
 
