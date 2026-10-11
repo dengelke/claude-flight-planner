@@ -5,25 +5,31 @@
 - **Landings:** Collie, Boyup Brook, Bunbury, YBLN (**4 landings**; depart YBLN).
 
 **Aircraft:** 1 × [Tecnam P2002 Sierra](../../aircraft/P2002.md) · Rotax 912 ULS · MTOW **600 kg** · 99 L usable
-**Planning basis:** **Nil wind** (apply the day's actual wind before flight) · Cruise 100 KTAS · Burn **20 L/hr** (conservative) · **final reserve 10 L (30 min, day VFR)** · variation **~2°W**
+**Planning basis:** **Wind 230/09 (eastbound 3,500 ft legs) / 240/09 (westbound 2,500 ft legs)** (GPWT 06Z) · Cruise 100 KTAS, 2,500–3,500 ft · Burn **20 L/hr** (conservative) · **final reserve 10 L (30 min, day VFR)** · variation **~2°W**
 **Loading:** **2 persons on board** (pilot + instructor) **170 kg combined** · **no cargo** · empty weight **365 kg** · **fuel 80 L** (as specified)
-**Data source:** ERSA FAC/RDS **03 SEP 2026** for YBLN/YBUN. **Collie (YCOI) and Boyup Brook (YBOP) are Shire ALAs — not in ERSA** (details below are from the operators' airstrip cards — *"it is a requirement to check airstrip condition and details with the owner"*). Weather from the 04 OCT area brief / GAF / TAFs.
+**Data source:** ERSA FAC/RDS **03 SEP 2026** for YBLN/YBUN. **Collie (YCOI) and Boyup Brook (YBOP) are Shire ALAs — not in ERSA** (details below are from the operators' airstrip cards — *"it is a requirement to check airstrip condition and details with the owner"*). Weather from the 04 OCT area brief / GAF / TAFs / GPWT.
 
-> ✈️ **Bottom line (the instructor's route):** a ~**152 nm, ~1 h 31 m** loop that **stays in GAF Area A1 the whole inland portion** (Collie and Boyup Brook are both A1) and then **returns down the coast via Bunbury** — so it **avoids Area B's broken 2500 ft layer** that made the Manjimup version marginal. Still a **low-level VFR day** (~2,000–2,500 ft under the A1 scattered bases), but scattered-not-broken and with **Bunbury (coast, certified, AVGAS) as a bail-out** on the way home. Fuel is a non-issue: depart 80 L, land back ~50 L. **The watch items are the strips, not the weather:** **Boyup Brook is 900 m of gravel/dirt with trees both ends**, **Collie has tall trees all round**, and **Bunbury has active cranes + a bird hazard**.
+> ✈️ **Bottom line (the instructor's route):** a ~**152 nm, ~1 h 37 m** loop that **stays in GAF Area A1 the whole inland portion** (Collie and Boyup Brook are both A1) and then **returns down the coast via Bunbury** — so it **avoids Area B's broken 2500 ft layer** that made the Manjimup version marginal. Still a **low-level VFR day** (~2,000–2,500 ft under the A1 scattered bases), but scattered-not-broken and with **Bunbury (coast, certified, AVGAS) as a bail-out** on the way home. Fuel is a non-issue: depart 80 L, land back ~48 L. **The watch items are the strips, not the weather:** **Boyup Brook is 900 m of gravel/dirt with trees both ends**, **Collie has tall trees all round**, and **Bunbury has active cranes + a bird hazard**.
 
 ---
 
 ## Route Summary — leg-by-leg nav log
 
-**Nil wind** · TAS 100 kt · 20 L/hr · var ~2°W. With no wind, **HDG = track**, **GS = 100 kt** — apply the day's wind before flight. Fuel-left departs YBLN with **80 L**.
+**Winds (°T):** **230/09** for the eastbound **3,500 ft** legs (1 YBLN → Collie, 2 Collie → Boyup Brook), **240/09** for the westbound **2,500 ft** legs (3 Boyup Brook → Bunbury, 4 Bunbury → YBLN) — pilot's planning winds from the GPWT 06Z Busselton box (240/09 @ 2,000 ft, 220/09 @ 5,000 ft) · TAS 100 kt · 20 L/hr · var ~2°W. **HDG columns are wind-corrected.** Fuel-left departs YBLN with **80 L**.
 
-| Leg | Segment | Dist (nm) | Track °T | HDG °M | GS (kt) | Time | Leg fuel (L) | Cum. | Fuel left (L) | GAF area |
-|:---:|---------|----------:|:--------:|:------:|--------:|-----:|-------------:|-----:|--------------:|:--------:|
-| 1 | YBLN → Collie (YCOI) | 44.6 | 064 | 066 | 100 | 27 m | 8.9 | 27 m | 71 | A1 |
-| 2 | Collie → Boyup Brook (YBOP) | 34.5 | 159 | 161 | 100 | 21 m | 6.9 | 48 m | 64 | **A1** |
-| 3 | Boyup Brook → Bunbury (YBUN) | 49.6 | 309 | 311 | 100 | 30 m | 9.9 | 78 m | 54 | A1 → coast |
-| 4 | Bunbury → YBLN | 23.2 | 217 | 219 | 100 | 14 m | 4.6 | 91 m | **50** | coastal |
-| **—** | **Loop total** | **152** | — | — | — | **~1 h 31 m** | **~30** | — | **~50** | — |
+| Leg | Segment | Dist (nm) | Level | Wind °T | **Track °M** | **HDG °M** | GS (kt) | Climb (ft) | Time (+1 min/2,000 ft climb) | Leg fuel (L) | Cum. | Fuel left (L) | GAF area |
+|:---:|---------|----------:|:-----:|:-------:|:------------:|:----------:|--------:|-----------:|-----:|-------------:|-----:|--------------:|:--------:|
+| 1 | YBLN → Collie (YCOI) | 44.6 | 3,500 | 230/09 | **066** | **067** | 109 | 3,450 | 26 m | 8.8 | 26 m | 71 | A1 |
+| 2 | Collie → Boyup Brook (YBOP) | 34.5 | 3,500 | 230/09 | **161** | **166** | 97 | 2,700 | 23 m | 7.6 | 49 m | 64 | **A1** |
+| 3 | Boyup Brook → Bunbury (YBUN) | 49.6 | 2,500 | 240/09 | **311** | **306** | 96 | 1,600 | 32 m | 10.6 | 81 m | 53 | A1 → coast |
+| 4 | Bunbury → YBLN | 23.2 | 2,500 | 240/09 | **219** | **221** | 92 | 2,450 | 16 m | 5.5 | 97 m | **48** | coastal |
+| **—** | **Loop total** | **152** | — | — | — | — | — | — | **~1 h 37 m** | **~32** | — | **~48** | — |
+
+*Leg time = cruise time at GS + **1 min per 2,000 ft of climb** (climb = cruise level − departure field elevation: YBLN 56, Collie 795, Boyup Brook 900, Bunbury 53 ft). Fuel at 20 L/hr on the total.*
+*Magnetic = true + 2° (var ~2°W; airstrip cards show 2.1–2.2°W). True tracks: 064 / 159 / 309 / 217.*
+
+- **Levels:** eastbound legs 1–2 planned **3500**, but **only if the cloud base is ≥ 4,500 ft** (1,000 ft vertical clearance above 3,000 AMSL). With the BKN 4,000 observed at Busselton, cruise **at or below 3,000 AMSL (2,500–3,000)** where clear-of-cloud applies. Westbound legs 3–4 **2,500**. Route LSALT 3,000 — flying below it in day VMC with visual terrain clearance (highest nearby terrain 1,730 ft hill ~7 nm off track on leg 3).
+- **The wind nets out:** tailwind-ish on the way out (leg 1 GS **109 kt**), headwind home (leg 4 GS **91 kt**). Total within a minute/litre of nil-wind.
 
 - **Depart** YBLN; **land** Collie, Boyup Brook, Bunbury, then home (**4 landings**).
 - **Shared CTAFs — brief them:** **Collie and Boyup Brook are both CTAF 126.7**; **Busselton and Bunbury are both 127.0** (~20 nm apart). Essentially two CTAFs for the whole loop — full position + field-name calls.
@@ -31,11 +37,11 @@
 
 ## Fuel plan — one Busselton fill does the loop
 
-| Point | Fuel type | State | Next | Land with (nil wind) | Over 30-min reserve (10 L) |
+| Point | Fuel type | State | Next | Land with (GPWT wind) | Over 30-min reserve (10 L) |
 |-------|-----------|------:|------|---------------------:|---------------------------:|
-| YBLN depart | **Mogas (aeroclub)** | **80 L** | whole 152 nm loop | **~50 L** back at YBLN | **+40 L** |
+| YBLN depart | **Mogas (aeroclub)** | **80 L** | whole 152 nm loop | **~48 L** back at YBLN | **+38 L** |
 
-- **Range is irrelevant** — the loop burns ~30 L. 80 L lands you home ~50 L, **5× the final reserve**.
+- **Range is irrelevant** — the loop burns ~32 L (incl. climb allowance). 80 L lands you home ~48 L, **~5× the final reserve**.
 - **No fuel at Collie or Boyup Brook** (both nil). **Bunbury has AVGAS** (Air BP card bowser) — a genuine backstop (the 912 runs on 100LL), though you won't need it. **No Mogas anywhere on the loop** — fill at Busselton.
 - **80 L is within MTOW** but close — see W&B. Don't add baggage without re-checking.
 
@@ -69,6 +75,7 @@
 **☁️ Cloud — this route beats the weather by staying in A1:**
 - **A1 (Collie, Boyup Brook, inland legs):** **SCT CU/SC 3000/6000** — scattered base ~3000 AMSL, >10 km, **no showers in Area A**. Workable. *(Collie and Boyup Brook are both confirmed in A1; Manjimup — the field that made the earlier plan marginal — sat on the A1/B border, and **Area B had BKN CU/SC 2500 + BKN ST 1500/2500 + isolated showers**. This loop never enters B.)*
 - **Coast (Bunbury, YBLN):** latest YBLN TAF (040009Z) **BKN030** at 1pm (320/10), then **FM041100 (1900 local) SHOWERS OF LIGHT RAIN SCT020 BKN030**; YBUN **SCT035** (270/10). Coastal legs fine in the daytime window — **evening rain/lower cloud arrives ~1900 local, so be home mid-to-late afternoon** with margin.
+- **GPWT (WA-S) 03Z & 06Z** — the route sits at the corner of four boxes. **06Z (1400 local)**: 2,000 ft **240/09 (coast) → 260–270/11–13 (inland)**; 1,000 ft **250/09 coast, 260/10 Boyup box**; 5,000 ft 220–270/09–12. 03Z is similar low down (250–270/09–11) and a bit stronger/more NW-ish higher up (up to 300/25 at 7,000 ft inland — irrelevant at our levels). **Temps ~ISA +2 to +4** (+15–17 °C at 1–2,000 ft inland) → density altitude at Boyup ≈ **1,400–1,500 ft**, Collie ≈ 1,300 ft — minor.
 - **FZLVL 9500 ft** → no icing at our levels. **CU/SC ⇒ MOD TURB** below cloud. All **SIGMETs are eastern Australia** — none for SW WA.
 
 **What it means:** **low-level VFR, ~2,000–2,500 ft AMSL** under the scattered bases (the 4,500–5,500 ft cruise is still off). Over the inland terrain (Collie 795 ft, Boyup Brook 900 ft, hills between) a scattered 3000 ft base leaves ~2,000 ft — comfortable while it stays scattered. **If the CU builds toward broken, bail to the coast via Bunbury** (certified, AVGAS). Be home before 1900 local (YBLN base lowers, GAF ends).
@@ -103,7 +110,7 @@
 - **CTAF 126.7** · Melbourne Centre (FIA) 124.9 · windsock · white cones. Town 325°M / 5.5 nm.
 - ⚠️ **Trees off both ends** (per the strip diagram) and a **dam** near the strip — mind the approach/climb-out obstacle clearance.
 - ⚠️ **Gravel/dirt, 900 m — the only unsealed strip on the loop.** 900 m is ample length for a P2002, but **use soft/rough-field technique, mind the prop** (loose gravel), and **check TODR/LDR for 900 ft elevation on a warm afternoon** near your ~592 kg weight. Confirm current surface condition with the **Boyup Brook Shire (08) 9765 1200** (Works Mgr 9765 1220) before going — the card warns surface/condition must be checked with the owner.
-- ⚠️ **CROSSWIND — the single 18/36 runway vs a westerly (the day's main concern).** At **10 kt** the components are: dead **west (270°) = 10 kt pure crosswind** (worst case, 0 headwind); **WSW (240°) ⇒ RWY 18, ~8.7 kt xw + 5 kt hw**; **WNW–NW (300–320°) ⇒ RWY 36, ~6–9 kt xw + 5–8 kt hw**. Regional winds ~1pm are W→NW (YBLN 320/10, YBUN 270/10, YABA 240/11), so you'll **likely get a runway with a headwind and ~6–9 kt** of crosswind. **All within the P2002's 22 kt demonstrated crosswind** — but on **gravel with trees both ends** (reduced grip, tree turbulence/wind-gradient on short final) treat it with respect.
+- ⚠️ **CROSSWIND — the single 18/36 runway vs a westerly (the day's main concern).** At **10 kt** the components are: dead **west (270°) = 10 kt pure crosswind** (worst case, 0 headwind); **WSW (240°) ⇒ RWY 18, ~8.7 kt xw + 5 kt hw**; **WNW–NW (300–320°) ⇒ RWY 36, ~6–9 kt xw + 5–8 kt hw**. **GPWT 06Z confirms it: Boyup box 1,000 ft 260/10** ⇒ on **RWY 18: ~2 kt headwind, ~10 kt crosswind from the right** — the slight southerly lean is exactly why **18 is the runway** (on 36 it'd be a ~2 kt tailwind). **All within the P2002's 22 kt demonstrated crosswind** — but on **gravel with trees both ends** (reduced grip, tree turbulence/wind-gradient on short final) treat it with respect.
 - 🌲 **Tree line immediately west of the field (satellite + local knowledge):** a **dense west tree band runs alongside the northern/central runway** — i.e. upwind of the **RWY 18 touchdown zone** — and the **north approach (RWY 18) is clearer** than the south (RWY 36 has the road + more bush). **In a true westerly/WSW, prefer RWY 18:** the touchdown zone sits in the **lee of the west trees** (reduced *steady* crosswind) with the cleaner approach. *(In a NW wind, RWY 36 gives a headwind and the crosswind is only ~6 kt anyway — judgement call; the shelter matters most for a dead-west wind.)*
 - ⚠️ **The shelter is turbulent, not calm:** behind that dense upwind line expect **wind-gradient + rotor in the last 100–200 ft** (crosswind easing then gusting/curling as you sink below treetop height) and **sink crossing into the lee**. Still the better runway — just fly it expecting bumps: a little extra approach speed, active feet, ready for an early go-around.
 - ✅ **Plan: inspection pass before landing.** Overfly to **read the windsock/actual direction and check the gravel surface**, join for the favourable runway (RWY 18 in a westerly/WSW), and fly the approach prepared for the lee turbulence. **Be ready to go around and re-position** if the flare isn't working out — a go-around is the normal response to a bad picture on short final.
