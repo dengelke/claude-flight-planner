@@ -1,15 +1,15 @@
 # Plan — Busselton to Shark Bay up the WA coast (fuel stop Geraldton)
 
-**Route:** YBLN → *Bunbury → Mandurah → Fremantle → Joondalup → Dongara* → **YGEL Geraldton** (fuel) → *Shark Bay Rd (S of Hamelin Pool) → Taillefer Isthmus* → **YSHK Shark Bay / Denham** (no fuel) · onward refuel at **YCAR Carnarvon**
+**Route:** YBLN → *Bunbury → Mandurah → Fremantle → Joondalup → Dongara* → **YGEL Geraldton** (fuel) → direct → **YSHK Shark Bay / Denham** (no fuel) · onward refuel at **YCAR Carnarvon**
 **Aircraft:** [Cirrus SR20 G1 (s/n 1312)](../../aircraft/SR20.md) · 56 USG usable AVGAS · MTOW 3,000 lb (1,361 kg)
 **Planning basis:** 150 KTAS · 12.5 USG/hr · reserve 10.1 USG (45 min) · var per leg from ERSA · **nil wind** (apply the forecast on the day)
 **Loading:** planning assumption (no loading was stated): **2 front-seat occupants 150 kg + 15 kg baggage/equipment, full fuel**
 **Data:** ERSA **03 SEP 2026** (current). The 26 NOV 2026 cycle is pending, so re-check every field if you fly after 26 NOV.
 
-> ✈️ **Bottom line:** ~**495 nm**, **3 h 26 m flying / ~4 h 10 m total** with a 45-min fuel stop at Geraldton. Fill at both
-> Busselton and Geraldton. You reach Shark Bay with **~39 USG**, and **there is no fuel at YSHK**: the nearest AVGAS is
-> Carnarvon, 61 nm N direct (but ~43 nm of that is open Shark Bay water) or 169 nm by the land route. The track stays
-> coastal or over land the whole way, but it runs **under the Perth Class C / Jandakot Class D steps** from about Mandurah to
+> ✈️ **Bottom line:** ~**490 nm**, **3 h 24 m flying / ~4 h 09 m total** with a 45-min fuel stop at Geraldton. Fill at both
+> Busselton and Geraldton. You reach Shark Bay with **~40 USG**, and **there is no fuel at YSHK**: the nearest AVGAS is
+> Carnarvon, 61 nm N direct (but ~43 nm of that is open Shark Bay water) or 169 nm by the land route. Leg 1 follows
+> the coast, and leg 2 is direct from Geraldton. Leg 1 runs **under the Perth Class C / Jandakot Class D steps** from about Mandurah to
 > Joondalup, and passes the **Murray Field parachute DZ (to FL150, 6 nm E)**. Jurien Bay's DZ (to FL150) is 11 nm W of track.
 
 ---
@@ -25,19 +25,16 @@
 | 1 | Joondalup → Dongara | 155.9 | 344 | 345 | 8,500 once clear of the steps | 62 m | 13.0 | 1 h 54 m | 32.2 |
 | 1 | Dongara → YGEL Geraldton | 29.6 | 337 | 338 | 8,500 | 12 m | 2.5 | 2 h 06 m | **29.7** |
 | — | *Geraldton fuel stop (fill to 56)* | — | — | — | — | *45 m* | — | 2 h 51 m | 56.0 |
-| 2 | YGEL → Shark Bay Rd (S of Hamelin Pool) | 142.8 | 347 | 348 | 8,500 | 61 m | 12.7 | 3 h 52 m | 43.3 |
-| 2 | Shark Bay Rd → Taillefer Isthmus | 31.3 | 311 | 312 | 8,500 | 13 m | 2.6 | 4 h 05 m | 40.7 |
-| 2 | Taillefer Isthmus → YSHK Shark Bay | 15.4 | 343 | 344 | 8,500 | 6 m | 1.3 | 4 h 11 m | **39.4** |
-| **—** | **Total** | **495** | — | — | — | **3 h 26 m flying · ~4 h 10 m total** | **42.9** | — | **39.4** |
+| 2 | YGEL → YSHK Shark Bay (direct) | 184.4 | 341 | 342 | 8,500 | 78 m | 16.2 | 4 h 09 m | **39.8** |
+| **—** | **Total** | **490** | — | — | — | **3 h 24 m flying · ~4 h 09 m total** | **42.5** | — | **39.8** |
 
 - **Climb:** times include **+1 min per 2,000 ft of climb** on each leg that starts with a takeoff (+4 min out of Busselton, +4 min out of Geraldton). Fuel is worked on the total time.
 - **Leg 1 under the Perth steps:** you'll fly the Mandurah → Fremantle → Joondalup stretch low, below the Perth Class C / Jandakot Class D steps, and climb to 8,500 once you're north of them. Read the step bases off the Perth VTC; this plan doesn't quote them. The total climb is the same ~8,450 ft whether you do it in one go or in two stages, so the +4 min charged out of Busselton still covers it. If you get a clearance through instead, the numbers don't change.
 - **Cruise levels:** VFR hemispherical. Northbound (mag 000–179) is 7,500 and NW-bound (180–359) is 8,500, so most of the trip is at 8,500. **Read the LSALT for each leg off the ERC-L** and check it against your level.
-- **Waypoints:** all visual. Bunbury (town), Mandurah (estuary mouth), Fremantle (port), **Joondalup** (city centre and lake, a few nm inland), **Dongara**/Port Denison, the **Shark Bay Road** south of Hamelin Pool, and the road up the **Taillefer Isthmus** to Denham. Load them as GPS user waypoints (coordinates in the map command below).
-- **Coastal routing:**
+- **Waypoints:** all visual. Bunbury (town), Mandurah (estuary mouth), Fremantle (port), **Joondalup** (city centre and lake, a few nm inland) and **Dongara**/Port Denison. Load them as GPS user waypoints (coordinates in the map command below). Leg 2 is direct, with no waypoints.
+- **Coastal routing (leg 1):**
   - Joondalup and Dongara were added because the straight Fremantle–Geraldton line runs up to ~3 nm offshore off the northern Perth beaches and again near Dongara.
-  - The straight Geraldton–Shark Bay line crosses ~20 nm of Shark Bay water west of Nanga. The Shark Bay Road waypoints keep you over land along the south shore of Hamelin Pool and up the isthmus.
-  - Elsewhere the track is never more than ~2 nm off the beach (Geographe Bay, the Binningup coast, Cockburn Sound).
+  - Elsewhere on leg 1 the track is never more than ~2 nm off the beach (Geographe Bay, the Binningup coast, Cockburn Sound).
 - **On the day:** work out the WCA for each leg from the forecast wind. HDG °M = track + WCA + variation (2.5–1°W). Then re-time the leg (dist ÷ GS) and re-fuel it (time × 12.5 USG/hr).
 - **Runways:** take the into-wind runway. Geraldton's sealed **03/21 (2,389 m)** is the main runway, and the gravel 08/26 and 14/32 are short. Shark Bay has **only 18/36**, so check the crosswind before you commit.
 
@@ -55,7 +52,7 @@
 | Leg 1, ~213 nm, **11 nm W of track** | **Jurien Bay (YJUR)** (ERSA): **intense parachuting within 5 nm, 7 days/week, to FL150**. Jump aircraft broadcast on CTAF **126.7** and Melbourne Centre **121.2** | Monitor **121.2** (your area frequency here). Hold your track and don't drift W toward Jurien |
 | Leg 1, somewhere north of Perth | Area **135.25 → 121.2** (Jurien Bay and Geraldton are on 121.2) | Read the boundary off the ERC-L |
 | Geraldton arrival and departure | (ERSA) **CTAF shielding**: aircraft and vehicles at one end may not hear CTAF calls from the other end. **Weather balloon** launches 2315 UTC TUE–FRI (0715 local) from 1.3 km SSW of the ARP, and at other times. **Power-station plume** 0.43 nm WSW of the RWY 08 threshold (height and velocity not available) | CTAF **127.1**. Make clear taxi calls and look before you enter the runway. Avoid flying over the power plant at low level |
-| Leg 2, ~70 nm, 8 nm W | Kalbarri (YKBR), kangaroo hazard only, no fuel | Diversion option only. CTAF **126.7** |
+| Leg 2, ~70 nm, **overhead** (0.5 nm off track) | **Kalbarri (YKBR)** (ERSA): kangaroos in the aerodrome vicinity, and power is by generator. No fuel | Listen on CTAF **126.7** as you pass overhead. It's a diversion option only |
 | Leg 2, approaching Shark Bay | Area **121.2 → 122.1** (Shark Bay and Carnarvon are on 122.1) | Read the boundary off the ERC-L |
 | Shark Bay arrival | (ERSA) **Local dust in high winds**, and **numerous kangaroos airside** | CTAF **126.7**. Do an inspection pass if roos are about, and expect poor visibility in strong wind |
 
@@ -72,25 +69,25 @@
 |-------|------------------:|----------------------------------------:|------:|-----------------------------:|
 | Depart YBLN (full) | **56.0** | to YGEL 26.3 + 10.1 = **36.4** | **+19.6** | 4 h 29 m |
 | Land YGEL (**fill here**) | **~29.7** | 10.1 (reserve) | **+19.6** | 2 h 23 m |
-| Depart YGEL (full) | **56.0** | to YSHK and on to YCAR by land: 16.6 + 14.9 + 10.1 = **41.6** | **+14.4** | 4 h 29 m |
-| Land YSHK (**no fuel**) | **~39.4** | to YCAR by land 14.9 + 10.1 = **25.0** | **+14.4** | 3 h 09 m |
-| Land YCAR via the land route (**refuel**) | **~24.5** | 10.1 (reserve) | **+14.4** | 1 h 58 m |
+| Depart YGEL (full) | **56.0** | to YSHK and on to YCAR by land: 16.2 + 14.9 + 10.1 = **41.2** | **+14.8** | 4 h 29 m |
+| Land YSHK (**no fuel**) | **~39.8** | to YCAR by land 14.9 + 10.1 = **25.0** | **+14.8** | 3 h 11 m |
+| Land YCAR via the land route (**refuel**) | **~24.9** | 10.1 (reserve) | **+14.8** | 2 h 00 m |
 
-- **Minimum to leave Shark Bay:** **25.0 USG** for Carnarvon by land, **16.0 USG** for Carnarvon direct (5.9 + reserve), or **26.7 USG** to go back to Geraldton (16.6 + reserve). Landing with ~39 USG covers any of these.
+- **Minimum to leave Shark Bay:** **25.0 USG** for Carnarvon by land, **16.0 USG** for Carnarvon direct (5.9 + reserve), or **26.3 USG** to go back to Geraldton (16.2 + reserve). Landing with ~40 USG covers any of these.
 - **Shark Bay → Carnarvon options:**
   - **Direct, 61 nm (28 m, 5.9 USG):** track 005°T. About **43 nm of it is over open Shark Bay water**, from the north end of the Peron Peninsula to the Carnarvon coast.
   - **Land route, 169 nm (1 h 12 m, 14.9 USG):** back down the Taillefer Isthmus, along the Shark Bay Road to the Overlander Roadhouse, then up the North West Coastal Hwy via the Wooramel Roadhouse. It's all over land.
   - Your choice. The plan fuels for the land route.
 - **Headwind stress test:** with a **20 kt headwind on every leg**:
   - Leg 1 takes 2 h 25 m and burns 30.2 USG. You land at Geraldton with **25.8 (+15.7 over reserve)**.
-  - Leg 2 takes 1 h 32 m and burns 19.1 USG. You land at Shark Bay with **37.0**.
-  - The land route on to Carnarvon then takes 1 h 22 m and burns 17.1 USG, leaving **19.9 (+9.8 over reserve)**.
+  - Leg 2 takes 1 h 29 m and burns 18.5 USG. You land at Shark Bay with **37.5**.
+  - The land route on to Carnarvon then takes 1 h 22 m and burns 17.1 USG, leaving **20.4 (+10.3 over reserve)**.
 - **Burn:** 12.5 USG/hr is conservative (the book figure is ~11.6), so expect actual use to come in under plan. Add ~1 USG for taxi and run-up when you uplift.
-- **Cost:** ~43 USG (~162 L) for YBLN → YSHK at ~$3.00/L ≈ **$490**. Add ~15 USG (~$170) for the land-route hop to Carnarvon.
+- **Cost:** ~42.5 USG (~161 L) for YBLN → YSHK at ~$3.00/L ≈ **$480**. Add ~15 USG (~$170) for the land-route hop to Carnarvon.
 - **Spare AVGAS near home:** Bunbury (YBUN) has an Air BP **H24 card bowser** (phone 08 9725 4377, **AH 0460 031 288**; the AH number changed in the 03 SEP cycle).
 
 ### Why stop at Geraldton rather than fly direct?
-Flying **nonstop YBLN → YSHK on the same coastal route** is 494 nm, **3 h 22 m and 42.1 USG**. With full tanks you'd land at Shark Bay with **~13.9 USG, only +3.8 over reserve**, and then you're stuck. You couldn't fly on to Carnarvon by land (25.0 needed), or even direct (16.0 needed), without eating into reserve. With a 20 kt headwind, the nonstop lands with **~7.6 USG, which is below reserve**. Topping up at **Geraldton** means you land at Shark Bay with ~39 USG, which is enough to reach Carnarvon (either way) or go back to Geraldton with reserves intact.
+Flying **nonstop YBLN → YSHK** (the coastal leg 1 to Dongara, then direct) is 490 nm, **3 h 20 m and 41.7 USG**. With full tanks you'd land at Shark Bay with **~14.3 USG, only +4.2 over reserve**, and then you're stuck. You couldn't fly on to Carnarvon by land (25.0 needed), or even direct (16.0 needed), without eating into reserve. With a 20 kt headwind, the nonstop lands with **~8.0 USG, which is below reserve**. Topping up at **Geraldton** means you land at Shark Bay with ~40 USG, which is enough to reach Carnarvon (either way) or go back to Geraldton with reserves intact.
 
 ## Fuel cards & payment
 
@@ -114,24 +111,24 @@ Flying **nonstop YBLN → YSHK on the same coastal route** is 494 nm, **3 h 22 m
 | Full fuel 56 USG | 152 kg (336 lb) | 153.95 | 51,727 |
 | **Takeoff** | **1,290 kg (2,845 lb)** | **143.2** | **407,432** |
 | Land YGEL (~29.7 USG) | 1,219 kg (2,687 lb) | 142.6 | 383,139 |
-| Land YSHK (~39.4 USG) | 1,245 kg (2,745 lb) | 142.8 | 392,099 |
+| Land YSHK (~39.8 USG) | 1,246 kg (2,748 lb) | 142.8 | 392,468 |
 
 **Takeoff is 2,845 lb: 155 lb (70 kg) under MTOW, and already under the 2,900 lb max landing weight.** The CG is inside the envelope at every point. But at takeoff, the **CG of 143.2 is only 0.7 in aft of the forward limit (142.5 at this weight)**. The landing CGs sit 1.3–1.6 in aft of the limit. The aft limit (~148) is never close.
 
 ⚠️ The empty arm is **assumed**. If the real figure is ~139.5, the full-fuel takeoff CG falls just **forward** of the limit. Confirm it from the W&B record. If it's forward, move kit from the cabin into the baggage bay (each kg there moves the CG aft).
 
 ## Alternatives considered
-- **Nonstop YBLN → YSHK (494 nm coastal):** within the ~600 nm range on paper, but you'd land with only +3.8 USG over reserve at a field with no fuel (see above). Not recommended.
+- **Nonstop YBLN → YSHK (490 nm):** within the ~600 nm range on paper, but you'd land with only +4.2 USG over reserve at a field with no fuel (see above). Not recommended.
 - **Via Carnarvon:** YBLN → YGEL → **YCAR** (fuel) → YSHK, so you arrive at Shark Bay with near-full tanks.
   - YGEL → YCAR is **246 nm, 1 h 43 m, 21.4 USG** via the Overlander and Wooramel roadhouses. The straight Geraldton–Carnarvon line crosses **~80 nm of Shark Bay's eastern gulf**, so don't fly it direct.
   - Then YCAR → YSHK is either 61 nm direct, ~43 nm of it over water, or 169 nm by land.
-  - This adds 118–226 nm overall. It's only worth it if you plan to stay at Shark Bay and fly local flights there without refuelling.
+  - This adds 123–231 nm overall. It's only worth it if you plan to stay at Shark Bay and fly local flights there without refuelling.
 
 ## Route Map
 
 ![Busselton → Geraldton → Shark Bay coastal route](map.png)
 
-🗺️ [Interactive `map.geojson`](map.geojson) · Regenerate: `.venv/bin/python scripts/route_map.py map YBLN Bunbury@-33.33,115.64 Mandurah@-32.53,115.72 Fremantle@-32.06,115.75 Joondalup@-31.745,115.765 Dongara@-29.25,114.93 YGEL HamelinRd@-26.48,114.10 Taillefer@-26.14,113.66 YSHK --out flightplans/SR20/YBLN-YSHK`
+🗺️ [Interactive `map.geojson`](map.geojson) · Regenerate: `.venv/bin/python scripts/route_map.py map YBLN Bunbury@-33.33,115.64 Mandurah@-32.53,115.72 Fremantle@-32.06,115.75 Joondalup@-31.745,115.765 Dongara@-29.25,114.93 YGEL YSHK --out flightplans/SR20/YBLN-YSHK`
 
 The map's coastline is coarse. The over-water checks above were done against the OpenStreetMap coastline.
 
@@ -159,7 +156,7 @@ The map's coastline is coarse. The over-water checks above were done against the
 - Fuel: World Fuel Services H24. 30 min PN in business hours, 1 hr PN after hours (fee applies). Phone 0491 233 624. Ground handling: North West Aviation Services, 08 9923 3745.
 
 **YSHK Shark Bay / Denham** (-25.894, 113.577):
-- **There's no fuel.** Arrive with at least 25 USG (land route to Carnarvon + reserve). Planned arrival is ~39.
+- **There's no fuel.** Arrive with at least 25 USG (land route to Carnarvon + reserve). Planned arrival is ~40.
 - **One runway, 18/36** (1,690 m × 30 m; the surface isn't in the parsed record, so check the FAC). Check the crosswind before you leave Geraldton. Carnarvon is the alternate.
 - **⚠️ Dust (ERSA):** local dust in high winds.
 - **⚠️ Kangaroos (ERSA):** increased animal hazard, with numerous kangaroos observed airside. Do an inspection pass if needed, and be ready to go around.
@@ -179,7 +176,7 @@ The map's coastline is coarse. The over-water checks above were done against the
 - [ ] **Perth airspace:** decide between OCTA under the steps and a clearance. Mark the Class C / D step bases on the Perth VTC for Mandurah → Joondalup, and note the APP frequency for your sector.
 - [ ] **LSALT:** read it off the ERC-L for each leg and check your cruise level against it.
 - [ ] **Area boundaries:** mark the 124.9 → 135.25 → 121.2 → 122.1 changes on the ERC-L.
-- [ ] **GPS:** load the user waypoints (Bunbury, Mandurah, Fremantle, Joondalup, Dongara, Shark Bay Rd, Taillefer) and check the route draws over land.
+- [ ] **GPS:** load the user waypoints (Bunbury, Mandurah, Fremantle, Joondalup, Dongara) and check leg 1 draws along the coast.
 - [ ] **Fuel:** full 56 USG at Busselton (carnet). **Phone WFS Geraldton** (0491 233 624) with your ETA, at least 30 min ahead, and confirm payment. Have a plan for Carnarvon fuel (WFS app set up, or a BP card).
 - [ ] **No fuel at Shark Bay:** decide on the Carnarvon routing now (land route 25.0 USG minimum, direct 16.0 USG minimum).
 - [ ] **W&B** using the real empty weight and arm. Check the full-fuel takeoff CG against the forward limit.
@@ -195,7 +192,7 @@ The map's coastline is coarse. The over-water checks above were done against the
 - [ ] **~213 nm (abeam Jurien Bay, 11 nm W):** listen on **121.2** for jump calls, and hold your track.
 - [ ] **Fuel log:** check the gauges against the plan: ~45 USG at Joondalup, ~32 at Dongara, **~30 at Geraldton**.
 - [ ] **Geraldton:** CTAF **127.1**. Make full calls (shielding), and look out for the balloon (0715 local TUE–FRI) and the power-plant plume WSW of 08. **Fill to 56 USG.**
-- [ ] **Leg 2:** track N over station country, inland of Kalbarri (~8 nm W), then the **Shark Bay Road** W along the south shore of Hamelin Pool and up the **Taillefer Isthmus**. Stay over land. Area **121.2 → 122.1**.
+- [ ] **Leg 2:** direct to Shark Bay, **342°M**. You pass **overhead Kalbarri** at ~70 nm, so listen on CTAF **126.7**. Area **121.2 → 122.1**.
 - [ ] **Fuel log, leg 2:** expect ~43 USG at Shark Bay Rd and **~39 at Shark Bay**. You need **25.0 minimum** for the land route to Carnarvon.
 - [ ] **Shark Bay:** CTAF **126.7**. Watch for **kangaroos airside** and **dust** in strong wind. Land on 18/36 into wind.
 - [ ] **Onward to Carnarvon:** CTAF **126.7**, area 122.1. Watch for **corellas** on both runways and **helicopters**. Taxi slowly on the rough northern GA apron.
