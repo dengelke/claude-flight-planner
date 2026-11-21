@@ -232,6 +232,8 @@ The rules below are from the **Part 91 MOS (compilation 6, 1 Mar 2025)**:
 
 ## Alternatives considered
 
+**Getting to Broome:** an inland one-day route (YBUN → Meekatharra → Newman → Broome, 992 nm, ~6 h 47 m) is planned in [YBUN-YBRM](../YBUN-YBRM/plan.md). It frees a rest/weather day in Broome before the crossing.
+
 | Gateway | To Kupang | Notes |
 |---------|----------:|-------|
 | **Broome (YBRM)** ✅ | **474 nm** | Designated international, ABF office on site, Air BP AVGAS, on your way north. **Chosen.** |
