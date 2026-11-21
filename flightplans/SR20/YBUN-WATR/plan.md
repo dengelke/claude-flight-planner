@@ -107,7 +107,19 @@ With full tanks, **no Port Hedland stop is needed** (the 50.7 USG / 250 kg Kunun
 
 - **Flight plan:** file an ICAO flight plan with an **EET to the FIR boundary** (AIP ENR 1.10). Brisbane FIR (Broome is Brisbane Centre 123.95) → Ujung Pandang (Makassar) FIR. ATSB has reported that **the Australia–Indonesia boundary accounts for most of Australia's international coordination breakdowns**. Confirm your boundary estimate with both sides and don't assume they've passed it on.
 - **VFR or IFR: not confirmed.** AIP Indonesia wasn't accessible, and there's a first-hand report of a light aircraft flying **VFR** Lombok → Broome (AOPA NZ, 2023). **Ask your agent to confirm Indonesia will accept your flight rules** for both international legs and the Kupang → Rote hop. If they need IFR, that needs an instrument rating and an IFR-equipped VH-SRA.
-- **Radio coverage gap:** at 7,500–9,500 ft, VHF reaches ~110–120 nm from each end, so you'll have **~230–250 nm in the middle with no VHF to ATC**. Part 91 MOS **26.18** requires radio equipment able to meet the reporting and listening-watch requirements **"from any point on the route"**. That points to **HF** (pilot reports also say Indonesian HF can be poor). **Confirm with CASA/Airservices how you'll comply.** In practice, plan to relay via airliners on **123.45**, monitor **121.5**, and carry a **satphone** with the Brisbane Centre and Makassar ACC numbers.
+- **Radio coverage gap:** at 7,500–9,500 ft, VHF reaches ~110–120 nm from each end, so you'll have **~230–250 nm in the middle with no VHF to ATC**.
+- **What Part 91 MOS actually requires (Australian side):**
+  - **26.18** requires radios able to make the *required* reports "from any point on the route".
+  - **For VFR in Class G, the only required reports (21.07, Table 21.07(1)) are a report before entering controlled airspace, and reports "before, and on completion of, over-water stage" if SAR reporting schedules were arranged.** Both of those are in VHF range of Broome and Kupang.
+  - **21.03(2)** counts **SATCOM voice** as a "published radio frequency".
+  - **So VFR doesn't need HF under the Australian rules.** A satphone covers any mid-ocean report.
+  - **IFR is the opposite:** an IFR aircraft in Class G must make en-route position reports to ATS (21.06), which means **HF or SATCOM voice across the gap**, and it needs a **45-min reserve** instead of 30 (Table 19.02(2)).
+  - **Indonesian requirements aren't confirmed.** Ask your agent.
+- **In practice:**
+  - File a flight plan with a SAR reporting schedule for the over-water stage, and call Brisbane Centre before you leave VHF range.
+  - Carry a **satphone** (headset adapter, ATS numbers per AIP GEN 3.4 / the agent for Makassar ACC).
+  - Relay via airliners on **123.45** and monitor **121.5**.
+  - Run a **satellite tracker** (inReach/Spidertracks) with a ground contact holding a firm alerting time.
 - **Kupang frequencies (unverified, sources conflict):** TWR/APP **118.3**, **120.55**, ATIS **127.55**; another database gives APP **122.2**. **Rote:** "Information" on **123.4**. Get the current frequencies from the agent or AIP Indonesia.
 
 ## Paperwork & approvals
@@ -236,13 +248,13 @@ The rules below are from the **Part 91 MOS (compilation 6, 1 Mar 2025)**:
 2. **CIQ for GA at El Tari**, and the visa type for Australians arriving there.
 3. **VFR acceptance** in the Ujung Pandang FIR. Kupang approach frequency.
 4. **Rote:** hours, handling, runway designation and slope.
-5. **Radio compliance** across the VHF gap (MOS 26.18): HF requirement and satphone acceptance.
+5. **Indonesian radio/reporting requirements** in the Ujung Pandang FIR, and the satphone numbers for Brisbane Centre and Makassar ACC.
 6. **Insurer** territorial extension.
 7. Any Indonesian **customs bond** for the aircraft.
 8. **ERSA changes** for the Australian fields (the cycle in force in March/April 2027).
 
 ### Sources
-- Part 91 MOS Ch. 26 (compilation 6), sections 26.18, 26.58, 26.60–26.62: [legislation.gov.au](https://www.legislation.gov.au/F2020L01514/2025-03-01/2025-03-01/text/original/pdf)
+- Part 91 MOS (compilation 6), sections 19.02, 21.03, 21.06, 21.07, 26.18, 26.58, 26.60–26.62: [legislation.gov.au](https://www.legislation.gov.au/F2020L01514/2025-03-01/2025-03-01/text/original/pdf)
 - CASA RPL not ICAO: [casa.gov.au](https://www.casa.gov.au/licences-and-certificates/pilots/pilot-licences/getting-recreational-pilot-licence-rpl). Basic Class 2 domestic only: [CASA EX11/25](https://www.legislation.gov.au/F2025L00270/asmade/2025-02-28/text/original/pdf). PPL/ELP: [casa.gov.au](https://www.casa.gov.au/licences-and-certificates/pilots/pilot-licences/getting-private-pilot-licence-ppl)
 - Indonesia clearances: [PP 4/2018](https://pasal.id/peraturan/pp/pp-no-4-tahun-2018) · [Permenlu 14/2019](https://pasal.id/peraturan/permen/permenlu-no-14-tahun-2019) · [Permenhan 3/2024](https://pasal.id/peraturan/permen/permenhan-no-3-tahun-2024) · [PM 109/2016](https://pasal.id/peraturan/permen/permenhub-no-pm109-tahun-2016)
 - El Tari international status: [Kontan (Aug 2025 list)](https://industri.kontan.co.id/news/daftar-lengkap-36-bandara-yang-kini-berstatus-internasional?page=all) · [Bisnis (Jul 2026)](https://ekonomi.bisnis.com/read/20260709/98/1986826/daftar-terbaru-38-bandara-internasional-ri-18-belum-layani-rute-luar-negeri) · e-VoA entry points: [imigrasi.go.id](https://imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa/titik-masuk-bagi-pemegang-e-voa)
