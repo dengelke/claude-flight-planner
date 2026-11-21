@@ -4,7 +4,8 @@
 **Aircraft:** [Cirrus SR20 G1 **VH-SRA** (s/n 1312)](../../aircraft/SR20.md) · AVGAS · 56 USG usable · MTOW 3000 lb (1361 kg) · empty 973 kg @ FS 140.9
 **Planning basis:** domestic legs 150 KTAS · 12.5 USG/hr (repo standard). **Timor Sea crossing at 75% power, 159 KTAS, 11.6 USG/hr, plus 1 USG taxi and 2.9 USG climb** · reserve 10.1 USG (45 min) · **nil wind** (apply the forecast on the day) · climb +1 min / 2,000 ft
 **Loading (your figures):** pilot 85 kg + passenger 65 kg (front), luggage 40 kg, plus survival kit (life raft, jackets, grab bag; **~17 kg assumed**) → **full tanks at every stop, takeoff 2,937 lb**, 63 lb under MTOW.
-**Data:** ERSA **03 SEP 2026** for the Australian fields. **The 26 NOV 2026 cycle takes effect in 5 days**, so re-check every Australian field after that. The Indonesian data comes from secondary sources (no free AIP Indonesia), so **treat it as unverified until your Indonesian handling agent and the NOTAMs confirm it.**
+**When:** **March/April 2027** (your plan). **Aim for the second half of April** (see *Season & weather*).
+**Data:** ERSA **03 SEP 2026** for the Australian fields. Several ERSA cycles will have changed by March/April 2027, so **re-check every Australian field against the cycle in force when you fly**. The Indonesian data comes from secondary sources (no free AIP Indonesia), so **treat it as unverified until your Indonesian handling agent and the NOTAMs confirm it.**
 
 > ✈️ **Bottom line:** **Yes, Broome → El Tari is the right gateway.** Rote isn't an entry point, so you clear in at Kupang and then hop 50 nm to Rote.
 > The flying works. **The Timor Sea leg is 474 nm**, ~3 h 03 m at 75% power (159 kt, 11.6 USG/hr). Including taxi and climb it lands with **+7.4 USG over reserve in nil wind**, and the margin lasts until a **~28 kt headwind**.
@@ -54,6 +55,7 @@ With full tanks, **no Port Hedland stop is needed** (the 50.7 USG / 250 kg Kunun
 **Trip (one way, YBUN → WATR): ~1,764 nm · ~11 h 57 m flying.**
 
 - **You'll be out of sight of land for most of this leg.** Navigate on the IFR GPS, keep a second GPS (iPad/EFB) on its own battery, and carry the paper ERC/ICAO chart.
+- **Fly it on the S-TEC 30** (roll steering on GPS/NAV plus altitude hold). It's your best defence against losing the horizon over sea haze or under overcast. **It doesn't make flying into cloud OK on a VFR plan**, so stay VMC and turn back or divert around build-ups early. Brief the autopilot disconnect, a runaway-trim response, and **what happens if the turn coordinator fails** (it drives the S-TEC's roll axis), and be current at hand-flying on instruments. CAPS is the last resort if control is lost in cloud.
 - **Cruise levels:** Australian VFR hemispherical rules apply until the FIR boundary. In Indonesia, ICAO Annex 2 VFR semicircular levels and Indonesian ATC instructions apply. **Your agent and the flight plan acceptance confirm the level**; this plan doesn't assume one beyond the FIR boundary. Below 10,000 ft (no oxygen).
 - **The direct line passes ~8–10 nm east of Rote's eastern tip** (the airport is ~28 nm west of track there), then crosses Semau/Timor about 40 nm before Kupang. Rote is also your alternate (see Fuel Plan).
 
@@ -94,7 +96,12 @@ With full tanks, **no Port Hedland stop is needed** (the 50.7 USG / 250 kg Kunun
   **If you're under the minimum, or the forecast for the rest of the leg is worse, turn back to Broome.** You're still short of the PNR.
 - **If the wind is against you,** pulling back to 55–65% power stretches the range. POH Fig. 5-16 gives 55% best economy at 8,000 ft as 136 KTAS / 8.4 GPH. It's a fallback, not the plan.
 - **Alternate:** Rote (WATR) is 50 nm from Kupang, which costs ~5.6 USG. Nil-wind arrival at Kupang leaves +7.4 USG over reserve, so you can afford it. **If Indonesia requires a destination alternate for your flight plan, nominate WATR and have the agent include it in the flight approval.** Kupang is also a **TNI-AU air base**, so closures can happen at short notice. Check the NOTAMs.
-- **Weather is the real risk.** You're flying in **late November**, which is the start of the wet season. The monsoon trough brings **thunderstorm lines and embedded convection over the Timor Sea**, the NW monsoon flow (from ~Dec) is a **headwind on the outbound leg**, and it's **tropical cyclone season** (Nov–Apr). **Depart at first light, before the afternoon build-ups.** Have a hard go/no-go on the TAF/SIGMETs for both Broome and Kupang, and the BoM tropical cyclone outlook. **The dry season (May–Oct) is far better:** SE trades give a tailwind north and only a small headwind on the return.
+- **Season & weather: March/April is the tail of the wet season.**
+  - **March** is still fully wet: an active monsoon trough, frequent thunderstorm lines and embedded convection over the Timor Sea, and **tropical cyclone season** (Nov–Apr, with Kimberley/Pilbara cyclones still common in March). NW–W monsoon winds give a **headwind component outbound** and a tailwind home.
+  - **April** is the transition month. Storms ease, the monsoon trough retreats north, and the **SE trades start to set in**, usually by late April or May. Late-season cyclones are still possible.
+  - **Late April is the sweet spot** if you can't go in May. Be ready to slip the dates by a week.
+  - **Depart at first light** for the build-ups. Have a hard go/no-go on the Broome and Kupang TAFs, the SIGMETs (Brisbane and Ujung Pandang FIRs), satellite imagery along the track, and the **BoM tropical cyclone outlook**. Don't go if a tropical low is forecast anywhere near the Timor Sea.
+  - **Plan days in hand** at Broome and Kupang/Rote. Weather is what stops this trip, not fuel.
 
 ## Radio, flight plan & the FIR boundary
 
@@ -160,7 +167,7 @@ The rules below are from the **Part 91 MOS (compilation 6, 1 Mar 2025)**:
   - Take a **water-separating filter funnel** and your fuel sample cup, and test every drum.
   - **Order 2 × 200 L drums** for ~50 USG of need. One drum is enough if the winds behave, but you can't get home if it isn't there.
   - **Ask for a fuel release / proof of payment in advance.** One report gives 24 h notice for fuel uplift at smaller Indonesian airports.
-- **Return leg (WATT → YBRM):** same 474 nm and the same 75% numbers. In the **dry season** the SE trades give a small headwind (~0.3 × trade-wind speed) southbound. In the **wet season** the NW monsoon becomes a tailwind going home.
+- **Return leg (WATT → YBRM):** same 474 nm and the same 75% numbers. In **March** the NW–W monsoon is usually a tailwind going home. **Once the SE trades set in (late April onward)** they give a small headwind southbound (~0.3 × trade-wind speed).
 - **Cost:** one way (domestic legs at 12.5 GPH plus the 75% crossing) is about **~150 USG (~565 L) of Australian AVGAS** ≈ $1,700 at ~$3.00/L. Indonesian drum AVGAS and handling are **much more expensive**: one 2023 report was **US$2,500 all-in for a single drum stop** in Lombok. Budget accordingly.
 
 ## Fuel cards & payment
@@ -232,7 +239,7 @@ The rules below are from the **Part 91 MOS (compilation 6, 1 Mar 2025)**:
 5. **Radio compliance** across the VHF gap (MOS 26.18): HF requirement and satphone acceptance.
 6. **Insurer** territorial extension.
 7. Any Indonesian **customs bond** for the aircraft.
-8. **ERSA 26 NOV 2026** changes for the Australian fields.
+8. **ERSA changes** for the Australian fields (the cycle in force in March/April 2027).
 
 ### Sources
 - Part 91 MOS Ch. 26 (compilation 6), sections 26.18, 26.58, 26.60–26.62: [legislation.gov.au](https://www.legislation.gov.au/F2020L01514/2025-03-01/2025-03-01/text/original/pdf)
