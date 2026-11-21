@@ -2,13 +2,13 @@
 
 **Route:** YBUN → *Mandurah · Fremantle · Joondalup · Dongara* → **YGEL Geraldton** → *Overlander · Wooramel* → **YCAR Carnarvon** → **YPKA Karratha (overnight)** → *Whim Creek · Port Hedland · Pardoo · Sandfire · Roebuck Plains* → **YBRM Broome (overnight, clear out of Australia)** → **WATT Kupang/El Tari (clear into Indonesia, refuel)** → **WATR Rote/D.C. Saudale**
 **Aircraft:** [Cirrus SR20 G1 **VH-SRA** (s/n 1312)](../../aircraft/SR20.md) · AVGAS · 56 USG usable · MTOW 3000 lb (1361 kg) · empty 973 kg @ FS 140.9
-**Planning basis:** domestic legs 150 KTAS · 12.5 USG/hr (repo standard). **Timor Sea crossing at 55% power, best economy** (POH Fig. 5-16; see below) · reserve 10.1 USG (45 min) · **nil wind** (apply the forecast on the day) · climb +1 min / 2,000 ft
+**Planning basis:** domestic legs 150 KTAS · 12.5 USG/hr (repo standard). **Timor Sea crossing at 75% power, 159 KTAS, 11.6 USG/hr, plus 1 USG taxi and 2.9 USG climb** · reserve 10.1 USG (45 min) · **nil wind** (apply the forecast on the day) · climb +1 min / 2,000 ft
 **Loading (your figures):** pilot 85 kg + passenger 65 kg (front), luggage 40 kg, plus survival kit (life raft, jackets, grab bag; **~17 kg assumed**) → **full tanks at every stop, takeoff 2,937 lb**, 63 lb under MTOW.
 **Data:** ERSA **03 SEP 2026** for the Australian fields. **The 26 NOV 2026 cycle takes effect in 5 days**, so re-check every Australian field after that. The Indonesian data comes from secondary sources (no free AIP Indonesia), so **treat it as unverified until your Indonesian handling agent and the NOTAMs confirm it.**
 
 > ✈️ **Bottom line:** **Yes, Broome → El Tari is the right gateway.** Rote isn't an entry point, so you clear in at Kupang and then hop 50 nm to Rote.
-> The flying works. **The Timor Sea leg is 474 nm**, ~3 h 36 m at 55% power. It lands with **+8.4 USG over reserve in nil wind** and still has a margin with a **~27 kt headwind**.
-> At the repo's usual 75% / 12.5 USG/hr it **does not**: a 9 kt headwind uses up the margin. **Fly it at economy power.**
+> The flying works. **The Timor Sea leg is 474 nm**, ~3 h 03 m at 75% power (159 kt, 11.6 USG/hr). Including taxi and climb it lands with **+7.4 USG over reserve in nil wind**, and the margin lasts until a **~28 kt headwind**.
+> **The fuel flow decides it:** at the repo's 12.5 USG/hr the margin drops to ~+2.5 USG, so confirm VH-SRA's real 75% burn first.
 > **Four things would stop the trip. Sort them before anything else:**
 > 1. **Licence and medical.** You need a **PPL (not an RPL), English Language Proficiency, and a full Class 2 medical** (not Basic Class 2). An RPL isn't an ICAO licence and isn't valid outside Australia.
 > 2. **AVGAS in Indonesia.** There's no confirmed 100LL at Kupang and none at Rote, and VH-SRA **can't get back to Australia without refuelling in Indonesia**. Have your agent **pre-order and confirm sealed Pertamina drums at El Tari** before you leave.
@@ -45,13 +45,13 @@ With full tanks, **no Port Hedland stop is needed** (the 50.7 USG / 250 kg Kunun
 
 | Leg | Segment | Dist (nm) | Track °T | HDG °M | Cruise | Time | Leg fuel (USG) | Lands with (USG) |
 |:---:|---------|----------:|:--------:|:------:|:------:|-----:|---------------:|-----------------:|
-| 5 | **YBRM → WATT Kupang/El Tari** | **474.5** | 010 | 009 | **7,500 / 9,500** (see the hemispherical note below) · **55% best economy** | **3 h 36 m** | **36.5** (incl. 2.9 climb) + 1 taxi | **18.5** (+8.4 over reserve) |
+| 5 | **YBRM → WATT Kupang/El Tari** | **474.5** | 010 | 009 | **7,500 / 9,500** (see the hemispherical note below) · **75%, 159 kt** | **3 h 03 m** | **38.5** (incl. 1 taxi + 2.9 climb) | **17.5** (+7.4 over reserve) |
 | — | *Kupang: CIQ, fill to full from pre-ordered drums* | — | — | — | — | *2–3 h?* | — | 56 |
-| 6 | WATT → **WATR Rote** | 50.1 | 224 | 223 | low (Indonesian ATC) | ~24 m | ~5 | ~51 |
+| 6 | WATT → **WATR Rote** | 50.1 | 224 | 223 | low (Indonesian ATC) | ~23 m | ~5.6 (incl. taxi + climb) | ~50 |
 
-**Return (reverse):** WATR → WATT (50 nm; clear out of Indonesia, top up to full) → **YBRM** (474 nm; clear in to Australia) → home on the coastal route. **Indonesian AVGAS needed: about 37.5 USG on arrival plus ~10 USG before the return ≈ 48 USG ≈ 180 L. That's one 200 L drum, so order two for headwind margin.**
+**Return (reverse):** WATR → WATT (50 nm; clear out of Indonesia, top up to full) → **YBRM** (474 nm; clear in to Australia) → home on the coastal route. **Indonesian AVGAS needed: about 38.5 USG on arrival plus ~11 USG before the return ≈ 50 USG ≈ 190 L. That's one 200 L drum, so order two for headwind margin.**
 
-**Trip (one way, YBUN → WATR): ~1,764 nm · ~12 h 30 m flying.**
+**Trip (one way, YBUN → WATR): ~1,764 nm · ~11 h 57 m flying.**
 
 - **You'll be out of sight of land for most of this leg.** Navigate on the IFR GPS, keep a second GPS (iPad/EFB) on its own battery, and carry the paper ERC/ICAO chart.
 - **Cruise levels:** Australian VFR hemispherical rules apply until the FIR boundary. In Indonesia, ICAO Annex 2 VFR semicircular levels and Indonesian ATC instructions apply. **Your agent and the flight plan acceptance confirm the level**; this plan doesn't assume one beyond the FIR boundary. Below 10,000 ft (no oxygen).
@@ -59,27 +59,41 @@ With full tanks, **no Port Hedland stop is needed** (the 50.7 USG / 250 kg Kunun
 
 ## The Timor Sea crossing (YBRM → WATT, 474 nm)
 
-**Why 55% power?** At the repo's normal 12.5 USG/hr, this leg doesn't hold up:
+**Basis: 75% power, 159 KTAS, 11.6 USG/hr** (your figures). Taxi and climb are added on top:
 
-| Power setting (8,000 ft) | TAS / planning burn | Nil wind: lands over reserve | 10 kt HW | 20 kt HW | Headwind that uses up the margin |
-|--------------------------|---------------------|-----------------------------:|---------:|---------:|---------------------------------:|
-| 75% best power (repo standard) | 150 kt / 12.5 GPH | +2.5 USG | −0.4 ❌ | −3.6 ❌ | **~9 kt** |
-| 65% best power | 145 kt / 11.3 GPH *(POH 10.5 + 8%)* | +5.0 USG | +2.3 | −0.9 ❌ | ~17 kt |
-| **55% best economy** | **134 kt / 9.5 GPH** *(POH 136 kt / 8.4 GPH, derated for heat and margin)* | **+8.4 USG** | **+5.6** | **+2.5** | **~27 kt** |
+| Fuel item | USG |
+|-----------|----:|
+| Taxi / run-up at Broome | 1.0 |
+| Climb to 8,000 ft (POH Fig. 5-16, 75%) | 2.9 |
+| Cruise: 474.5 nm ÷ 159 kt = 2 h 59 m × 11.6 | 34.6 |
+| **Trip fuel incl. taxi + climb** | **38.5** |
+| Fixed reserve (45 min) | 10.1 |
+| **Required** | **48.6** of 56 usable → **+7.4 spare** |
 
-*Assumptions: full 56 USG; 1 USG taxi; POH climb fuel to 8,000 ft = 2.9 USG; reserve 10.1 USG. The 55% row uses the POH 55%-best-power fuel flow (9.5 GPH) as a margin over the 8.4 GPH best-economy figure, and 2 kt less TAS for tropical ISA+.* **Log VH-SRA's actual 55% fuel flow on a domestic leg (e.g. Karratha → Broome) and confirm it before you commit.**
+*The cruise is charged over the whole 474.5 nm, ignoring the distance covered in the climb, so the climb fuel is a slight overestimate. Flight time is 3 h 03 m including the +4 min climb allowance.*
 
-- **Point of no return (back to Broome): ~290 nm** at 55% (295 nm nil wind, 290 nm with a 20 kt headwind on the way out). There's **no land and no alternate in between**, so decide before the PNR.
-- **Fuel decision point at 200 nm out** (about 1 h 30 m after takeoff). Check groundspeed and fuel against this:
+| Wind on the leg | GS | Time | Lands with | Over reserve |
+|-----------------|---:|-----:|-----------:|-------------:|
+| Nil | 159 | 3 h 03 m | 17.5 | **+7.4** |
+| 10 kt headwind | 149 | 3 h 15 m | 15.2 | +5.1 |
+| 20 kt headwind | 139 | 3 h 29 m | 12.5 | +2.4 |
+| 30 kt headwind | 129 | 3 h 45 m | 9.4 | **−0.7 ❌** |
+
+**The headwind that uses up the margin is ~28 kt** (minimum groundspeed ~131 kt).
+
+- ⚠️ **Check the 159 kt against VH-SRA's logs.** In the POH cruise table (Fig. 5-15), **75% at 11.6 GPH gives 150–155 KTAS (4,000–8,000 ft)**, and the 157–159 kt rows are at 2,700 RPM. Those rows are **77–89% power**, and above 8,000 ft they burn 12.9–14.4 GPH. **At the POH's 155 kt and 11.6 GPH the leg lands +6.5 USG over reserve, and the margin goes at a ~24 kt headwind.** That's only ~0.9 USG worse, so 159 kt isn't critical. **The fuel flow is what matters:** at the repo's 12.5 GPH the margin drops to ~+2.5 USG. Confirm your real 75% fuel flow on the Karratha → Broome leg.
+- **Point of no return (back to Broome): ~288 nm** (283 nm with a 20 kt headwind on the way out). There's **no land and no alternate in between**, so decide before the PNR.
+- **Fuel decision point at 200 nm out** (about 1 h 20 m after takeoff). Check groundspeed and fuel against this:
 
   | Groundspeed so far | Expect on board at 200 nm | Minimum to continue to WATT + reserve | Spare |
   |-------------------:|-------------------------:|--------------------------------------:|------:|
-  | 134 kt (nil wind) | 37.9 | 29.6 | +8.4 |
-  | 124 kt (10 kt HW) | 36.8 | 31.1 | +5.6 |
-  | 114 kt (20 kt HW) | 35.4 | 33.0 | +2.5 |
+  | 159 kt (nil wind) | 37.5 | 30.1 | +7.4 |
+  | 149 kt (10 kt HW) | 36.5 | 31.5 | +5.1 |
+  | 139 kt (20 kt HW) | 35.4 | 33.0 | +2.4 |
 
   **If you're under the minimum, or the forecast for the rest of the leg is worse, turn back to Broome.** You're still short of the PNR.
-- **Alternate:** Rote (WATR) is 50 nm from Kupang, which costs ~5 USG. Nil-wind arrival at Kupang leaves +8.4 USG over reserve, so you can afford it. **If Indonesia requires a destination alternate for your flight plan, nominate WATR and have the agent include it in the flight approval.** Kupang is also a **TNI-AU air base**, so closures can happen at short notice. Check the NOTAMs.
+- **If the wind is against you,** pulling back to 55–65% power stretches the range. POH Fig. 5-16 gives 55% best economy at 8,000 ft as 136 KTAS / 8.4 GPH. It's a fallback, not the plan.
+- **Alternate:** Rote (WATR) is 50 nm from Kupang, which costs ~5.6 USG. Nil-wind arrival at Kupang leaves +7.4 USG over reserve, so you can afford it. **If Indonesia requires a destination alternate for your flight plan, nominate WATR and have the agent include it in the flight approval.** Kupang is also a **TNI-AU air base**, so closures can happen at short notice. Check the NOTAMs.
 - **Weather is the real risk.** You're flying in **late November**, which is the start of the wet season. The monsoon trough brings **thunderstorm lines and embedded convection over the Timor Sea**, the NW monsoon flow (from ~Dec) is a **headwind on the outbound leg**, and it's **tropical cyclone season** (Nov–Apr). **Depart at first light, before the afternoon build-ups.** Have a hard go/no-go on the TAF/SIGMETs for both Broome and Kupang, and the BoM tropical cyclone outlook. **The dry season (May–Oct) is far better:** SE trades give a tailwind north and only a small headwind on the return.
 
 ## Radio, flight plan & the FIR boundary
@@ -136,18 +150,18 @@ The rules below are from the **Part 91 MOS (compilation 6, 1 Mar 2025)**:
 | Land YGEL → fill | 31.4 | 31.5 (leg 2) | +24.5 | ✓ WFS H24 |
 | Land YCAR → fill | 34.6 | 36.2 (leg 3) | +19.8 | ✓ WFS / Air BP H24 |
 | Land YPKA → fill (overnight) | 29.9 | 44.7 (leg 4) | +11.3 | ✓ Air BP |
-| Land YBRM → **fill to full** (overnight) | 21.4 | **47.6** (leg 5 at 55%, incl. 1 taxi) | **+8.4** | ✓ Air BP |
-| **Land WATT → fill to full from drums** | **18.5** | ~15 (WATR + reserve) | — | ⚠️ **Pertamina drums: pre-order** |
-| Land WATR | ~51 | ~15 (back to WATT + reserve) | — | ❌ **No fuel at Rote** |
-| **Depart WATT → YBRM, top up to full** | **56.0** | 47.6 | +8.4 | ⚠️ drums |
+| Land YBRM → **fill to full** (overnight) | 21.4 | **48.6** (leg 5 at 75%, incl. taxi + climb) | **+7.4** | ✓ Air BP |
+| **Land WATT → fill to full from drums** | **17.5** | ~15 (WATR + reserve) | — | ⚠️ **Pertamina drums: pre-order** |
+| Land WATR | ~50 | ~15 (back to WATT + reserve) | — | ❌ **No fuel at Rote** |
+| **Depart WATT → YBRM, top up to full** | **56.0** | 48.6 | +7.4 | ⚠️ drums |
 
 - **AVGAS in Indonesia is a must-have:**
   - **Pertamina** is the only supplier. A 2021 Pertamina price list shows **drum AVGAS at DPPU El Tari**, but nothing since confirms it's in stock. Pilot reports over the years say AVGAS is "in very short supply throughout Indonesia": **pre-order drums through the agent**, insist on **sealed drums**, and expect to **pay for every drum opened**. Watch it go in.
   - Take a **water-separating filter funnel** and your fuel sample cup, and test every drum.
-  - **Order 2 × 200 L drums** for ~48 USG of need. One drum is enough if the winds behave, but you can't get home if it isn't there.
+  - **Order 2 × 200 L drums** for ~50 USG of need. One drum is enough if the winds behave, but you can't get home if it isn't there.
   - **Ask for a fuel release / proof of payment in advance.** One report gives 24 h notice for fuel uplift at smaller Indonesian airports.
-- **Return leg (WATT → YBRM):** same 474 nm and the same 55% numbers. In the **dry season** the SE trades give a small headwind (~0.3 × trade-wind speed) southbound. In the **wet season** the NW monsoon becomes a tailwind going home.
-- **Cost:** one way (domestic legs at 12.5 GPH plus the 55% crossing) is about **~145 USG (~550 L) of Australian AVGAS** ≈ $1,650 at ~$3.00/L. Indonesian drum AVGAS and handling are **much more expensive**: one 2023 report was **US$2,500 all-in for a single drum stop** in Lombok. Budget accordingly.
+- **Return leg (WATT → YBRM):** same 474 nm and the same 75% numbers. In the **dry season** the SE trades give a small headwind (~0.3 × trade-wind speed) southbound. In the **wet season** the NW monsoon becomes a tailwind going home.
+- **Cost:** one way (domestic legs at 12.5 GPH plus the 75% crossing) is about **~150 USG (~565 L) of Australian AVGAS** ≈ $1,700 at ~$3.00/L. Indonesian drum AVGAS and handling are **much more expensive**: one 2023 report was **US$2,500 all-in for a single drum stop** in Lombok. Budget accordingly.
 
 ## Fuel cards & payment
 
@@ -171,7 +185,7 @@ The rules below are from the **Part 91 MOS (compilation 6, 1 Mar 2025)**:
 | **Zero-fuel** | **2,601** | **144.1** | **374,775** |
 | Fuel 56 USG | 336 | 153.95 | 51,727 |
 | **Takeoff (full tanks)** | **2,937** | **145.2** | **426,502** |
-| Landing Kupang (~18.5 USG) | 2,712 | 144.5 | — |
+| Landing Kupang (~17.5 USG) | 2,706 | 144.5 | — |
 | Landing at reserve (10.1 USG) | 2,662 | 144.3 | — |
 
 **Every case is inside limits** ✓. Takeoff is 2,937 lb with the CG at 145.2 in, against a forward limit of 143.5 at that weight (1.7 in margin) and the ~148 aft limit. The forward margin shrinks a little as fuel burns, to 144.3 in at reserve against a ~140.9 limit. **Takeoff weight is over the 2,900 lb max landing weight by 37 lb, all of it fuel**, as the POH requires. Burn ~6 USG before landing, so a return to Broome shortly after takeoff is an **overweight landing** (or hold to burn fuel). Baggage is 88 lb against the 130 lb limit ✓.
@@ -204,7 +218,7 @@ The rules below are from the **Part 91 MOS (compilation 6, 1 Mar 2025)**:
 | **Broome (YBRM)** ✅ | **474 nm** | Designated international, ABF office on site, Air BP AVGAS, on your way north. **Chosen.** |
 | Derby (YDBY) | 432 nm | Not a designated international airport, so you'd need ABF approval. Only 42 nm shorter |
 | Kununurra / Darwin | 447 / 445 nm | Barely shorter than Broome and 400–600 nm further from home. Darwin is the traditional GA gateway to Indonesia but not worth the detour |
-| **Truscott (YTST)** | **284 nm** | The shortest crossing by far: +20 USG over reserve. **But it isn't a designated international airport (it needs ABF NPPC approval, and officers may have to attend), its AVGAS is "limited supply, PPR CTC AD OPR"**, and it's a remote offshore-support base. Ask ABF Broome whether they'd approve it if you want the extra margin |
+| **Truscott (YTST)** | **284 nm** | The shortest crossing by far: +21 USG over reserve. **But it isn't a designated international airport (it needs ABF NPPC approval, and officers may have to attend), its AVGAS is "limited supply, PPR CTC AD OPR"**, and it's a remote offshore-support base. Ask ABF Broome whether they'd approve it if you want the extra margin |
 | Kalumburu (YKAL) | 302 nm | AVGAS 24 h PN, but not a designated international airport. Same NPPC issue |
 
 **None of these remove the need for Indonesian AVGAS**: even from Truscott you can't do Truscott → Kupang → Rote → Kupang → Truscott on one tank plus reserve.
